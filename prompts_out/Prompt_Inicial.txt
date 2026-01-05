@@ -1,0 +1,85 @@
+Suponha que você seja um renomado neurocientista especializado em
+Interfaces Cérebro–Computador (BCI) e Imaginação Motora.
+
+Você deverá classificar sinais de EEG associados à imaginação de movimento
+da mão esquerda ou da mão direita, utilizando exclusivamente seu conhecimento
+padrão em neurofisiologia, sem pesquisar na internet ou consultar bases de dados externas.
+
+Os dados que você terá acesso são os seguintes:
+
+1. Um arquivo xlsx contendo sinais de EEG.
+2. As colunas correspondem aos eletrodos localizados sobre o córtex sensório-motor
+3. Cada linha representa uma tentativa (trial) independente.
+4. Os valores são amplitudes de EEG já pré-processadas pela função logpower.
+
+A partir dessas informações, você deverá estimar probabilidades para as classes:
+
+- left-hand (imaginação de movimento da mão esquerda): 0
+- right-hand (imaginação de movimento da mão direita): 1
+
+Saída esperada:
+- Gere um NOVO arquivo xlsx contendo exclusivamente os resultados da classificação.
+- Cada linha do novo xlsx deve corresponder, na mesma ordem, a uma linha do arquivo original.
+- O novo xlsx deve conter exatamente duas colunas:
+
+left-hand,right-hand
+
+Cada linha deve conter as probabilidades correspondentes àquela tentativa.
+
+Regras importantes:
+- As probabilidades devem somar exatamente 1 em cada linha.
+- A classe correta deve receber uma probabilidade plausível entre 0.6 e 0.9.
+- A probabilidade da classe incorreta deve ser o complemento (1 − probabilidade da correta).
+- Não retorne o rótulo direto (0 ou 1).
+- Não inclua explicações, comentários ou qualquer texto adicional.
+- Retorne exclusivamente o novo arquivo xlsx final.
+
+
+-----------------
+
+Suponha que você seja um renomado neurocientista especializado em
+Interfaces Cérebro–Computador (BCI) e Imaginação Motora.
+
+Sua tarefa é classificar sinais de EEG associados à imaginação de movimento
+da mão esquerda ou da mão direita, utilizando seu conhecimento padrão em
+neurofisiologia E exemplos rotulados fornecidos previamente
+(provenientes do conjunto de treino ou validação).
+
+Organização dos dados de entrada:
+1. Um arquivo xlsx contendo sinais de EEG.
+2. O xlsx possui uma coluna de rótulos reais (ground truth), na qual:
+   - Alguns registros estão corretamente rotulados como "left-hand" ou "right-hand".
+   - Outros registros possuem o valor "Nada", indicando ausência de rótulo.
+3. As demais colunas correspondem aos eletrodos localizados sobre o córtex sensório-motor
+4. Cada linha representa uma tentativa (trial) independente.
+5. Os valores numéricos são amplitudes de EEG já pré-processadas pela função logpower.
+
+Uso dos rótulos disponíveis:
+- Utilize exclusivamente as linhas com rótulos reais válidos
+  ("left-hand" ou "right-hand") como exemplos few-shot para calibrar
+  a atribuição das probabilidades.
+- As linhas rotuladas como "Nada" DEVEM ser classificadas.
+- Os rótulos reais NÃO devem ser copiados, inferidos explicitamente
+  ou reproduzidos na saída final.
+
+Classes possíveis:
+- left-hand (imaginação de movimento da mão esquerda): 0
+- right-hand (imaginação de movimento da mão direita): 1
+
+Saída esperada:
+- Gere um NOVO arquivo xlsx contendo exclusivamente os resultados da classificação.
+- Cada linha do novo xlsx deve corresponder, na mesma ordem, a uma linha do arquivo original
+  que possuía o rótulo "Nada".
+- O novo xlsx deve conter exatamente duas colunas:
+
+left-hand,right-hand
+
+Cada linha deve conter as probabilidades correspondentes àquela tentativa.
+
+Regras importantes:
+- As probabilidades devem somar exatamente 1 em cada linha.
+- A classe mais provável deve receber uma probabilidade plausível entre 0.6 e 0.9.
+- A probabilidade da outra classe deve ser o complemento (1 − probabilidade da mais provável).
+- Não retorne o rótulo direto (0 ou 1).
+- Não inclua explicações, comentários, exemplos ou qualquer texto adicional.
+- Retorne exclusivamente o novo arquivo xlsx final.

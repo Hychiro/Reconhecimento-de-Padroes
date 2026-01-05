@@ -1,0 +1,5040 @@
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.462]; Cz: [-25.287]; C4: [-25.539]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.351]; Cz: [-25.868]; C4: [-25.235]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.621]; Cz: [-25.262]; C4: [-24.629]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.544]; Cz: [-25.305]; C4: [-25.590]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-24.916]; Cz: [-25.406]; C4: [-25.470]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.594]; Cz: [-25.251]; C4: [-25.376]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.091]; Cz: [-24.895]; C4: [-25.187]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.503]; Cz: [-25.183]; C4: [-25.360]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.156]; Cz: [-25.016]; C4: [-25.320]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-24.669]; Cz: [-24.986]; C4: [-25.313]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.080]; Cz: [-25.386]; C4: [-25.167]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.291]; Cz: [-24.899]; C4: [-25.404]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.750]; Cz: [-25.829]; C4: [-25.363]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.182]; Cz: [-25.632]; C4: [-25.599]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.457]; Cz: [-25.215]; C4: [-25.482]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.672]; Cz: [-25.204]; C4: [-25.495]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.123]; Cz: [-25.022]; C4: [-24.906]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.156]; Cz: [-25.016]; C4: [-25.320]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.569]; Cz: [-25.215]; C4: [-24.641]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-24.847]; Cz: [-24.372]; C4: [-24.368]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.689]; Cz: [-25.433]; C4: [-26.073]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.976]; Cz: [-24.888]; C4: [-25.269]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.315]; Cz: [-25.261]; C4: [-25.188]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.036]; Cz: [-25.227]; C4: [-25.259]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-23.850]; Cz: [-25.468]; C4: [-25.083]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.493]; Cz: [-25.374]; C4: [-25.088]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.727]; Cz: [-25.217]; C4: [-25.360]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.871]; Cz: [-26.127]; C4: [-25.215]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.683]; Cz: [-25.672]; C4: [-25.792]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.878]; Cz: [-25.703]; C4: [-25.657]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.648]; Cz: [-25.665]; C4: [-26.236]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.176]; Cz: [-24.989]; C4: [-25.123]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.267]; Cz: [-25.213]; C4: [-25.152]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.597]; Cz: [-25.480]; C4: [-25.598]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-24.785]; Cz: [-24.952]; C4: [-24.616]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.976]; Cz: [-24.888]; C4: [-25.269]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-26.021]; Cz: [-25.405]; C4: [-25.299]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.384]; Cz: [-25.179]; C4: [-25.413]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.213]; Cz: [-25.270]; C4: [-25.685]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.299]; Cz: [-25.484]; C4: [-25.664]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-26.120]; Cz: [-26.005]; C4: [-26.469]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.884]; Cz: [-25.440]; C4: [-24.871]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.545]; Cz: [-24.866]; C4: [-24.447]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.165]; Cz: [-25.290]; C4: [-25.353]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-24.999]; Cz: [-25.298]; C4: [-25.586]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.859]; Cz: [-24.905]; C4: [-25.260]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.727]; Cz: [-25.267]; C4: [-25.799]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.935]; Cz: [-25.421]; C4: [-25.646]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.546]; Cz: [-25.343]; C4: [-25.340]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.517]; Cz: [-25.810]; C4: [-26.163]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.714]; Cz: [-26.236]; C4: [-25.452]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.570]; Cz: [-25.421]; C4: [-25.933]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.615]; Cz: [-25.303]; C4: [-25.026]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.935]; Cz: [-25.421]; C4: [-25.646]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.785]; Cz: [-24.899]; C4: [-25.544]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.099]; Cz: [-25.100]; C4: [-25.585]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.581]; Cz: [-25.210]; C4: [-25.688]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.466]; Cz: [-25.270]; C4: [-25.280]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.702]; Cz: [-25.788]; C4: [-26.094]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-24.799]; Cz: [-24.521]; C4: [-25.388]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.343]; Cz: [-25.043]; C4: [-25.377]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.305]; Cz: [-25.019]; C4: [-25.693]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.686]; Cz: [-25.317]; C4: [-25.428]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-26.053]; Cz: [-25.690]; C4: [-25.374]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.106]; Cz: [-25.074]; C4: [-25.301]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.493]; Cz: [-25.374]; C4: [-25.088]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.172]; Cz: [-25.213]; C4: [-25.058]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.996]; Cz: [-25.457]; C4: [-25.557]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.140]; Cz: [-25.745]; C4: [-25.197]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.369]; Cz: [-24.688]; C4: [-25.486]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.413]; Cz: [-24.705]; C4: [-25.407]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.260]; Cz: [-25.264]; C4: [-25.605]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.644]; Cz: [-25.453]; C4: [-25.628]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.606]; Cz: [-25.278]; C4: [-25.044]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.539]; Cz: [-25.201]; C4: [-25.383]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-24.289]; Cz: [-25.372]; C4: [-25.772]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.017]; Cz: [-25.036]; C4: [-25.269]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.036]; Cz: [-25.227]; C4: [-25.259]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.469]; Cz: [-25.363]; C4: [-25.222]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.232]; Cz: [-24.866]; C4: [-25.320]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.626]; Cz: [-25.810]; C4: [-26.369]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.686]; Cz: [-25.220]; C4: [-25.355]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.935]; Cz: [-25.421]; C4: [-25.646]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.265]; Cz: [-24.708]; C4: [-25.214]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.764]; Cz: [-25.486]; C4: [-25.782]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.467]; Cz: [-25.109]; C4: [-25.056]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.403]; Cz: [-25.399]; C4: [-25.377]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.498]; Cz: [-25.376]; C4: [-25.760]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.511]; Cz: [-25.229]; C4: [-25.572]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.401]; Cz: [-24.968]; C4: [-24.968]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.484]; Cz: [-25.104]; C4: [-25.318]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.672]; Cz: [-24.785]; C4: [-24.516]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.437]; Cz: [-25.397]; C4: [-25.094]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-24.939]; Cz: [-25.493]; C4: [-25.256]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.031]; Cz: [-25.329]; C4: [-25.364]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.835]; Cz: [-25.621]; C4: [-25.799]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.099]; Cz: [-25.100]; C4: [-25.585]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.148]; Cz: [-25.461]; C4: [-25.112]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.187]; Cz: [-25.604]; C4: [-25.961]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.840]; Cz: [-25.646]; C4: [-26.025]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-24.817]; Cz: [-24.934]; C4: [-25.172]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.117]; Cz: [-25.455]; C4: [-25.952]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.166]; Cz: [-25.874]; C4: [-25.524]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.334]; Cz: [-24.875]; C4: [-25.823]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-24.816]; Cz: [-25.015]; C4: [-25.648]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-24.938]; Cz: [-24.751]; C4: [-25.523]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.549]; Cz: [-25.931]; C4: [-26.183]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.282]; Cz: [-25.531]; C4: [-25.303]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.707]; Cz: [-25.604]; C4: [-26.020]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.273]; Cz: [-24.712]; C4: [-25.267]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.362]; Cz: [-24.931]; C4: [-25.152]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.796]; Cz: [-25.145]; C4: [-24.799]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.381]; Cz: [-25.373]; C4: [-25.361]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.307]; Cz: [-24.814]; C4: [-24.913]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.498]; Cz: [-25.101]; C4: [-25.062]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.444]; Cz: [-25.186]; C4: [-25.636]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.971]; Cz: [-25.267]; C4: [-25.264]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.516]; Cz: [-25.270]; C4: [-25.774]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.267]; Cz: [-25.213]; C4: [-25.152]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-26.158]; Cz: [-25.860]; C4: [-25.294]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-24.884]; Cz: [-25.440]; C4: [-24.871]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.575]; Cz: [-25.470]; C4: [-25.157]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.503]; Cz: [-25.183]; C4: [-25.360]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.511]; Cz: [-25.229]; C4: [-25.572]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.477]; Cz: [-24.550]; C4: [-25.127]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.246]; Cz: [-24.854]; C4: [-24.949]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.245]; Cz: [-24.879]; C4: [-25.221]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.972]; Cz: [-25.335]; C4: [-25.150]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.316]; Cz: [-25.269]; C4: [-25.301]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.086]; Cz: [-25.241]; C4: [-24.851]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-24.983]; Cz: [-24.687]; C4: [-25.339]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.552]; Cz: [-24.919]; C4: [-25.452]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.979]; Cz: [-25.478]; C4: [-25.422]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.702]; Cz: [-25.788]; C4: [-26.094]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.645]; Cz: [-25.217]; C4: [-25.526]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.286]; Cz: [-24.775]; C4: [-25.169]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-26.120]; Cz: [-26.005]; C4: [-26.469]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.041]; Cz: [-25.162]; C4: [-25.142]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-26.102]; Cz: [-25.373]; C4: [-25.700]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.253]; Cz: [-25.136]; C4: [-25.402]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.143]; Cz: [-25.457]; C4: [-25.473]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.298]; Cz: [-24.376]; C4: [-25.127]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.251]; Cz: [-25.233]; C4: [-24.958]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.627]; Cz: [-25.486]; C4: [-25.510]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.396]; Cz: [-24.976]; C4: [-25.784]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.727]; Cz: [-25.267]; C4: [-25.799]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.671]; Cz: [-25.721]; C4: [-25.691]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.156]; Cz: [-25.016]; C4: [-25.320]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.792]; Cz: [-25.882]; C4: [-26.025]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.713]; Cz: [-25.296]; C4: [-25.460]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.577]; Cz: [-25.126]; C4: [-25.439]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.888]; Cz: [-25.454]; C4: [-25.373]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.973]; Cz: [-25.016]; C4: [-24.882]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-24.497]; Cz: [-25.070]; C4: [-25.398]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-24.974]; Cz: [-24.794]; C4: [-25.190]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-24.954]; Cz: [-24.949]; C4: [-25.180]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.935]; Cz: [-25.100]; C4: [-25.299]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.781]; Cz: [-24.960]; C4: [-25.337]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.215]; Cz: [-25.361]; C4: [-25.908]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.298]; Cz: [-25.072]; C4: [-25.252]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.648]; Cz: [-25.653]; C4: [-25.836]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.945]; Cz: [-25.346]; C4: [-25.299]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.647]; Cz: [-24.929]; C4: [-25.093]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.579]; Cz: [-25.360]; C4: [-25.967]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.656]; Cz: [-25.528]; C4: [-25.395]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.422]; Cz: [-25.180]; C4: [-25.298]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.555]; Cz: [-25.173]; C4: [-25.497]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.270]; Cz: [-25.062]; C4: [-24.962]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.647]; Cz: [-24.929]; C4: [-25.093]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.637]; Cz: [-25.292]; C4: [-25.480]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.321]; Cz: [-25.367]; C4: [-25.699]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-26.120]; Cz: [-26.005]; C4: [-26.469]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.255]; Cz: [-25.165]; C4: [-24.914]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.499]; Cz: [-25.162]; C4: [-25.312]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-26.220]; Cz: [-25.961]; C4: [-25.811]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.424]; Cz: [-25.613]; C4: [-25.809]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.305]; Cz: [-24.903]; C4: [-25.531]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.939]; Cz: [-25.493]; C4: [-25.256]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.765]; Cz: [-25.283]; C4: [-25.567]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.564]; Cz: [-25.234]; C4: [-25.116]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.056]; Cz: [-25.144]; C4: [-25.565]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.245]; Cz: [-24.879]; C4: [-25.221]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.737]; Cz: [-25.314]; C4: [-25.560]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.845]; Cz: [-25.445]; C4: [-24.803]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.075]; Cz: [-25.249]; C4: [-24.940]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.264]; Cz: [-25.160]; C4: [-25.731]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.004]; Cz: [-25.032]; C4: [-25.290]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.453]; Cz: [-24.765]; C4: [-25.409]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.845]; Cz: [-25.445]; C4: [-24.803]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-24.966]; Cz: [-24.982]; C4: [-24.999]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.942]; Cz: [-25.822]; C4: [-25.959]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.603]; Cz: [-24.918]; C4: [-25.548]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.321]; Cz: [-25.582]; C4: [-25.556]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.528]; Cz: [-24.533]; C4: [-25.019]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.497]; Cz: [-25.230]; C4: [-25.197]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.410]; Cz: [-25.262]; C4: [-25.474]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.910]; Cz: [-25.244]; C4: [-25.710]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.165]; Cz: [-25.290]; C4: [-25.353]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.420]; Cz: [-24.454]; C4: [-25.306]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.060]; Cz: [-24.599]; C4: [-24.950]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.413]; Cz: [-24.705]; C4: [-25.407]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.291]; Cz: [-24.899]; C4: [-25.404]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.259]; Cz: [-25.232]; C4: [-25.585]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.756]; Cz: [-25.389]; C4: [-25.397]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.685]; Cz: [-25.607]; C4: [-26.392]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.714]; Cz: [-26.236]; C4: [-25.452]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.305]; Cz: [-25.414]; C4: [-26.223]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.659]; Cz: [-25.287]; C4: [-25.638]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.654]; Cz: [-25.476]; C4: [-25.389]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.240]; Cz: [-25.263]; C4: [-24.699]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-24.938]; Cz: [-24.751]; C4: [-25.523]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.275]; Cz: [-24.651]; C4: [-25.340]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.194]; Cz: [-24.928]; C4: [-24.735]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.656]; Cz: [-25.139]; C4: [-25.032]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-26.131]; Cz: [-25.982]; C4: [-25.912]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.286]; Cz: [-24.775]; C4: [-25.169]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.476]; Cz: [-25.599]; C4: [-25.133]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.683]; Cz: [-25.672]; C4: [-25.792]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.215]; Cz: [-25.361]; C4: [-25.908]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.857]; Cz: [-25.703]; C4: [-25.841]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.992]; Cz: [-25.863]; C4: [-26.079]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.737]; Cz: [-25.267]; C4: [-25.252]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.384]; Cz: [-25.179]; C4: [-25.413]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.765]; Cz: [-25.283]; C4: [-25.567]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.415]; Cz: [-24.853]; C4: [-24.879]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.413]; Cz: [-24.705]; C4: [-25.407]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.275]; Cz: [-25.147]; C4: [-25.117]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.956]; Cz: [-25.549]; C4: [-25.226]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.035]; Cz: [-24.880]; C4: [-25.305]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.375]; Cz: [-25.284]; C4: [-25.675]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.672]; Cz: [-25.204]; C4: [-25.495]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.370]; Cz: [-25.157]; C4: [-25.347]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.866]; Cz: [-25.190]; C4: [-25.750]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.453]; Cz: [-24.765]; C4: [-25.409]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.780]; Cz: [-26.148]; C4: [-25.861]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.403]; Cz: [-25.399]; C4: [-25.377]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.484]; Cz: [-25.104]; C4: [-25.318]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.474]; Cz: [-25.043]; C4: [-24.997]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.116]; Cz: [-24.665]; C4: [-25.263]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.255]; Cz: [-25.201]; C4: [-25.359]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.091]; Cz: [-24.737]; C4: [-25.306]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.887]; Cz: [-24.964]; C4: [-24.815]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.994]; Cz: [-25.745]; C4: [-26.144]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.789]; Cz: [-25.370]; C4: [-25.413]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.393]; Cz: [-25.302]; C4: [-25.236]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.648]; Cz: [-25.665]; C4: [-26.236]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.716]; Cz: [-25.527]; C4: [-25.680]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.384]; Cz: [-25.179]; C4: [-25.413]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.028]; Cz: [-25.245]; C4: [-25.474]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-26.219]; Cz: [-25.841]; C4: [-25.778]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.714]; Cz: [-25.580]; C4: [-25.868]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.074]; Cz: [-25.009]; C4: [-25.625]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.116]; Cz: [-24.665]; C4: [-25.263]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.517]; Cz: [-25.345]; C4: [-25.093]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.210]; Cz: [-24.580]; C4: [-24.583]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-24.910]; Cz: [-25.236]; C4: [-25.706]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.621]; Cz: [-25.024]; C4: [-25.592]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.036]; Cz: [-25.075]; C4: [-25.426]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-24.648]; Cz: [-25.141]; C4: [-24.058]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.092]; Cz: [-24.790]; C4: [-25.088]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.777]; Cz: [-25.082]; C4: [-25.830]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.375]; Cz: [-24.408]; C4: [-25.528]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.886]; Cz: [-26.011]; C4: [-25.530]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.333]; Cz: [-25.191]; C4: [-24.936]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.662]; Cz: [-25.819]; C4: [-26.282]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.334]; Cz: [-25.029]; C4: [-25.296]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.562]; Cz: [-24.965]; C4: [-25.136]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.315]; Cz: [-25.261]; C4: [-25.188]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.627]; Cz: [-25.123]; C4: [-25.001]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.055]; Cz: [-24.926]; C4: [-25.319]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.459]; Cz: [-25.508]; C4: [-25.827]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.113]; Cz: [-24.813]; C4: [-25.626]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.760]; Cz: [-25.173]; C4: [-25.201]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-24.835]; Cz: [-24.726]; C4: [-25.542]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.324]; Cz: [-25.380]; C4: [-25.522]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-24.446]; Cz: [-24.932]; C4: [-24.401]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.339]; Cz: [-25.015]; C4: [-24.863]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.334]; Cz: [-24.875]; C4: [-25.823]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.745]; Cz: [-25.195]; C4: [-25.433]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.452]; Cz: [-24.683]; C4: [-24.839]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.621]; Cz: [-25.615]; C4: [-26.403]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.297]; Cz: [-25.126]; C4: [-24.934]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.621]; Cz: [-25.297]; C4: [-25.861]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.886]; Cz: [-26.011]; C4: [-25.530]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-24.850]; Cz: [-25.034]; C4: [-24.051]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.207]; Cz: [-24.858]; C4: [-25.532]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.467]; Cz: [-25.109]; C4: [-25.056]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.958]; Cz: [-25.594]; C4: [-25.421]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.873]; Cz: [-26.182]; C4: [-26.425]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-24.967]; Cz: [-25.204]; C4: [-25.656]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.325]; Cz: [-25.237]; C4: [-25.372]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.462]; Cz: [-25.287]; C4: [-25.539]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-26.025]; Cz: [-25.055]; C4: [-24.805]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.307]; Cz: [-24.814]; C4: [-24.913]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.808]; Cz: [-25.486]; C4: [-25.861]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.117]; Cz: [-25.455]; C4: [-25.952]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.782]; Cz: [-25.500]; C4: [-25.904]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.647]; Cz: [-24.929]; C4: [-25.093]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.215]; Cz: [-25.361]; C4: [-25.908]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.491]; Cz: [-25.345]; C4: [-24.899]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.592]; Cz: [-25.466]; C4: [-26.188]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.175]; Cz: [-24.544]; C4: [-25.478]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.733]; Cz: [-25.321]; C4: [-25.624]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.267]; Cz: [-25.213]; C4: [-25.152]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.388]; Cz: [-25.054]; C4: [-25.321]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.672]; Cz: [-24.785]; C4: [-24.516]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.516]; Cz: [-25.573]; C4: [-25.672]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.648]; Cz: [-25.141]; C4: [-24.058]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.770]; Cz: [-25.455]; C4: [-25.311]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.582]; Cz: [-25.385]; C4: [-25.854]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.397]; Cz: [-24.776]; C4: [-25.322]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.134]; Cz: [-25.051]; C4: [-25.526]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.794]; Cz: [-25.498]; C4: [-25.174]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.994]; Cz: [-25.745]; C4: [-26.144]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.790]; Cz: [-25.220]; C4: [-24.888]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.091]; Cz: [-24.895]; C4: [-25.187]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.334]; Cz: [-25.029]; C4: [-25.296]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.384]; Cz: [-25.179]; C4: [-25.413]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.959]; Cz: [-25.709]; C4: [-26.089]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.455]; Cz: [-24.910]; C4: [-25.109]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.585]; Cz: [-25.236]; C4: [-25.399]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.575]; Cz: [-25.470]; C4: [-25.157]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.591]; Cz: [-25.151]; C4: [-25.602]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.254]; Cz: [-25.062]; C4: [-25.063]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.737]; Cz: [-25.756]; C4: [-25.332]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.207]; Cz: [-24.858]; C4: [-25.532]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.470]; Cz: [-25.348]; C4: [-26.020]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.440]; Cz: [-25.012]; C4: [-25.241]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.666]; Cz: [-25.631]; C4: [-26.022]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.329]; Cz: [-25.526]; C4: [-25.774]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.030]; Cz: [-24.809]; C4: [-24.635]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.500]; Cz: [-24.831]; C4: [-25.204]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.730]; Cz: [-25.430]; C4: [-25.190]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.696]; Cz: [-25.405]; C4: [-25.564]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.221]; Cz: [-25.826]; C4: [-25.701]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.492]; Cz: [-25.338]; C4: [-25.593]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.442]; Cz: [-24.997]; C4: [-25.313]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.230]; Cz: [-25.169]; C4: [-24.687]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.440]; Cz: [-25.012]; C4: [-25.241]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-24.985]; Cz: [-25.252]; C4: [-25.687]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.422]; Cz: [-25.180]; C4: [-25.298]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.207]; Cz: [-24.858]; C4: [-25.532]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.325]; Cz: [-25.431]; C4: [-25.123]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.804]; Cz: [-25.827]; C4: [-26.016]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.198]; Cz: [-24.737]; C4: [-25.649]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.644]; Cz: [-25.524]; C4: [-25.617]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.686]; Cz: [-25.220]; C4: [-25.355]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.141]; Cz: [-24.958]; C4: [-25.464]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.727]; Cz: [-25.237]; C4: [-25.828]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.662]; Cz: [-24.772]; C4: [-24.623]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.526]; Cz: [-24.956]; C4: [-25.121]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.894]; Cz: [-24.922]; C4: [-25.409]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.654]; Cz: [-25.486]; C4: [-25.426]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-24.764]; Cz: [-24.952]; C4: [-24.865]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.854]; Cz: [-25.504]; C4: [-25.413]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.709]; Cz: [-25.216]; C4: [-25.160]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.828]; Cz: [-24.811]; C4: [-24.949]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.633]; Cz: [-24.706]; C4: [-25.243]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.113]; Cz: [-24.958]; C4: [-24.538]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.442]; Cz: [-25.155]; C4: [-25.502]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-24.862]; Cz: [-24.773]; C4: [-25.016]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.358]; Cz: [-25.642]; C4: [-25.797]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.509]; Cz: [-25.138]; C4: [-25.235]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.431]; Cz: [-25.184]; C4: [-25.393]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.503]; Cz: [-25.236]; C4: [-25.423]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.663]; Cz: [-24.811]; C4: [-25.289]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.910]; Cz: [-25.236]; C4: [-25.706]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.497]; Cz: [-25.070]; C4: [-25.398]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.398]; Cz: [-25.201]; C4: [-25.086]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.540]; Cz: [-25.544]; C4: [-26.210]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.575]; Cz: [-25.470]; C4: [-25.157]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.981]; Cz: [-25.225]; C4: [-25.865]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.437]; Cz: [-25.397]; C4: [-25.094]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.191]; Cz: [-25.151]; C4: [-25.432]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.879]; Cz: [-25.577]; C4: [-25.776]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-24.884]; Cz: [-25.440]; C4: [-24.871]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.319]; Cz: [-24.978]; C4: [-25.495]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.683]; Cz: [-25.672]; C4: [-25.792]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.316]; Cz: [-25.269]; C4: [-25.301]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.198]; Cz: [-24.907]; C4: [-25.651]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.218]; Cz: [-25.270]; C4: [-25.468]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.552]; Cz: [-24.919]; C4: [-25.452]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.935]; Cz: [-25.421]; C4: [-25.646]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.655]; Cz: [-25.048]; C4: [-25.556]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.739]; Cz: [-25.457]; C4: [-25.414]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.317]; Cz: [-25.586]; C4: [-25.728]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.735]; Cz: [-24.949]; C4: [-25.404]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.251]; Cz: [-25.233]; C4: [-24.958]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-24.928]; Cz: [-23.825]; C4: [-25.035]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.791]; Cz: [-25.163]; C4: [-25.155]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.751]; Cz: [-25.176]; C4: [-26.084]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.777]; Cz: [-24.804]; C4: [-24.107]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.321]; Cz: [-25.582]; C4: [-25.556]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-26.053]; Cz: [-25.690]; C4: [-25.374]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-24.387]; Cz: [-24.415]; C4: [-24.916]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.955]; Cz: [-25.734]; C4: [-26.308]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.402]; Cz: [-25.067]; C4: [-25.084]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.398]; Cz: [-25.201]; C4: [-25.086]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.774]; Cz: [-25.363]; C4: [-25.716]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.348]; Cz: [-25.307]; C4: [-25.316]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-24.934]; Cz: [-25.493]; C4: [-25.140]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.492]; Cz: [-25.338]; C4: [-25.593]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.792]; Cz: [-26.174]; C4: [-25.758]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.026]; Cz: [-24.868]; C4: [-24.859]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-23.892]; Cz: [-24.879]; C4: [-24.187]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.410]; Cz: [-25.262]; C4: [-25.474]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.993]; Cz: [-24.671]; C4: [-25.145]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.518]; Cz: [-24.965]; C4: [-25.755]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.423]; Cz: [-25.333]; C4: [-25.384]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.649]; Cz: [-25.037]; C4: [-24.912]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.467]; Cz: [-25.109]; C4: [-25.056]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.113]; Cz: [-24.813]; C4: [-25.626]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.912]; Cz: [-25.424]; C4: [-26.080]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.255]; Cz: [-25.165]; C4: [-24.914]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.409]; Cz: [-25.052]; C4: [-25.953]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.113]; Cz: [-24.867]; C4: [-24.458]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.321]; Cz: [-25.367]; C4: [-25.699]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.065]; Cz: [-25.134]; C4: [-25.154]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-24.401]; Cz: [-24.401]; C4: [-25.280]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.102]; Cz: [-25.084]; C4: [-25.569]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.955]; Cz: [-25.734]; C4: [-26.308]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.851]; Cz: [-25.774]; C4: [-25.401]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.935]; Cz: [-25.421]; C4: [-25.646]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.113]; Cz: [-24.958]; C4: [-24.538]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-26.087]; Cz: [-25.814]; C4: [-25.967]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-26.065]; Cz: [-25.574]; C4: [-25.830]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-26.165]; Cz: [-25.915]; C4: [-26.239]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.789]; Cz: [-25.370]; C4: [-25.413]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.423]; Cz: [-25.333]; C4: [-25.384]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.428]; Cz: [-25.672]; C4: [-25.686]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.717]; Cz: [-24.782]; C4: [-26.521]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.955]; Cz: [-25.734]; C4: [-26.308]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.659]; Cz: [-25.287]; C4: [-25.638]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.696]; Cz: [-25.405]; C4: [-25.564]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.213]; Cz: [-25.483]; C4: [-24.770]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.727]; Cz: [-25.267]; C4: [-25.799]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.175]; Cz: [-24.544]; C4: [-25.478]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.120]; Cz: [-25.533]; C4: [-25.560]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.258]; Cz: [-25.275]; C4: [-25.733]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.434]; Cz: [-25.213]; C4: [-25.612]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.805]; Cz: [-25.229]; C4: [-25.713]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.644]; Cz: [-25.524]; C4: [-25.617]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.149]; Cz: [-25.170]; C4: [-25.546]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.702]; Cz: [-25.788]; C4: [-26.094]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.636]; Cz: [-25.397]; C4: [-25.584]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.627]; Cz: [-25.500]; C4: [-25.725]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.217]; Cz: [-25.232]; C4: [-25.005]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.325]; Cz: [-25.431]; C4: [-25.123]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.688]; Cz: [-25.042]; C4: [-24.896]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-24.587]; Cz: [-24.504]; C4: [-25.443]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.177]; Cz: [-25.479]; C4: [-25.523]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.383]; Cz: [-25.279]; C4: [-25.144]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.398]; Cz: [-25.201]; C4: [-25.086]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.337]; Cz: [-25.418]; C4: [-25.102]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-24.936]; Cz: [-25.503]; C4: [-24.715]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.272]; Cz: [-25.122]; C4: [-24.770]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.621]; Cz: [-25.615]; C4: [-26.403]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.743]; Cz: [-24.995]; C4: [-25.291]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.981]; Cz: [-25.755]; C4: [-26.264]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.844]; Cz: [-25.365]; C4: [-25.169]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.954]; Cz: [-25.558]; C4: [-26.065]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.562]; Cz: [-24.965]; C4: [-25.136]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.441]; Cz: [-25.525]; C4: [-25.591]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-24.930]; Cz: [-25.465]; C4: [-25.606]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.302]; Cz: [-25.053]; C4: [-24.909]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.128]; Cz: [-24.926]; C4: [-25.003]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.585]; Cz: [-25.236]; C4: [-25.399]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.036]; Cz: [-25.075]; C4: [-25.426]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.688]; Cz: [-25.042]; C4: [-24.896]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.604]; Cz: [-25.339]; C4: [-24.935]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.734]; Cz: [-25.512]; C4: [-26.045]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.627]; Cz: [-25.500]; C4: [-25.725]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.456]; Cz: [-25.472]; C4: [-25.917]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.866]; Cz: [-25.190]; C4: [-25.750]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.042]; Cz: [-25.507]; C4: [-25.632]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.669]; Cz: [-25.756]; C4: [-25.756]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.506]; Cz: [-25.274]; C4: [-25.738]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.187]; Cz: [-25.604]; C4: [-25.961]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.091]; Cz: [-25.283]; C4: [-25.286]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.097]; Cz: [-24.877]; C4: [-25.209]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.133]; Cz: [-25.211]; C4: [-25.519]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.689]; Cz: [-24.900]; C4: [-25.707]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.340]; Cz: [-25.500]; C4: [-25.714]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.762]; Cz: [-25.286]; C4: [-25.599]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.103]; Cz: [-25.673]; C4: [-24.824]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.245]; Cz: [-24.879]; C4: [-25.221]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.663]; Cz: [-24.811]; C4: [-25.289]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.904]; Cz: [-25.929]; C4: [-25.485]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.789]; Cz: [-25.370]; C4: [-25.413]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.480]; Cz: [-24.875]; C4: [-25.045]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.648]; Cz: [-25.653]; C4: [-25.836]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.910]; Cz: [-25.244]; C4: [-25.710]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.685]; Cz: [-25.203]; C4: [-24.693]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.026]; Cz: [-24.868]; C4: [-24.859]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-24.300]; Cz: [-24.459]; C4: [-25.561]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.432]; Cz: [-25.410]; C4: [-25.679]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.227]; Cz: [-24.577]; C4: [-25.208]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.307]; Cz: [-24.814]; C4: [-24.913]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.511]; Cz: [-25.229]; C4: [-25.572]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-24.889]; Cz: [-24.745]; C4: [-25.487]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.070]; Cz: [-24.820]; C4: [-25.339]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.552]; Cz: [-24.919]; C4: [-25.452]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.233]; Cz: [-25.313]; C4: [-25.535]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.879]; Cz: [-25.267]; C4: [-25.563]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.799]; Cz: [-25.644]; C4: [-26.019]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-24.862]; Cz: [-24.773]; C4: [-25.016]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.938]; Cz: [-24.751]; C4: [-25.523]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.528]; Cz: [-24.533]; C4: [-25.019]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.978]; Cz: [-25.518]; C4: [-25.060]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.113]; Cz: [-25.394]; C4: [-25.891]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.031]; Cz: [-24.866]; C4: [-25.257]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.432]; Cz: [-25.410]; C4: [-25.679]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.293]; Cz: [-24.987]; C4: [-24.879]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-26.174]; Cz: [-25.686]; C4: [-26.165]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.676]; Cz: [-25.613]; C4: [-25.694]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.484]; Cz: [-25.104]; C4: [-25.318]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.912]; Cz: [-25.206]; C4: [-25.231]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.621]; Cz: [-24.998]; C4: [-25.230]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.841]; Cz: [-25.560]; C4: [-24.976]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-26.088]; Cz: [-25.632]; C4: [-25.963]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.134]; Cz: [-25.051]; C4: [-25.526]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.176]; Cz: [-24.989]; C4: [-25.123]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-26.041]; Cz: [-26.116]; C4: [-25.891]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.196]; Cz: [-25.510]; C4: [-24.674]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-24.948]; Cz: [-25.088]; C4: [-25.665]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.689]; Cz: [-24.900]; C4: [-25.707]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.996]; Cz: [-24.728]; C4: [-25.176]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.781]; Cz: [-24.960]; C4: [-25.337]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.398]; Cz: [-25.201]; C4: [-25.086]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.304]; Cz: [-25.072]; C4: [-24.926]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.526]; Cz: [-24.956]; C4: [-25.121]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.976]; Cz: [-24.888]; C4: [-25.269]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.692]; Cz: [-25.137]; C4: [-25.390]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.321]; Cz: [-25.582]; C4: [-25.556]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.358]; Cz: [-24.868]; C4: [-25.087]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-24.873]; Cz: [-25.356]; C4: [-25.354]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.424]; Cz: [-25.913]; C4: [-25.294]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.153]; Cz: [-25.254]; C4: [-25.392]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.364]; Cz: [-25.389]; C4: [-25.433]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.717]; Cz: [-25.323]; C4: [-25.497]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.401]; Cz: [-24.994]; C4: [-25.712]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.159]; Cz: [-24.904]; C4: [-25.192]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.912]; Cz: [-25.424]; C4: [-26.080]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.059]; Cz: [-24.764]; C4: [-25.288]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.397]; Cz: [-25.141]; C4: [-25.212]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-24.810]; Cz: [-25.012]; C4: [-25.090]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.459]; Cz: [-25.331]; C4: [-25.813]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.110]; Cz: [-24.996]; C4: [-25.485]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.309]; Cz: [-25.124]; C4: [-25.116]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.624]; Cz: [-25.893]; C4: [-26.076]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.218]; Cz: [-25.270]; C4: [-25.468]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.713]; Cz: [-25.578]; C4: [-25.930]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.431]; Cz: [-25.184]; C4: [-25.393]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.307]; Cz: [-24.814]; C4: [-24.913]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.824]; Cz: [-25.212]; C4: [-25.390]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.306]; Cz: [-25.451]; C4: [-25.848]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.626]; Cz: [-25.810]; C4: [-26.369]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.597]; Cz: [-25.480]; C4: [-25.598]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.978]; Cz: [-25.518]; C4: [-25.060]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.443]; Cz: [-25.337]; C4: [-25.588]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-24.940]; Cz: [-24.971]; C4: [-24.813]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.117]; Cz: [-25.455]; C4: [-25.952]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.410]; Cz: [-25.413]; C4: [-25.771]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.353]; Cz: [-24.587]; C4: [-24.645]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.136]; Cz: [-24.903]; C4: [-25.614]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.272]; Cz: [-25.122]; C4: [-24.770]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.113]; Cz: [-24.867]; C4: [-24.458]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.794]; Cz: [-25.498]; C4: [-25.174]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-26.102]; Cz: [-25.373]; C4: [-25.700]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.574]; Cz: [-25.097]; C4: [-25.488]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.506]; Cz: [-25.274]; C4: [-25.738]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.358]; Cz: [-25.642]; C4: [-25.797]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.553]; Cz: [-24.854]; C4: [-24.889]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.613]; Cz: [-25.379]; C4: [-25.758]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.562]; Cz: [-24.967]; C4: [-25.518]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.955]; Cz: [-25.734]; C4: [-26.308]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.653]; Cz: [-25.187]; C4: [-25.814]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.737]; Cz: [-25.269]; C4: [-25.928]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.359]; Cz: [-24.830]; C4: [-24.773]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.820]; Cz: [-25.424]; C4: [-26.228]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-26.165]; Cz: [-25.915]; C4: [-26.239]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.444]; Cz: [-25.186]; C4: [-25.636]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.804]; Cz: [-25.827]; C4: [-26.016]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.338]; Cz: [-24.806]; C4: [-25.524]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.489]; Cz: [-25.843]; C4: [-25.454]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.196]; Cz: [-24.888]; C4: [-24.838]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.940]; Cz: [-24.971]; C4: [-24.813]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.041]; Cz: [-24.915]; C4: [-25.458]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.364]; Cz: [-25.389]; C4: [-25.433]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.060]; Cz: [-25.080]; C4: [-24.939]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.035]; Cz: [-25.103]; C4: [-24.922]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.695]; Cz: [-25.044]; C4: [-25.146]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.752]; Cz: [-25.478]; C4: [-25.030]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.730]; Cz: [-25.586]; C4: [-25.641]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.633]; Cz: [-24.964]; C4: [-25.831]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.581]; Cz: [-25.210]; C4: [-25.688]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.607]; Cz: [-25.493]; C4: [-25.630]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-26.174]; Cz: [-25.686]; C4: [-26.165]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.979]; Cz: [-25.478]; C4: [-25.422]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.150]; Cz: [-24.881]; C4: [-25.189]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.470]; Cz: [-25.348]; C4: [-26.020]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.582]; Cz: [-25.522]; C4: [-26.115]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.444]; Cz: [-25.084]; C4: [-24.685]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-24.835]; Cz: [-24.726]; C4: [-25.542]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.234]; Cz: [-25.007]; C4: [-24.785]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.888]; Cz: [-25.454]; C4: [-25.373]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.689]; Cz: [-24.900]; C4: [-25.707]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.179]; Cz: [-24.796]; C4: [-25.345]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-26.025]; Cz: [-25.055]; C4: [-24.805]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.731]; Cz: [-25.447]; C4: [-25.818]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.181]; Cz: [-24.844]; C4: [-25.129]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.225]; Cz: [-25.263]; C4: [-25.795]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.841]; Cz: [-25.560]; C4: [-24.976]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.596]; Cz: [-25.738]; C4: [-26.128]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.110]; Cz: [-24.930]; C4: [-25.190]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.334]; Cz: [-25.029]; C4: [-25.296]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.679]; Cz: [-24.768]; C4: [-25.200]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.517]; Cz: [-25.345]; C4: [-25.093]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.261]; Cz: [-25.110]; C4: [-24.654]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.552]; Cz: [-25.156]; C4: [-24.968]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.663]; Cz: [-24.811]; C4: [-25.289]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.653]; Cz: [-25.187]; C4: [-25.814]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.855]; Cz: [-24.938]; C4: [-25.326]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.441]; Cz: [-25.525]; C4: [-25.591]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.989]; Cz: [-25.278]; C4: [-25.962]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.074]; Cz: [-25.009]; C4: [-25.625]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.477]; Cz: [-25.040]; C4: [-25.607]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.648]; Cz: [-25.141]; C4: [-24.058]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.597]; Cz: [-25.101]; C4: [-25.161]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.039]; Cz: [-25.233]; C4: [-24.823]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.706]; Cz: [-25.587]; C4: [-25.638]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.319]; Cz: [-24.951]; C4: [-25.160]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.939]; Cz: [-25.493]; C4: [-25.256]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.251]; Cz: [-25.233]; C4: [-24.958]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.151]; Cz: [-25.088]; C4: [-24.469]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-24.862]; Cz: [-24.773]; C4: [-25.016]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.938]; Cz: [-24.751]; C4: [-25.523]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.236]; Cz: [-25.436]; C4: [-24.128]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.259]; Cz: [-25.232]; C4: [-25.585]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-24.864]; Cz: [-25.336]; C4: [-25.142]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.635]; Cz: [-25.361]; C4: [-25.815]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.255]; Cz: [-24.822]; C4: [-25.040]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-26.102]; Cz: [-25.373]; C4: [-25.700]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.359]; Cz: [-24.830]; C4: [-24.773]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.424]; Cz: [-25.107]; C4: [-25.502]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.611]; Cz: [-25.298]; C4: [-25.744]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.992]; Cz: [-25.863]; C4: [-26.079]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.597]; Cz: [-25.101]; C4: [-25.161]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.396]; Cz: [-25.485]; C4: [-25.493]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.150]; Cz: [-25.143]; C4: [-25.342]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-24.935]; Cz: [-25.100]; C4: [-25.299]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.545]; Cz: [-25.683]; C4: [-25.655]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.511]; Cz: [-25.229]; C4: [-25.572]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.085]; Cz: [-24.898]; C4: [-25.341]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-24.727]; Cz: [-24.860]; C4: [-25.704]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.727]; Cz: [-25.217]; C4: [-25.360]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.938]; Cz: [-24.751]; C4: [-25.523]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.544]; Cz: [-25.305]; C4: [-25.590]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.647]; Cz: [-24.929]; C4: [-25.093]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.956]; Cz: [-25.377]; C4: [-25.771]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-24.828]; Cz: [-24.811]; C4: [-24.949]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.225]; Cz: [-25.263]; C4: [-25.795]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.261]; Cz: [-25.110]; C4: [-24.654]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.942]; Cz: [-25.421]; C4: [-25.947]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.118]; Cz: [-24.998]; C4: [-24.959]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.031]; Cz: [-24.866]; C4: [-25.257]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.634]; Cz: [-25.633]; C4: [-26.053]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.069]; Cz: [-24.983]; C4: [-25.479]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.875]; Cz: [-24.763]; C4: [-25.149]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.460]; Cz: [-24.923]; C4: [-24.938]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.521]; Cz: [-25.174]; C4: [-25.620]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.343]; Cz: [-25.157]; C4: [-25.819]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.507]; Cz: [-25.258]; C4: [-25.007]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.628]; Cz: [-25.463]; C4: [-26.331]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.931]; Cz: [-25.662]; C4: [-25.273]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.643]; Cz: [-25.776]; C4: [-25.938]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.669]; Cz: [-25.756]; C4: [-25.756]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.179]; Cz: [-24.796]; C4: [-25.345]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.359]; Cz: [-24.830]; C4: [-24.773]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.630]; Cz: [-24.768]; C4: [-25.002]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.185]; Cz: [-24.717]; C4: [-25.043]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.307]; Cz: [-25.025]; C4: [-25.045]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.628]; Cz: [-25.463]; C4: [-26.331]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-24.592]; Cz: [-25.022]; C4: [-25.140]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.225]; Cz: [-25.047]; C4: [-25.515]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.245]; Cz: [-24.879]; C4: [-25.221]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.307]; Cz: [-25.025]; C4: [-25.045]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.221]; Cz: [-25.490]; C4: [-25.750]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-26.057]; Cz: [-25.275]; C4: [-26.152]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.395]; Cz: [-25.067]; C4: [-25.410]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.117]; Cz: [-25.455]; C4: [-25.952]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.980]; Cz: [-25.172]; C4: [-25.348]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.315]; Cz: [-25.261]; C4: [-25.188]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.656]; Cz: [-25.139]; C4: [-25.032]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.114]; Cz: [-25.033]; C4: [-24.734]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.492]; Cz: [-25.338]; C4: [-25.593]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.177]; Cz: [-25.479]; C4: [-25.523]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.334]; Cz: [-24.875]; C4: [-25.823]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.935]; Cz: [-25.421]; C4: [-25.646]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.482]; Cz: [-25.116]; C4: [-25.435]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.695]; Cz: [-25.044]; C4: [-25.146]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.297]; Cz: [-25.126]; C4: [-24.934]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.613]; Cz: [-25.379]; C4: [-25.758]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.756]; Cz: [-25.389]; C4: [-25.397]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-24.861]; Cz: [-24.836]; C4: [-25.560]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.415]; Cz: [-25.038]; C4: [-25.342]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.738]; Cz: [-25.129]; C4: [-25.743]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.381]; Cz: [-25.373]; C4: [-25.361]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-24.781]; Cz: [-24.703]; C4: [-25.034]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.516]; Cz: [-24.912]; C4: [-25.084]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.992]; Cz: [-25.863]; C4: [-26.079]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.603]; Cz: [-24.918]; C4: [-25.548]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.517]; Cz: [-25.345]; C4: [-25.093]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-25.120]; Cz: [-24.812]; C4: [-24.534]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.253]; Cz: [-25.057]; C4: [-25.829]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: C3: [-25.317]; Cz: [-25.586]; C4: [-25.728]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-24.996]; Cz: [-24.728]; C4: [-25.176]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: C3: [-25.627]; Cz: [-25.111]; C4: [-25.244]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: C3: [-24.607]; Cz: [-24.389]; C4: [-24.661]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+C3: [-25.074]; Cz: [-25.239]; C4: [-24.846]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+

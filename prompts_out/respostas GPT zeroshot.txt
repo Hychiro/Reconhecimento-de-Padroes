@@ -1,0 +1,138 @@
+BCICIV2a dnv
+left-hand: 0.62, right-hand: 0.38
+left-hand: 0.55, right-hand: 0.45
+left-hand: 0.47, right-hand: 0.53
+left-hand: 0.41, right-hand: 0.59
+left-hand: 0.38, right-hand: 0.62
+left-hand: 0.52, right-hand: 0.48
+left-hand: 0.44, right-hand: 0.56
+left-hand: 0.33, right-hand: 0.67
+left-hand: 0.46, right-hand: 0.54
+left-hand: 0.40, right-hand: 0.60
+left-hand: 0.49, right-hand: 0.51
+left-hand: 0.57, right-hand: 0.43
+left-hand: 0.45, right-hand: 0.55
+left-hand: 0.51, right-hand: 0.49
+left-hand: 0.58, right-hand: 0.42
+left-hand: 0.54, right-hand: 0.46
+left-hand: 0.53, right-hand: 0.47
+left-hand: 0.48, right-hand: 0.52
+left-hand: 0.44, right-hand: 0.56
+left-hand: 0.51, right-hand: 0.49
+left-hand: 0.46, right-hand: 0.54
+left-hand: 0.57, right-hand: 0.43
+left-hand: 0.49, right-hand: 0.51
+left-hand: 0.47, right-hand: 0.53
+left-hand: 0.55, right-hand: 0.45
+left-hand: 0.58, right-hand: 0.42
+left-hand: 0.49, right-hand: 0.51
+left-hand: 0.61, right-hand: 0.39
+left-hand: 0.63, right-hand: 0.37
+left-hand: 0.45, right-hand: 0.55
+left-hand: 0.57, right-hand: 0.43
+left-hand: 0.50, right-hand: 0.50
+left-hand: 0.46, right-hand: 0.54
+left-hand: 0.52, right-hand: 0.48
+left-hand: 0.55, right-hand: 0.45
+left-hand: 0.49, right-hand: 0.51
+left-hand: 0.57, right-hand: 0.43
+left-hand: 0.60, right-hand: 0.40
+left-hand: 0.53, right-hand: 0.47
+left-hand: 0.48, right-hand: 0.52
+left-hand: 0.51, right-hand: 0.49
+left-hand: 0.52, right-hand: 0.48
+left-hand: 0.56, right-hand: 0.44
+left-hand: 0.49, right-hand: 0.51
+left-hand: 0.58, right-hand: 0.42
+left-hand: 0.54, right-hand: 0.46
+left-hand: 0.47, right-hand: 0.53
+left-hand: 0.51, right-hand: 0.49
+left-hand: 0.60, right-hand: 0.40
+left-hand: 0.57, right-hand: 0.43
+left-hand: 0.45, right-hand: 0.55
+left-hand: 0.53, right-hand: 0.47
+left-hand: 0.55, right-hand: 0.45
+left-hand: 0.59, right-hand: 0.41
+left-hand: 0.51, right-hand: 0.49
+left-hand: 0.47, right-hand: 0.53
+left-hand: 0.55, right-hand: 0.45
+left-hand: 0.50, right-hand: 0.50
+left-hand: 0.48, right-hand: 0.52
+left-hand: 0.62, right-hand: 0.38
+left-hand: 0.53, right-hand: 0.47
+left-hand: 0.45, right-hand: 0.55
+left-hand: 0.57, right-hand: 0.43
+left-hand: 0.56, right-hand: 0.44
+left-hand: 0.52, right-hand: 0.48
+left-hand: 0.49, right-hand: 0.51
+left-hand: 0.47, right-hand: 0.53
+left-hand: 0.45, right-hand: 0.55
+left-hand: 0.54, right-hand: 0.46
+left-hand: 0.50, right-hand: 0.50
+left-hand: 0.48, right-hand: 0.52
+left-hand: 0.55, right-hand: 0.45
+left-hand: 0.72, right-hand: 0.28
+left-hand: 0.18, right-hand: 0.82
+left-hand: 0.58, right-hand: 0.42
+left-hand: 0.46, right-hand: 0.54
+left-hand: 0.49, right-hand: 0.51
+left-hand: 0.57, right-hand: 0.43
+left-hand: 0.52, right-hand: 0.48
+left-hand: 0.50, right-hand: 0.50
+left-hand: 0.59, right-hand: 0.41
+left-hand: 0.47, right-hand: 0.53
+left-hand: 0.48, right-hand: 0.52
+left-hand: 0.51, right-hand: 0.49
+left-hand: 0.55, right-hand: 0.45
+left-hand: 0.53, right-hand: 0.47
+left-hand: 0.49, right-hand: 0.51
+
+
+
+
+
+
+
+
+
+
+
+
+
+CBCIC dnv
+left-hand: 0.33, right-hand: 0.67
+left-hand: 0.36, right-hand: 0.64
+left-hand: 0.38, right-hand: 0.62
+left-hand: 0.39, right-hand: 0.61
+left-hand: 0.27, right-hand: 0.73
+left-hand: 0.41, right-hand: 0.59
+left-hand: 0.34, right-hand: 0.66
+left-hand: 0.29, right-hand: 0.71
+left-hand: 0.31, right-hand: 0.69
+left-hand: 0.35, right-hand: 0.65
+left-hand: 0.37, right-hand: 0.63
+left-hand: 0.33, right-hand: 0.67
+left-hand: 0.29, right-hand: 0.71
+left-hand: 0.31, right-hand: 0.69
+left-hand: 0.34, right-hand: 0.66
+left-hand: 0.22, right-hand: 0.78
+left-hand: 0.42, right-hand: 0.58
+left-hand: 0.30, right-hand: 0.70
+left-hand: 0.21, right-hand: 0.79
+left-hand: 0.33, right-hand: 0.67
+left-hand: 0.30, right-hand: 0.70
+left-hand: 0.36, right-hand: 0.64
+left-hand: 0.34, right-hand: 0.66
+left-hand: 0.29, right-hand: 0.71
+left-hand: 0.31, right-hand: 0.69
+left-hand: 0.28, right-hand: 0.72
+left-hand: 0.26, right-hand: 0.74
+left-hand: 0.27, right-hand: 0.73
+left-hand: 0.30, right-hand: 0.70
+left-hand: 0.37, right-hand: 0.63
+left-hand: 0.32, right-hand: 0.68
+left-hand: 0.28, right-hand: 0.72
+left-hand: 0.31, right-hand: 0.69
+left-hand: 0.35, right-hand: 0.65
+left-hand: 0.40, right-hand: 0.60
+left-hand: 0.29, right-hand: 0.71

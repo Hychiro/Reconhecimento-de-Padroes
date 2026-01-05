@@ -1,0 +1,696 @@
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-23.660]; FC3: [-23.519]; FC1: [-23.550]; FCz: [-23.436]; FC2: [-23.587]; FC4: [-23.596]; C5: [-23.781]; C3: [-23.521]; C1: [-23.530]; Cz: [-23.438]; C2: [-23.548]; C4: [-23.514]; C6: [-23.679]; CP3: [-23.392]; CP1: [-23.493]; CPz: [-23.485]; CP2: [-23.494]; CP4: [-23.479]; P1: [-23.281]; Pz: [-23.288]; P2: [-23.307]; POz: [-23.047]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-22.380]; FC3: [-22.436]; FC1: [-22.493]; FCz: [-22.443]; FC2: [-22.403]; FC4: [-22.233]; C5: [-22.498]; C3: [-22.656]; C1: [-22.704]; Cz: [-22.596]; C2: [-22.546]; C4: [-22.419]; C6: [-22.313]; CP3: [-22.747]; CP1: [-22.836]; CPz: [-22.768]; CP2: [-22.729]; CP4: [-22.636]; P1: [-22.820]; Pz: [-22.832]; P2: [-22.840]; POz: [-22.857]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-23.113]; FC3: [-23.049]; FC1: [-23.000]; FCz: [-23.061]; FC2: [-23.272]; FC4: [-23.488]; C5: [-23.430]; C3: [-23.308]; C1: [-23.267]; Cz: [-23.075]; C2: [-23.400]; C4: [-23.659]; C6: [-23.920]; CP3: [-23.253]; CP1: [-23.271]; CPz: [-23.357]; CP2: [-23.452]; CP4: [-23.702]; P1: [-23.435]; Pz: [-23.493]; P2: [-23.594]; POz: [-23.529]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-22.821]; FC3: [-23.059]; FC1: [-22.836]; FCz: [-22.681]; FC2: [-22.655]; FC4: [-22.780]; C5: [-23.437]; C3: [-23.167]; C1: [-22.891]; Cz: [-22.641]; C2: [-22.693]; C4: [-22.886]; C6: [-23.133]; CP3: [-23.183]; CP1: [-22.932]; CPz: [-22.814]; CP2: [-22.903]; CP4: [-23.023]; P1: [-23.081]; Pz: [-23.016]; P2: [-23.127]; POz: [-23.176]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-22.971]; FC3: [-23.108]; FC1: [-23.028]; FCz: [-22.896]; FC2: [-22.945]; FC4: [-23.079]; C5: [-23.630]; C3: [-23.189]; C1: [-23.115]; Cz: [-22.922]; C2: [-23.040]; C4: [-23.289]; C6: [-23.739]; CP3: [-23.329]; CP1: [-23.255]; CPz: [-23.252]; CP2: [-23.221]; CP4: [-23.376]; P1: [-23.359]; Pz: [-23.383]; P2: [-23.405]; POz: [-23.385]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-23.213]; FC3: [-23.451]; FC1: [-23.202]; FCz: [-22.981]; FC2: [-23.131]; FC4: [-23.332]; C5: [-23.699]; C3: [-23.436]; C1: [-23.250]; Cz: [-22.980]; C2: [-23.223]; C4: [-23.369]; C6: [-23.580]; CP3: [-23.481]; CP1: [-23.244]; CPz: [-23.137]; CP2: [-23.209]; CP4: [-23.434]; P1: [-23.428]; Pz: [-23.348]; P2: [-23.454]; POz: [-23.468]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-22.419]; FC3: [-22.417]; FC1: [-22.339]; FCz: [-22.282]; FC2: [-22.396]; FC4: [-22.548]; C5: [-22.739]; C3: [-22.573]; C1: [-22.456]; Cz: [-22.373]; C2: [-22.514]; C4: [-22.748]; C6: [-23.057]; CP3: [-22.656]; CP1: [-22.524]; CPz: [-22.518]; CP2: [-22.727]; CP4: [-22.874]; P1: [-22.739]; Pz: [-22.706]; P2: [-22.905]; POz: [-22.915]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-23.412]; FC3: [-23.516]; FC1: [-23.366]; FCz: [-23.213]; FC2: [-23.346]; FC4: [-23.380]; C5: [-24.093]; C3: [-23.674]; C1: [-23.373]; Cz: [-23.195]; C2: [-23.365]; C4: [-23.580]; C6: [-23.728]; CP3: [-23.540]; CP1: [-23.546]; CPz: [-23.403]; CP2: [-23.506]; CP4: [-23.649]; P1: [-23.461]; Pz: [-23.379]; P2: [-23.555]; POz: [-23.317]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-23.900]; FC3: [-23.692]; FC1: [-23.573]; FCz: [-23.463]; FC2: [-23.576]; FC4: [-23.519]; C5: [-24.045]; C3: [-23.601]; C1: [-23.548]; Cz: [-23.396]; C2: [-23.471]; C4: [-23.447]; C6: [-23.642]; CP3: [-23.593]; CP1: [-23.474]; CPz: [-23.258]; CP2: [-23.395]; CP4: [-23.468]; P1: [-23.352]; Pz: [-23.330]; P2: [-23.418]; POz: [-23.296]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-22.877]; FC3: [-23.120]; FC1: [-22.881]; FCz: [-22.593]; FC2: [-22.718]; FC4: [-22.793]; C5: [-23.809]; C3: [-23.380]; C1: [-23.126]; Cz: [-22.762]; C2: [-22.905]; C4: [-23.065]; C6: [-23.326]; CP3: [-23.402]; CP1: [-23.297]; CPz: [-23.123]; CP2: [-23.165]; CP4: [-23.326]; P1: [-23.423]; Pz: [-23.307]; P2: [-23.426]; POz: [-23.287]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-22.544]; FC3: [-22.737]; FC1: [-22.618]; FCz: [-22.467]; FC2: [-22.476]; FC4: [-22.450]; C5: [-22.975]; C3: [-22.828]; C1: [-22.653]; Cz: [-22.488]; C2: [-22.516]; C4: [-22.571]; C6: [-22.616]; CP3: [-22.936]; CP1: [-22.788]; CPz: [-22.612]; CP2: [-22.641]; CP4: [-22.675]; P1: [-22.898]; Pz: [-22.803]; P2: [-22.808]; POz: [-22.848]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-22.834]; FC3: [-22.954]; FC1: [-22.821]; FCz: [-22.644]; FC2: [-22.796]; FC4: [-22.929]; C5: [-23.373]; C3: [-23.210]; C1: [-23.001]; Cz: [-22.828]; C2: [-22.930]; C4: [-23.078]; C6: [-23.354]; CP3: [-23.198]; CP1: [-23.155]; CPz: [-23.108]; CP2: [-23.015]; CP4: [-23.171]; P1: [-23.318]; Pz: [-23.137]; P2: [-23.094]; POz: [-23.118]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-23.415]; FC3: [-23.511]; FC1: [-23.388]; FCz: [-23.171]; FC2: [-23.103]; FC4: [-23.096]; C5: [-23.678]; C3: [-23.578]; C1: [-23.400]; Cz: [-23.010]; C2: [-22.951]; C4: [-22.979]; C6: [-23.104]; CP3: [-23.667]; CP1: [-23.372]; CPz: [-23.150]; CP2: [-22.989]; CP4: [-23.054]; P1: [-23.443]; Pz: [-23.178]; P2: [-23.119]; POz: [-23.290]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-23.475]; FC3: [-23.623]; FC1: [-23.423]; FCz: [-23.315]; FC2: [-23.428]; FC4: [-23.656]; C5: [-23.744]; C3: [-23.579]; C1: [-23.452]; Cz: [-23.451]; C2: [-23.486]; C4: [-23.725]; C6: [-23.757]; CP3: [-23.563]; CP1: [-23.498]; CPz: [-23.506]; CP2: [-23.581]; CP4: [-23.633]; P1: [-23.491]; Pz: [-23.489]; P2: [-23.473]; POz: [-23.324]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-23.257]; FC3: [-23.204]; FC1: [-23.036]; FCz: [-22.946]; FC2: [-23.119]; FC4: [-23.411]; C5: [-23.537]; C3: [-23.231]; C1: [-23.006]; Cz: [-22.826]; C2: [-23.068]; C4: [-23.346]; C6: [-23.616]; CP3: [-23.329]; CP1: [-23.076]; CPz: [-22.974]; CP2: [-23.161]; CP4: [-23.393]; P1: [-23.387]; Pz: [-23.219]; P2: [-23.344]; POz: [-23.322]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-23.471]; FC3: [-23.499]; FC1: [-23.409]; FCz: [-23.267]; FC2: [-23.401]; FC4: [-23.414]; C5: [-23.908]; C3: [-23.626]; C1: [-23.493]; Cz: [-23.444]; C2: [-23.581]; C4: [-23.713]; C6: [-24.045]; CP3: [-23.588]; CP1: [-23.564]; CPz: [-23.418]; CP2: [-23.453]; CP4: [-23.797]; P1: [-23.494]; Pz: [-23.361]; P2: [-23.645]; POz: [-23.378]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-23.389]; FC3: [-23.495]; FC1: [-23.318]; FCz: [-23.243]; FC2: [-23.223]; FC4: [-23.293]; C5: [-23.633]; C3: [-23.481]; C1: [-23.353]; Cz: [-23.158]; C2: [-23.158]; C4: [-23.286]; C6: [-23.519]; CP3: [-23.579]; CP1: [-23.322]; CPz: [-23.174]; CP2: [-23.129]; CP4: [-23.205]; P1: [-23.345]; Pz: [-23.159]; P2: [-23.304]; POz: [-23.180]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-22.972]; FC3: [-23.117]; FC1: [-22.825]; FCz: [-22.567]; FC2: [-22.791]; FC4: [-22.999]; C5: [-23.846]; C3: [-23.345]; C1: [-22.937]; Cz: [-22.740]; C2: [-22.910]; C4: [-23.266]; C6: [-23.648]; CP3: [-23.603]; CP1: [-23.240]; CPz: [-23.111]; CP2: [-23.211]; CP4: [-23.449]; P1: [-23.485]; Pz: [-23.341]; P2: [-23.443]; POz: [-23.260]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-22.908]; FC3: [-22.938]; FC1: [-22.901]; FCz: [-22.859]; FC2: [-22.942]; FC4: [-23.012]; C5: [-23.084]; C3: [-22.982]; C1: [-22.911]; Cz: [-22.805]; C2: [-22.964]; C4: [-23.054]; C6: [-23.141]; CP3: [-23.044]; CP1: [-23.022]; CPz: [-22.942]; CP2: [-23.061]; CP4: [-23.107]; P1: [-23.105]; Pz: [-23.091]; P2: [-23.170]; POz: [-23.145]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-23.248]; FC3: [-23.651]; FC1: [-23.361]; FCz: [-23.098]; FC2: [-23.163]; FC4: [-23.259]; C5: [-24.382]; C3: [-23.833]; C1: [-23.454]; Cz: [-23.106]; C2: [-23.219]; C4: [-23.370]; C6: [-23.516]; CP3: [-23.675]; CP1: [-23.470]; CPz: [-23.345]; CP2: [-23.366]; CP4: [-23.437]; P1: [-23.553]; Pz: [-23.438]; P2: [-23.424]; POz: [-23.337]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-23.230]; FC3: [-23.613]; FC1: [-23.338]; FCz: [-23.289]; FC2: [-23.261]; FC4: [-23.354]; C5: [-24.004]; C3: [-23.701]; C1: [-23.438]; Cz: [-23.332]; C2: [-23.437]; C4: [-23.536]; C6: [-23.658]; CP3: [-23.725]; CP1: [-23.575]; CPz: [-23.432]; CP2: [-23.557]; CP4: [-23.611]; P1: [-23.602]; Pz: [-23.489]; P2: [-23.513]; POz: [-23.300]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-22.860]; FC3: [-22.863]; FC1: [-22.751]; FCz: [-22.614]; FC2: [-22.678]; FC4: [-22.717]; C5: [-23.135]; C3: [-22.877]; C1: [-22.651]; Cz: [-22.464]; C2: [-22.586]; C4: [-22.737]; C6: [-22.915]; CP3: [-22.925]; CP1: [-22.673]; CPz: [-22.622]; CP2: [-22.655]; CP4: [-22.812]; P1: [-22.789]; Pz: [-22.654]; P2: [-22.773]; POz: [-22.744]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-23.448]; FC3: [-23.374]; FC1: [-23.321]; FCz: [-23.392]; FC2: [-23.307]; FC4: [-23.242]; C5: [-23.702]; C3: [-23.507]; C1: [-23.383]; Cz: [-23.408]; C2: [-23.431]; C4: [-23.481]; C6: [-23.408]; CP3: [-23.573]; CP1: [-23.517]; CPz: [-23.446]; CP2: [-23.466]; CP4: [-23.502]; P1: [-23.434]; Pz: [-23.476]; P2: [-23.510]; POz: [-23.379]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-23.048]; FC3: [-23.165]; FC1: [-23.132]; FCz: [-23.060]; FC2: [-23.239]; FC4: [-23.207]; C5: [-23.725]; C3: [-23.598]; C1: [-23.424]; Cz: [-23.306]; C2: [-23.410]; C4: [-23.397]; C6: [-23.432]; CP3: [-23.847]; CP1: [-23.736]; CPz: [-23.633]; CP2: [-23.786]; CP4: [-23.691]; P1: [-23.924]; Pz: [-23.930]; P2: [-24.027]; POz: [-23.824]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-23.549]; FC3: [-23.874]; FC1: [-23.607]; FCz: [-23.375]; FC2: [-23.329]; FC4: [-23.312]; C5: [-24.545]; C3: [-24.106]; C1: [-23.699]; Cz: [-23.467]; C2: [-23.456]; C4: [-23.505]; C6: [-23.554]; CP3: [-24.292]; CP1: [-23.944]; CPz: [-23.752]; CP2: [-23.692]; CP4: [-23.706]; P1: [-24.191]; Pz: [-23.919]; P2: [-23.873]; POz: [-23.966]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-23.079]; FC3: [-23.256]; FC1: [-23.075]; FCz: [-22.910]; FC2: [-22.906]; FC4: [-22.964]; C5: [-23.557]; C3: [-23.439]; C1: [-23.181]; Cz: [-23.007]; C2: [-23.030]; C4: [-23.130]; C6: [-23.372]; CP3: [-23.406]; CP1: [-23.375]; CPz: [-23.153]; CP2: [-23.242]; CP4: [-23.240]; P1: [-23.347]; Pz: [-23.258]; P2: [-23.220]; POz: [-23.119]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-22.700]; FC3: [-22.571]; FC1: [-22.645]; FCz: [-22.715]; FC2: [-22.763]; FC4: [-22.776]; C5: [-23.133]; C3: [-22.766]; C1: [-22.716]; Cz: [-22.592]; C2: [-22.839]; C4: [-22.901]; C6: [-23.040]; CP3: [-22.934]; CP1: [-22.805]; CPz: [-22.758]; CP2: [-22.850]; CP4: [-22.899]; P1: [-22.882]; Pz: [-22.842]; P2: [-22.924]; POz: [-22.908]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-23.095]; FC3: [-23.244]; FC1: [-23.004]; FCz: [-23.033]; FC2: [-22.945]; FC4: [-23.014]; C5: [-23.591]; C3: [-23.201]; C1: [-22.952]; Cz: [-22.822]; C2: [-22.805]; C4: [-22.924]; C6: [-23.248]; CP3: [-23.190]; CP1: [-22.968]; CPz: [-22.817]; CP2: [-23.002]; CP4: [-22.992]; P1: [-23.090]; Pz: [-22.948]; P2: [-23.014]; POz: [-22.923]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-22.977]; FC3: [-23.013]; FC1: [-23.029]; FCz: [-22.903]; FC2: [-23.086]; FC4: [-23.158]; C5: [-23.564]; C3: [-23.284]; C1: [-23.136]; Cz: [-23.028]; C2: [-23.177]; C4: [-23.248]; C6: [-23.364]; CP3: [-23.329]; CP1: [-23.241]; CPz: [-23.031]; CP2: [-23.213]; CP4: [-23.317]; P1: [-23.196]; Pz: [-23.190]; P2: [-23.267]; POz: [-23.165]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-22.890]; FC3: [-22.894]; FC1: [-22.950]; FCz: [-22.842]; FC2: [-22.975]; FC4: [-23.047]; C5: [-23.189]; C3: [-23.129]; C1: [-23.101]; Cz: [-23.071]; C2: [-23.164]; C4: [-23.240]; C6: [-23.312]; CP3: [-23.228]; CP1: [-23.256]; CPz: [-23.177]; CP2: [-23.275]; CP4: [-23.328]; P1: [-23.352]; Pz: [-23.363]; P2: [-23.410]; POz: [-23.416]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-22.646]; FC3: [-22.473]; FC1: [-22.448]; FCz: [-22.388]; FC2: [-22.647]; FC4: [-22.942]; C5: [-22.869]; C3: [-22.646]; C1: [-22.510]; Cz: [-22.496]; C2: [-22.630]; C4: [-22.905]; C6: [-23.414]; CP3: [-22.781]; CP1: [-22.663]; CPz: [-22.645]; CP2: [-22.748]; CP4: [-22.970]; P1: [-22.825]; Pz: [-22.825]; P2: [-23.002]; POz: [-23.068]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-23.126]; FC3: [-23.150]; FC1: [-22.910]; FCz: [-22.955]; FC2: [-22.960]; FC4: [-23.062]; C5: [-23.749]; C3: [-23.273]; C1: [-23.019]; Cz: [-22.871]; C2: [-22.976]; C4: [-23.182]; C6: [-23.315]; CP3: [-23.461]; CP1: [-23.293]; CPz: [-23.020]; CP2: [-23.129]; CP4: [-23.282]; P1: [-23.364]; Pz: [-23.357]; P2: [-23.405]; POz: [-23.473]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-22.876]; FC3: [-22.742]; FC1: [-22.762]; FCz: [-22.780]; FC2: [-22.796]; FC4: [-22.773]; C5: [-23.180]; C3: [-22.672]; C1: [-22.696]; Cz: [-22.658]; C2: [-22.767]; C4: [-22.750]; C6: [-23.055]; CP3: [-22.707]; CP1: [-22.770]; CPz: [-22.676]; CP2: [-22.730]; CP4: [-22.762]; P1: [-22.755]; Pz: [-22.743]; P2: [-22.785]; POz: [-22.859]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-23.048]; FC3: [-22.850]; FC1: [-22.862]; FCz: [-22.786]; FC2: [-22.881]; FC4: [-23.028]; C5: [-23.559]; C3: [-23.198]; C1: [-22.966]; Cz: [-22.756]; C2: [-22.905]; C4: [-23.125]; C6: [-23.620]; CP3: [-23.277]; CP1: [-23.091]; CPz: [-22.987]; CP2: [-22.999]; CP4: [-23.177]; P1: [-23.129]; Pz: [-23.035]; P2: [-23.084]; POz: [-23.068]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-22.801]; FC3: [-22.870]; FC1: [-22.778]; FCz: [-22.535]; FC2: [-22.711]; FC4: [-22.973]; C5: [-23.677]; C3: [-23.170]; C1: [-22.776]; Cz: [-22.586]; C2: [-22.741]; C4: [-22.998]; C6: [-23.640]; CP3: [-23.268]; CP1: [-23.037]; CPz: [-22.819]; CP2: [-22.868]; CP4: [-23.072]; P1: [-23.281]; Pz: [-23.064]; P2: [-23.153]; POz: [-23.344]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-22.986]; FC3: [-22.843]; FC1: [-22.775]; FCz: [-22.698]; FC2: [-22.778]; FC4: [-22.866]; C5: [-23.285]; C3: [-23.043]; C1: [-22.850]; Cz: [-22.654]; C2: [-22.776]; C4: [-22.883]; C6: [-23.209]; CP3: [-23.097]; CP1: [-23.046]; CPz: [-22.883]; CP2: [-22.956]; CP4: [-23.038]; P1: [-23.252]; Pz: [-23.180]; P2: [-23.233]; POz: [-23.321]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-22.942]; FC3: [-22.862]; FC1: [-22.703]; FCz: [-22.613]; FC2: [-22.743]; FC4: [-22.978]; C5: [-23.189]; C3: [-22.840]; C1: [-22.650]; Cz: [-22.521]; C2: [-22.688]; C4: [-22.880]; C6: [-23.309]; CP3: [-22.923]; CP1: [-22.761]; CPz: [-22.555]; CP2: [-22.681]; CP4: [-22.931]; P1: [-22.926]; Pz: [-22.814]; P2: [-22.888]; POz: [-22.920]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-22.978]; FC3: [-23.386]; FC1: [-23.133]; FCz: [-23.066]; FC2: [-22.998]; FC4: [-23.035]; C5: [-23.713]; C3: [-23.559]; C1: [-23.349]; Cz: [-23.131]; C2: [-23.229]; C4: [-23.386]; C6: [-23.487]; CP3: [-23.662]; CP1: [-23.517]; CPz: [-23.464]; CP2: [-23.470]; CP4: [-23.558]; P1: [-23.638]; Pz: [-23.564]; P2: [-23.601]; POz: [-23.539]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-23.503]; FC3: [-23.458]; FC1: [-23.365]; FCz: [-23.232]; FC2: [-23.364]; FC4: [-23.459]; C5: [-23.792]; C3: [-23.544]; C1: [-23.342]; Cz: [-23.219]; C2: [-23.334]; C4: [-23.454]; C6: [-23.635]; CP3: [-23.246]; CP1: [-23.423]; CPz: [-23.222]; CP2: [-23.379]; CP4: [-23.458]; P1: [-23.540]; Pz: [-23.474]; P2: [-23.538]; POz: [-23.563]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-23.034]; FC3: [-23.123]; FC1: [-22.951]; FCz: [-22.821]; FC2: [-22.952]; FC4: [-23.060]; C5: [-23.217]; C3: [-23.044]; C1: [-22.963]; Cz: [-22.879]; C2: [-23.022]; C4: [-23.155]; C6: [-23.178]; CP3: [-23.056]; CP1: [-22.997]; CPz: [-23.003]; CP2: [-23.047]; CP4: [-23.142]; P1: [-22.961]; Pz: [-22.941]; P2: [-23.037]; POz: [-22.809]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-23.414]; FC3: [-23.365]; FC1: [-23.244]; FCz: [-23.069]; FC2: [-23.363]; FC4: [-23.483]; C5: [-23.598]; C3: [-23.352]; C1: [-23.228]; Cz: [-23.055]; C2: [-23.333]; C4: [-23.628]; C6: [-24.007]; CP3: [-23.453]; CP1: [-23.293]; CPz: [-23.278]; CP2: [-23.582]; CP4: [-23.800]; P1: [-23.611]; Pz: [-23.554]; P2: [-23.780]; POz: [-23.553]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-23.156]; FC3: [-23.125]; FC1: [-22.958]; FCz: [-22.877]; FC2: [-23.122]; FC4: [-23.514]; C5: [-23.577]; C3: [-23.199]; C1: [-22.924]; Cz: [-22.878]; C2: [-23.134]; C4: [-23.569]; C6: [-23.909]; CP3: [-23.194]; CP1: [-23.028]; CPz: [-23.069]; CP2: [-23.242]; CP4: [-23.543]; P1: [-23.118]; Pz: [-23.092]; P2: [-23.267]; POz: [-23.061]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-22.689]; FC3: [-22.881]; FC1: [-22.663]; FCz: [-22.596]; FC2: [-22.572]; FC4: [-22.648]; C5: [-23.423]; C3: [-22.800]; C1: [-22.733]; Cz: [-22.625]; C2: [-22.687]; C4: [-22.773]; C6: [-23.048]; CP3: [-23.129]; CP1: [-23.051]; CPz: [-22.953]; CP2: [-22.848]; CP4: [-22.874]; P1: [-23.167]; Pz: [-23.011]; P2: [-22.956]; POz: [-23.027]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-22.805]; FC3: [-22.856]; FC1: [-22.777]; FCz: [-22.660]; FC2: [-22.667]; FC4: [-22.775]; C5: [-23.268]; C3: [-23.044]; C1: [-22.868]; Cz: [-22.655]; C2: [-22.706]; C4: [-22.820]; C6: [-23.010]; CP3: [-23.128]; CP1: [-22.992]; CPz: [-22.848]; CP2: [-22.833]; CP4: [-22.920]; P1: [-23.066]; Pz: [-22.965]; P2: [-22.994]; POz: [-22.910]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-22.861]; FC3: [-23.041]; FC1: [-22.798]; FCz: [-22.718]; FC2: [-22.720]; FC4: [-22.790]; C5: [-23.757]; C3: [-23.171]; C1: [-22.847]; Cz: [-22.675]; C2: [-22.762]; C4: [-22.847]; C6: [-23.001]; CP3: [-23.072]; CP1: [-22.994]; CPz: [-22.830]; CP2: [-22.862]; CP4: [-22.873]; P1: [-22.994]; Pz: [-22.978]; P2: [-22.967]; POz: [-23.046]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-22.740]; FC3: [-22.618]; FC1: [-22.460]; FCz: [-22.422]; FC2: [-22.501]; FC4: [-22.650]; C5: [-23.098]; C3: [-22.689]; C1: [-22.430]; Cz: [-22.353]; C2: [-22.426]; C4: [-22.653]; C6: [-23.034]; CP3: [-22.678]; CP1: [-22.547]; CPz: [-22.520]; CP2: [-22.556]; CP4: [-22.718]; P1: [-22.660]; Pz: [-22.592]; P2: [-22.687]; POz: [-22.757]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-23.766]; FC3: [-23.917]; FC1: [-23.845]; FCz: [-23.681]; FC2: [-23.679]; FC4: [-23.664]; C5: [-24.280]; C3: [-24.063]; C1: [-23.685]; Cz: [-23.578]; C2: [-23.694]; C4: [-23.701]; C6: [-23.675]; CP3: [-23.901]; CP1: [-23.722]; CPz: [-23.620]; CP2: [-23.755]; CP4: [-23.675]; P1: [-23.560]; Pz: [-23.510]; P2: [-23.646]; POz: [-23.311]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-23.412]; FC3: [-23.571]; FC1: [-23.268]; FCz: [-23.204]; FC2: [-23.196]; FC4: [-23.122]; C5: [-23.747]; C3: [-23.492]; C1: [-23.248]; Cz: [-23.033]; C2: [-23.068]; C4: [-23.033]; C6: [-23.197]; CP3: [-23.379]; CP1: [-23.217]; CPz: [-22.965]; CP2: [-22.982]; CP4: [-23.077]; P1: [-23.253]; Pz: [-23.119]; P2: [-23.236]; POz: [-23.262]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-22.549]; FC3: [-22.648]; FC1: [-22.547]; FCz: [-22.439]; FC2: [-22.582]; FC4: [-22.698]; C5: [-23.269]; C3: [-22.807]; C1: [-22.707]; Cz: [-22.526]; C2: [-22.725]; C4: [-22.834]; C6: [-23.159]; CP3: [-22.699]; CP1: [-22.730]; CPz: [-22.689]; CP2: [-22.776]; CP4: [-22.876]; P1: [-22.653]; Pz: [-22.683]; P2: [-22.750]; POz: [-22.548]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-23.206]; FC3: [-23.120]; FC1: [-23.130]; FCz: [-23.041]; FC2: [-23.148]; FC4: [-23.247]; C5: [-23.573]; C3: [-23.384]; C1: [-23.273]; Cz: [-23.100]; C2: [-23.276]; C4: [-23.292]; C6: [-23.435]; CP3: [-23.635]; CP1: [-23.552]; CPz: [-23.383]; CP2: [-23.374]; CP4: [-23.318]; P1: [-23.770]; Pz: [-23.633]; P2: [-23.568]; POz: [-23.604]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-22.835]; FC3: [-23.137]; FC1: [-23.030]; FCz: [-22.810]; FC2: [-22.867]; FC4: [-22.960]; C5: [-23.636]; C3: [-23.489]; C1: [-23.211]; Cz: [-23.062]; C2: [-23.055]; C4: [-23.190]; C6: [-23.389]; CP3: [-23.585]; CP1: [-23.412]; CPz: [-23.355]; CP2: [-23.309]; CP4: [-23.400]; P1: [-23.511]; Pz: [-23.398]; P2: [-23.439]; POz: [-23.269]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-22.435]; FC3: [-22.561]; FC1: [-22.454]; FCz: [-22.351]; FC2: [-22.364]; FC4: [-22.520]; C5: [-23.057]; C3: [-22.678]; C1: [-22.534]; Cz: [-22.380]; C2: [-22.493]; C4: [-22.711]; C6: [-22.979]; CP3: [-22.495]; CP1: [-22.731]; CPz: [-22.641]; CP2: [-22.732]; CP4: [-22.837]; P1: [-22.849]; Pz: [-22.783]; P2: [-22.921]; POz: [-22.893]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-22.641]; FC3: [-22.989]; FC1: [-22.775]; FCz: [-22.695]; FC2: [-22.909]; FC4: [-22.863]; C5: [-23.598]; C3: [-23.476]; C1: [-23.367]; Cz: [-23.103]; C2: [-23.197]; C4: [-23.162]; C6: [-23.156]; CP3: [-23.755]; CP1: [-23.483]; CPz: [-23.413]; CP2: [-23.375]; CP4: [-23.380]; P1: [-23.679]; Pz: [-23.485]; P2: [-23.519]; POz: [-23.529]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-23.513]; FC3: [-23.449]; FC1: [-23.447]; FCz: [-23.340]; FC2: [-23.381]; FC4: [-23.489]; C5: [-23.866]; C3: [-23.653]; C1: [-23.499]; Cz: [-23.349]; C2: [-23.372]; C4: [-23.414]; C6: [-23.569]; CP3: [-23.450]; CP1: [-23.444]; CPz: [-23.320]; CP2: [-23.362]; CP4: [-23.335]; P1: [-23.361]; Pz: [-23.297]; P2: [-23.266]; POz: [-23.231]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-23.247]; FC3: [-23.602]; FC1: [-23.301]; FCz: [-23.066]; FC2: [-23.015]; FC4: [-22.953]; C5: [-23.982]; C3: [-23.640]; C1: [-23.377]; Cz: [-23.106]; C2: [-23.120]; C4: [-23.165]; C6: [-23.391]; CP3: [-23.493]; CP1: [-23.413]; CPz: [-23.310]; CP2: [-23.287]; CP4: [-23.288]; P1: [-23.317]; Pz: [-23.278]; P2: [-23.337]; POz: [-23.153]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-22.974]; FC3: [-22.981]; FC1: [-22.890]; FCz: [-22.644]; FC2: [-22.682]; FC4: [-22.764]; C5: [-23.285]; C3: [-22.960]; C1: [-22.846]; Cz: [-22.716]; C2: [-22.851]; C4: [-22.824]; C6: [-23.316]; CP3: [-22.910]; CP1: [-22.909]; CPz: [-22.799]; CP2: [-22.822]; CP4: [-22.839]; P1: [-22.867]; Pz: [-22.822]; P2: [-22.785]; POz: [-22.805]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-22.916]; FC3: [-23.138]; FC1: [-22.904]; FCz: [-22.723]; FC2: [-22.824]; FC4: [-23.028]; C5: [-23.345]; C3: [-23.099]; C1: [-22.793]; Cz: [-22.664]; C2: [-22.824]; C4: [-23.030]; C6: [-23.268]; CP3: [-23.106]; CP1: [-23.001]; CPz: [-22.969]; CP2: [-22.955]; CP4: [-23.036]; P1: [-23.155]; Pz: [-23.115]; P2: [-23.085]; POz: [-23.108]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+
+Entrada:
+Fz: [-23.269]; FC3: [-23.376]; FC1: [-23.180]; FCz: [-23.020]; FC2: [-23.289]; FC4: [-23.428]; C5: [-23.967]; C3: [-23.610]; C1: [-23.445]; Cz: [-23.272]; C2: [-23.415]; C4: [-23.513]; C6: [-23.792]; CP3: [-23.617]; CP1: [-23.574]; CPz: [-23.546]; CP2: [-23.539]; CP4: [-23.539]; P1: [-23.566]; Pz: [-23.566]; P2: [-23.631]; POz: [-23.443]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+

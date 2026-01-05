@@ -1,0 +1,2030 @@
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.384]; FC3: [-23.675]; FC1: [-23.337]; FCz: [-23.095]; FC2: [-23.138]; FC4: [-23.347]; C5: [-24.169]; C3: [-23.744]; C1: [-23.288]; Cz: [-22.967]; C2: [-23.068]; C4: [-23.285]; C6: [-23.560]; CP3: [-23.760]; CP1: [-23.352]; CPz: [-23.041]; CP2: [-23.161]; CP4: [-23.300]; P1: [-23.623]; Pz: [-23.428]; P2: [-23.407]; POz: [-23.725]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.587]; FC3: [-23.775]; FC1: [-23.510]; FCz: [-23.253]; FC2: [-23.355]; FC4: [-23.413]; C5: [-24.432]; C3: [-23.856]; C1: [-23.517]; Cz: [-23.228]; C2: [-23.394]; C4: [-23.462]; C6: [-23.614]; CP3: [-23.810]; CP1: [-23.689]; CPz: [-23.446]; CP2: [-23.538]; CP4: [-23.531]; P1: [-23.728]; Pz: [-23.688]; P2: [-23.626]; POz: [-23.666]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.036]; FC3: [-22.969]; FC1: [-22.877]; FCz: [-22.909]; FC2: [-22.960]; FC4: [-23.051]; C5: [-23.112]; C3: [-22.992]; C1: [-22.890]; Cz: [-22.807]; C2: [-22.912]; C4: [-22.988]; C6: [-23.152]; CP3: [-23.143]; CP1: [-23.032]; CPz: [-22.993]; CP2: [-22.993]; CP4: [-23.032]; P1: [-23.161]; Pz: [-23.126]; P2: [-23.154]; POz: [-23.218]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.891]; FC3: [-23.087]; FC1: [-22.866]; FCz: [-22.701]; FC2: [-22.720]; FC4: [-22.640]; C5: [-23.289]; C3: [-23.065]; C1: [-22.768]; Cz: [-22.597]; C2: [-22.665]; C4: [-22.729]; C6: [-22.873]; CP3: [-22.917]; CP1: [-22.749]; CPz: [-22.700]; CP2: [-22.657]; CP4: [-22.865]; P1: [-22.801]; Pz: [-22.697]; P2: [-22.888]; POz: [-22.715]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-23.660]; FC3: [-23.519]; FC1: [-23.550]; FCz: [-23.436]; FC2: [-23.587]; FC4: [-23.596]; C5: [-23.781]; C3: [-23.521]; C1: [-23.530]; Cz: [-23.438]; C2: [-23.548]; C4: [-23.514]; C6: [-23.679]; CP3: [-23.392]; CP1: [-23.493]; CPz: [-23.485]; CP2: [-23.494]; CP4: [-23.479]; P1: [-23.281]; Pz: [-23.288]; P2: [-23.307]; POz: [-23.047]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-22.999]; FC3: [-23.088]; FC1: [-23.051]; FCz: [-23.071]; FC2: [-23.028]; FC4: [-23.098]; C5: [-23.650]; C3: [-23.358]; C1: [-23.088]; Cz: [-22.874]; C2: [-23.124]; C4: [-23.328]; C6: [-23.658]; CP3: [-23.536]; CP1: [-23.233]; CPz: [-23.305]; CP2: [-23.379]; CP4: [-23.523]; P1: [-23.621]; Pz: [-23.347]; P2: [-23.545]; POz: [-23.463]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.007]; FC3: [-22.885]; FC1: [-22.840]; FCz: [-22.707]; FC2: [-22.809]; FC4: [-23.003]; C5: [-23.646]; C3: [-23.244]; C1: [-22.949]; Cz: [-22.936]; C2: [-22.971]; C4: [-23.159]; C6: [-23.534]; CP3: [-23.281]; CP1: [-23.260]; CPz: [-23.182]; CP2: [-23.244]; CP4: [-23.249]; P1: [-23.372]; Pz: [-23.345]; P2: [-23.348]; POz: [-23.298]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.362]; FC3: [-22.514]; FC1: [-22.385]; FCz: [-22.247]; FC2: [-22.332]; FC4: [-22.464]; C5: [-23.032]; C3: [-22.705]; C1: [-22.467]; Cz: [-22.308]; C2: [-22.423]; C4: [-22.545]; C6: [-22.820]; CP3: [-22.679]; CP1: [-22.657]; CPz: [-22.517]; CP2: [-22.574]; CP4: [-22.605]; P1: [-22.772]; Pz: [-22.698]; P2: [-22.672]; POz: [-22.733]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.609]; FC3: [-22.840]; FC1: [-22.659]; FCz: [-22.415]; FC2: [-22.601]; FC4: [-22.620]; C5: [-23.467]; C3: [-23.099]; C1: [-22.859]; Cz: [-22.690]; C2: [-22.855]; C4: [-22.893]; C6: [-23.131]; CP3: [-23.175]; CP1: [-23.108]; CPz: [-22.941]; CP2: [-23.003]; CP4: [-22.604]; P1: [-23.228]; Pz: [-23.157]; P2: [-23.198]; POz: [-22.853]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-22.380]; FC3: [-22.436]; FC1: [-22.493]; FCz: [-22.443]; FC2: [-22.403]; FC4: [-22.233]; C5: [-22.498]; C3: [-22.656]; C1: [-22.704]; Cz: [-22.596]; C2: [-22.546]; C4: [-22.419]; C6: [-22.313]; CP3: [-22.747]; CP1: [-22.836]; CPz: [-22.768]; CP2: [-22.729]; CP4: [-22.636]; P1: [-22.820]; Pz: [-22.832]; P2: [-22.840]; POz: [-22.857]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.425]; FC3: [-23.610]; FC1: [-23.357]; FCz: [-23.234]; FC2: [-23.230]; FC4: [-23.302]; C5: [-23.887]; C3: [-23.586]; C1: [-23.405]; Cz: [-23.164]; C2: [-23.310]; C4: [-23.421]; C6: [-23.664]; CP3: [-23.701]; CP1: [-23.500]; CPz: [-23.326]; CP2: [-23.452]; CP4: [-23.429]; P1: [-23.795]; Pz: [-23.633]; P2: [-23.569]; POz: [-23.733]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.953]; FC3: [-23.179]; FC1: [-23.039]; FCz: [-22.915]; FC2: [-22.819]; FC4: [-22.734]; C5: [-23.216]; C3: [-23.141]; C1: [-23.103]; Cz: [-22.975]; C2: [-22.869]; C4: [-22.784]; C6: [-22.767]; CP3: [-23.092]; CP1: [-23.105]; CPz: [-22.959]; CP2: [-22.944]; CP4: [-22.905]; P1: [-23.097]; Pz: [-23.050]; P2: [-23.093]; POz: [-23.162]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.411]; FC3: [-23.546]; FC1: [-23.355]; FCz: [-23.174]; FC2: [-23.206]; FC4: [-23.236]; C5: [-23.779]; C3: [-23.616]; C1: [-23.406]; Cz: [-23.206]; C2: [-23.223]; C4: [-23.184]; C6: [-23.216]; CP3: [-23.578]; CP1: [-23.380]; CPz: [-23.202]; CP2: [-23.162]; CP4: [-23.105]; P1: [-23.264]; Pz: [-23.129]; P2: [-23.038]; POz: [-22.996]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.582]; FC3: [-22.900]; FC1: [-22.644]; FCz: [-22.446]; FC2: [-22.633]; FC4: [-22.871]; C5: [-23.455]; C3: [-23.020]; C1: [-22.802]; Cz: [-22.647]; C2: [-22.798]; C4: [-23.032]; C6: [-23.287]; CP3: [-23.096]; CP1: [-22.973]; CPz: [-22.940]; CP2: [-23.021]; CP4: [-23.152]; P1: [-23.163]; Pz: [-23.088]; P2: [-23.162]; POz: [-23.190]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-23.113]; FC3: [-23.049]; FC1: [-23.000]; FCz: [-23.061]; FC2: [-23.272]; FC4: [-23.488]; C5: [-23.430]; C3: [-23.308]; C1: [-23.267]; Cz: [-23.075]; C2: [-23.400]; C4: [-23.659]; C6: [-23.920]; CP3: [-23.253]; CP1: [-23.271]; CPz: [-23.357]; CP2: [-23.452]; CP4: [-23.702]; P1: [-23.435]; Pz: [-23.493]; P2: [-23.594]; POz: [-23.529]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.141]; FC3: [-23.174]; FC1: [-23.028]; FCz: [-23.010]; FC2: [-23.088]; FC4: [-23.230]; C5: [-23.329]; C3: [-23.255]; C1: [-23.089]; Cz: [-23.021]; C2: [-23.114]; C4: [-23.281]; C6: [-23.424]; CP3: [-23.203]; CP1: [-23.149]; CPz: [-23.082]; CP2: [-23.158]; CP4: [-23.226]; P1: [-23.134]; Pz: [-23.041]; P2: [-23.083]; POz: [-22.910]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.424]; FC3: [-22.563]; FC1: [-22.399]; FCz: [-22.349]; FC2: [-22.418]; FC4: [-22.488]; C5: [-22.896]; C3: [-22.672]; C1: [-22.524]; Cz: [-22.442]; C2: [-22.570]; C4: [-22.625]; C6: [-22.640]; CP3: [-22.753]; CP1: [-22.686]; CPz: [-22.605]; CP2: [-22.694]; CP4: [-22.689]; P1: [-22.718]; Pz: [-22.670]; P2: [-22.726]; POz: [-22.639]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.994]; FC3: [-23.249]; FC1: [-22.929]; FCz: [-22.814]; FC2: [-22.899]; FC4: [-23.050]; C5: [-23.728]; C3: [-23.398]; C1: [-23.110]; Cz: [-22.926]; C2: [-23.045]; C4: [-23.223]; C6: [-23.475]; CP3: [-23.442]; CP1: [-23.205]; CPz: [-23.125]; CP2: [-23.209]; CP4: [-23.399]; P1: [-23.397]; Pz: [-23.303]; P2: [-23.435]; POz: [-23.399]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.777]; FC3: [-22.983]; FC1: [-22.748]; FCz: [-22.620]; FC2: [-22.681]; FC4: [-22.827]; C5: [-23.657]; C3: [-23.278]; C1: [-23.012]; Cz: [-22.756]; C2: [-22.845]; C4: [-23.002]; C6: [-23.209]; CP3: [-23.348]; CP1: [-23.195]; CPz: [-23.079]; CP2: [-23.131]; CP4: [-23.152]; P1: [-23.471]; Pz: [-23.401]; P2: [-23.453]; POz: [-23.618]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-22.821]; FC3: [-23.059]; FC1: [-22.836]; FCz: [-22.681]; FC2: [-22.655]; FC4: [-22.780]; C5: [-23.437]; C3: [-23.167]; C1: [-22.891]; Cz: [-22.641]; C2: [-22.693]; C4: [-22.886]; C6: [-23.133]; CP3: [-23.183]; CP1: [-22.932]; CPz: [-22.814]; CP2: [-22.903]; CP4: [-23.023]; P1: [-23.081]; Pz: [-23.016]; P2: [-23.127]; POz: [-23.176]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.004]; FC3: [-23.151]; FC1: [-22.984]; FCz: [-22.911]; FC2: [-22.894]; FC4: [-22.879]; C5: [-23.551]; C3: [-23.216]; C1: [-23.114]; Cz: [-22.914]; C2: [-22.948]; C4: [-22.992]; C6: [-23.179]; CP3: [-23.051]; CP1: [-23.070]; CPz: [-22.980]; CP2: [-23.027]; CP4: [-23.103]; P1: [-23.114]; Pz: [-23.057]; P2: [-23.116]; POz: [-23.063]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.006]; FC3: [-23.208]; FC1: [-23.099]; FCz: [-23.024]; FC2: [-23.089]; FC4: [-23.140]; C5: [-23.367]; C3: [-23.154]; C1: [-23.111]; Cz: [-23.061]; C2: [-23.131]; C4: [-23.248]; C6: [-23.469]; CP3: [-22.941]; CP1: [-22.999]; CPz: [-23.029]; CP2: [-23.139]; CP4: [-23.201]; P1: [-22.951]; Pz: [-22.997]; P2: [-23.133]; POz: [-23.054]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.492]; FC3: [-22.760]; FC1: [-22.551]; FCz: [-22.468]; FC2: [-22.477]; FC4: [-22.584]; C5: [-23.191]; C3: [-22.811]; C1: [-22.587]; Cz: [-22.527]; C2: [-22.593]; C4: [-22.740]; C6: [-22.898]; CP3: [-23.076]; CP1: [-22.855]; CPz: [-22.712]; CP2: [-22.757]; CP4: [-22.878]; P1: [-23.124]; Pz: [-23.020]; P2: [-23.023]; POz: [-23.228]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.930]; FC3: [-23.161]; FC1: [-22.930]; FCz: [-22.877]; FC2: [-22.890]; FC4: [-23.009]; C5: [-23.753]; C3: [-23.245]; C1: [-23.028]; Cz: [-22.870]; C2: [-22.997]; C4: [-23.204]; C6: [-23.556]; CP3: [-23.258]; CP1: [-23.117]; CPz: [-23.062]; CP2: [-23.207]; CP4: [-23.308]; P1: [-23.315]; Pz: [-23.198]; P2: [-23.246]; POz: [-23.293]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-22.971]; FC3: [-23.108]; FC1: [-23.028]; FCz: [-22.896]; FC2: [-22.945]; FC4: [-23.079]; C5: [-23.630]; C3: [-23.189]; C1: [-23.115]; Cz: [-22.922]; C2: [-23.040]; C4: [-23.289]; C6: [-23.739]; CP3: [-23.329]; CP1: [-23.255]; CPz: [-23.252]; CP2: [-23.221]; CP4: [-23.376]; P1: [-23.359]; Pz: [-23.383]; P2: [-23.405]; POz: [-23.385]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.193]; FC3: [-23.200]; FC1: [-23.253]; FCz: [-23.157]; FC2: [-23.209]; FC4: [-23.231]; C5: [-23.884]; C3: [-23.421]; C1: [-23.562]; Cz: [-23.366]; C2: [-23.314]; C4: [-23.385]; C6: [-23.575]; CP3: [-23.648]; CP1: [-23.611]; CPz: [-23.573]; CP2: [-23.534]; CP4: [-23.636]; P1: [-23.773]; Pz: [-23.741]; P2: [-23.777]; POz: [-23.690]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.311]; FC3: [-23.104]; FC1: [-23.061]; FCz: [-23.036]; FC2: [-23.166]; FC4: [-23.312]; C5: [-23.254]; C3: [-23.130]; C1: [-23.080]; Cz: [-23.040]; C2: [-23.231]; C4: [-23.300]; C6: [-23.343]; CP3: [-23.219]; CP1: [-23.204]; CPz: [-23.260]; CP2: [-23.278]; CP4: [-23.322]; P1: [-23.217]; Pz: [-23.215]; P2: [-23.280]; POz: [-23.117]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.132]; FC3: [-23.306]; FC1: [-23.131]; FCz: [-23.002]; FC2: [-23.049]; FC4: [-22.990]; C5: [-23.784]; C3: [-23.420]; C1: [-23.239]; Cz: [-23.017]; C2: [-23.115]; C4: [-23.048]; C6: [-23.230]; CP3: [-23.397]; CP1: [-23.282]; CPz: [-23.143]; CP2: [-23.181]; CP4: [-23.184]; P1: [-23.412]; Pz: [-23.266]; P2: [-23.273]; POz: [-23.232]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-23.278]; FC3: [-23.634]; FC1: [-23.383]; FCz: [-23.179]; FC2: [-23.185]; FC4: [-23.276]; C5: [-24.005]; C3: [-23.783]; C1: [-23.511]; Cz: [-23.293]; C2: [-23.363]; C4: [-23.481]; C6: [-23.692]; CP3: [-23.729]; CP1: [-23.615]; CPz: [-23.556]; CP2: [-23.577]; CP4: [-23.571]; P1: [-23.647]; Pz: [-23.636]; P2: [-23.662]; POz: [-23.637]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-23.213]; FC3: [-23.451]; FC1: [-23.202]; FCz: [-22.981]; FC2: [-23.131]; FC4: [-23.332]; C5: [-23.699]; C3: [-23.436]; C1: [-23.250]; Cz: [-22.980]; C2: [-23.223]; C4: [-23.369]; C6: [-23.580]; CP3: [-23.481]; CP1: [-23.244]; CPz: [-23.137]; CP2: [-23.209]; CP4: [-23.434]; P1: [-23.428]; Pz: [-23.348]; P2: [-23.454]; POz: [-23.468]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-22.991]; FC3: [-22.880]; FC1: [-22.772]; FCz: [-22.513]; FC2: [-22.739]; FC4: [-22.761]; C5: [-23.251]; C3: [-22.829]; C1: [-22.756]; Cz: [-22.535]; C2: [-22.814]; C4: [-22.929]; C6: [-23.203]; CP3: [-22.955]; CP1: [-22.857]; CPz: [-22.755]; CP2: [-22.845]; CP4: [-23.045]; P1: [-23.013]; Pz: [-22.909]; P2: [-23.048]; POz: [-22.968]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.006]; FC3: [-23.208]; FC1: [-23.099]; FCz: [-23.024]; FC2: [-23.089]; FC4: [-23.140]; C5: [-23.367]; C3: [-23.154]; C1: [-23.111]; Cz: [-23.061]; C2: [-23.131]; C4: [-23.248]; C6: [-23.469]; CP3: [-22.941]; CP1: [-22.999]; CPz: [-23.029]; CP2: [-23.139]; CP4: [-23.201]; P1: [-22.951]; Pz: [-22.997]; P2: [-23.133]; POz: [-23.054]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.896]; FC3: [-23.476]; FC1: [-23.088]; FCz: [-22.958]; FC2: [-23.120]; FC4: [-23.415]; C5: [-23.928]; C3: [-23.537]; C1: [-23.229]; Cz: [-22.975]; C2: [-23.231]; C4: [-23.342]; C6: [-23.338]; CP3: [-23.614]; CP1: [-23.407]; CPz: [-23.365]; CP2: [-23.345]; CP4: [-23.351]; P1: [-23.683]; Pz: [-23.539]; P2: [-23.414]; POz: [-23.444]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.842]; FC3: [-22.943]; FC1: [-22.791]; FCz: [-22.722]; FC2: [-22.920]; FC4: [-23.162]; C5: [-23.492]; C3: [-23.127]; C1: [-22.888]; Cz: [-22.739]; C2: [-23.026]; C4: [-23.272]; C6: [-23.570]; CP3: [-23.222]; CP1: [-23.080]; CPz: [-23.004]; CP2: [-23.108]; CP4: [-23.365]; P1: [-23.204]; Pz: [-23.173]; P2: [-23.251]; POz: [-23.131]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-22.419]; FC3: [-22.417]; FC1: [-22.339]; FCz: [-22.282]; FC2: [-22.396]; FC4: [-22.548]; C5: [-22.739]; C3: [-22.573]; C1: [-22.456]; Cz: [-22.373]; C2: [-22.514]; C4: [-22.748]; C6: [-23.057]; CP3: [-22.656]; CP1: [-22.524]; CPz: [-22.518]; CP2: [-22.727]; CP4: [-22.874]; P1: [-22.739]; Pz: [-22.706]; P2: [-22.905]; POz: [-22.915]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.575]; FC3: [-23.442]; FC1: [-23.489]; FCz: [-23.467]; FC2: [-23.591]; FC4: [-23.639]; C5: [-23.580]; C3: [-23.398]; C1: [-23.539]; Cz: [-23.488]; C2: [-23.595]; C4: [-23.607]; C6: [-23.494]; CP3: [-23.504]; CP1: [-23.614]; CPz: [-23.591]; CP2: [-23.634]; CP4: [-23.656]; P1: [-23.572]; Pz: [-23.574]; P2: [-23.568]; POz: [-23.377]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.759]; FC3: [-22.715]; FC1: [-22.624]; FCz: [-22.602]; FC2: [-22.696]; FC4: [-22.855]; C5: [-22.906]; C3: [-22.715]; C1: [-22.636]; Cz: [-22.602]; C2: [-22.710]; C4: [-22.855]; C6: [-23.047]; CP3: [-22.763]; CP1: [-22.775]; CPz: [-22.765]; CP2: [-22.817]; CP4: [-22.898]; P1: [-22.874]; Pz: [-22.869]; P2: [-22.929]; POz: [-22.864]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.278]; FC3: [-23.634]; FC1: [-23.383]; FCz: [-23.179]; FC2: [-23.185]; FC4: [-23.276]; C5: [-24.005]; C3: [-23.783]; C1: [-23.511]; Cz: [-23.293]; C2: [-23.363]; C4: [-23.481]; C6: [-23.692]; CP3: [-23.729]; CP1: [-23.615]; CPz: [-23.556]; CP2: [-23.577]; CP4: [-23.571]; P1: [-23.647]; Pz: [-23.636]; P2: [-23.662]; POz: [-23.637]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.503]; FC3: [-22.467]; FC1: [-22.356]; FCz: [-22.337]; FC2: [-22.438]; FC4: [-22.459]; C5: [-22.844]; C3: [-22.591]; C1: [-22.514]; Cz: [-22.375]; C2: [-22.446]; C4: [-22.522]; C6: [-22.732]; CP3: [-22.657]; CP1: [-22.584]; CPz: [-22.565]; CP2: [-22.545]; CP4: [-22.617]; P1: [-22.694]; Pz: [-22.594]; P2: [-22.664]; POz: [-22.748]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-23.412]; FC3: [-23.516]; FC1: [-23.366]; FCz: [-23.213]; FC2: [-23.346]; FC4: [-23.380]; C5: [-24.093]; C3: [-23.674]; C1: [-23.373]; Cz: [-23.195]; C2: [-23.365]; C4: [-23.580]; C6: [-23.728]; CP3: [-23.540]; CP1: [-23.546]; CPz: [-23.403]; CP2: [-23.506]; CP4: [-23.649]; P1: [-23.461]; Pz: [-23.379]; P2: [-23.555]; POz: [-23.317]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-22.851]; FC3: [-22.855]; FC1: [-22.768]; FCz: [-22.648]; FC2: [-22.760]; FC4: [-22.926]; C5: [-23.401]; C3: [-23.089]; C1: [-22.821]; Cz: [-22.747]; C2: [-22.872]; C4: [-23.128]; C6: [-23.488]; CP3: [-23.251]; CP1: [-23.020]; CPz: [-22.943]; CP2: [-23.083]; CP4: [-23.237]; P1: [-23.241]; Pz: [-23.116]; P2: [-23.224]; POz: [-23.223]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.777]; FC3: [-22.808]; FC1: [-22.611]; FCz: [-22.369]; FC2: [-22.637]; FC4: [-22.821]; C5: [-23.140]; C3: [-22.799]; C1: [-22.607]; Cz: [-22.512]; C2: [-22.606]; C4: [-22.801]; C6: [-23.041]; CP3: [-22.729]; CP1: [-22.648]; CPz: [-22.613]; CP2: [-22.623]; CP4: [-22.745]; P1: [-22.608]; Pz: [-22.608]; P2: [-22.643]; POz: [-22.671]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.770]; FC3: [-23.451]; FC1: [-23.413]; FCz: [-23.402]; FC2: [-23.372]; FC4: [-23.342]; C5: [-23.740]; C3: [-23.472]; C1: [-23.276]; Cz: [-23.240]; C2: [-23.345]; C4: [-23.350]; C6: [-23.289]; CP3: [-23.480]; CP1: [-23.437]; CPz: [-23.274]; CP2: [-23.279]; CP4: [-23.298]; P1: [-23.465]; Pz: [-23.393]; P2: [-23.372]; POz: [-23.457]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.801]; FC3: [-23.087]; FC1: [-22.870]; FCz: [-22.756]; FC2: [-22.764]; FC4: [-22.894]; C5: [-23.814]; C3: [-23.228]; C1: [-22.980]; Cz: [-22.808]; C2: [-22.876]; C4: [-22.982]; C6: [-23.633]; CP3: [-23.150]; CP1: [-23.094]; CPz: [-22.878]; CP2: [-22.947]; CP4: [-23.007]; P1: [-23.190]; Pz: [-23.013]; P2: [-23.054]; POz: [-23.203]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-23.900]; FC3: [-23.692]; FC1: [-23.573]; FCz: [-23.463]; FC2: [-23.576]; FC4: [-23.519]; C5: [-24.045]; C3: [-23.601]; C1: [-23.548]; Cz: [-23.396]; C2: [-23.471]; C4: [-23.447]; C6: [-23.642]; CP3: [-23.593]; CP1: [-23.474]; CPz: [-23.258]; CP2: [-23.395]; CP4: [-23.468]; P1: [-23.352]; Pz: [-23.330]; P2: [-23.418]; POz: [-23.296]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-22.856]; FC3: [-23.129]; FC1: [-22.852]; FCz: [-22.874]; FC2: [-22.814]; FC4: [-22.840]; C5: [-23.544]; C3: [-23.232]; C1: [-22.975]; Cz: [-22.870]; C2: [-22.901]; C4: [-22.893]; C6: [-22.930]; CP3: [-23.261]; CP1: [-23.066]; CPz: [-23.083]; CP2: [-22.877]; CP4: [-23.018]; P1: [-23.236]; Pz: [-23.115]; P2: [-23.063]; POz: [-23.204]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.197]; FC3: [-23.324]; FC1: [-23.109]; FCz: [-23.100]; FC2: [-23.112]; FC4: [-23.352]; C5: [-23.825]; C3: [-23.543]; C1: [-23.258]; Cz: [-23.064]; C2: [-23.144]; C4: [-23.360]; C6: [-23.429]; CP3: [-23.546]; CP1: [-23.360]; CPz: [-23.247]; CP2: [-23.273]; CP4: [-23.283]; P1: [-23.484]; Pz: [-23.329]; P2: [-23.267]; POz: [-23.230]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.218]; FC3: [-23.126]; FC1: [-23.000]; FCz: [-22.881]; FC2: [-23.028]; FC4: [-23.106]; C5: [-23.285]; C3: [-22.986]; C1: [-22.826]; Cz: [-22.782]; C2: [-22.957]; C4: [-23.038]; C6: [-23.252]; CP3: [-22.915]; CP1: [-22.872]; CPz: [-22.856]; CP2: [-22.942]; CP4: [-22.944]; P1: [-22.975]; Pz: [-22.936]; P2: [-22.957]; POz: [-22.950]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-23.075]; FC3: [-23.045]; FC1: [-22.891]; FCz: [-22.896]; FC2: [-22.977]; FC4: [-23.139]; C5: [-23.319]; C3: [-23.111]; C1: [-22.872]; Cz: [-22.772]; C2: [-22.989]; C4: [-23.218]; C6: [-23.486]; CP3: [-23.255]; CP1: [-22.944]; CPz: [-22.907]; CP2: [-22.993]; CP4: [-23.179]; P1: [-23.071]; Pz: [-22.973]; P2: [-23.080]; POz: [-22.963]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-22.877]; FC3: [-23.120]; FC1: [-22.881]; FCz: [-22.593]; FC2: [-22.718]; FC4: [-22.793]; C5: [-23.809]; C3: [-23.380]; C1: [-23.126]; Cz: [-22.762]; C2: [-22.905]; C4: [-23.065]; C6: [-23.326]; CP3: [-23.402]; CP1: [-23.297]; CPz: [-23.123]; CP2: [-23.165]; CP4: [-23.326]; P1: [-23.423]; Pz: [-23.307]; P2: [-23.426]; POz: [-23.287]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-22.642]; FC3: [-22.800]; FC1: [-22.617]; FCz: [-22.490]; FC2: [-22.607]; FC4: [-22.756]; C5: [-23.330]; C3: [-22.849]; C1: [-22.725]; Cz: [-22.585]; C2: [-22.725]; C4: [-22.908]; C6: [-23.361]; CP3: [-22.880]; CP1: [-22.813]; CPz: [-22.753]; CP2: [-22.843]; CP4: [-23.021]; P1: [-22.894]; Pz: [-22.868]; P2: [-22.945]; POz: [-22.943]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.861]; FC3: [-22.794]; FC1: [-22.810]; FCz: [-22.868]; FC2: [-23.040]; FC4: [-23.057]; C5: [-23.066]; C3: [-23.032]; C1: [-22.999]; Cz: [-23.004]; C2: [-23.191]; C4: [-23.188]; C6: [-23.176]; CP3: [-23.186]; CP1: [-23.178]; CPz: [-23.180]; CP2: [-23.294]; CP4: [-23.351]; P1: [-23.336]; Pz: [-23.294]; P2: [-23.390]; POz: [-23.397]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.328]; FC3: [-23.134]; FC1: [-23.025]; FCz: [-23.061]; FC2: [-23.221]; FC4: [-23.341]; C5: [-23.651]; C3: [-23.239]; C1: [-23.144]; Cz: [-23.075]; C2: [-23.283]; C4: [-23.516]; C6: [-23.811]; CP3: [-23.384]; CP1: [-23.192]; CPz: [-23.178]; CP2: [-23.338]; CP4: [-23.521]; P1: [-23.270]; Pz: [-23.214]; P2: [-23.332]; POz: [-23.263]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-23.560]; FC3: [-23.637]; FC1: [-23.559]; FCz: [-23.401]; FC2: [-23.450]; FC4: [-23.416]; C5: [-23.920]; C3: [-23.652]; C1: [-23.553]; Cz: [-23.471]; C2: [-23.514]; C4: [-23.492]; C6: [-23.540]; CP3: [-23.674]; CP1: [-23.644]; CPz: [-23.537]; CP2: [-23.494]; CP4: [-23.513]; P1: [-23.628]; Pz: [-23.461]; P2: [-23.440]; POz: [-23.368]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-22.544]; FC3: [-22.737]; FC1: [-22.618]; FCz: [-22.467]; FC2: [-22.476]; FC4: [-22.450]; C5: [-22.975]; C3: [-22.828]; C1: [-22.653]; Cz: [-22.488]; C2: [-22.516]; C4: [-22.571]; C6: [-22.616]; CP3: [-22.936]; CP1: [-22.788]; CPz: [-22.612]; CP2: [-22.641]; CP4: [-22.675]; P1: [-22.898]; Pz: [-22.803]; P2: [-22.808]; POz: [-22.848]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-22.959]; FC3: [-23.206]; FC1: [-23.016]; FCz: [-22.851]; FC2: [-23.010]; FC4: [-23.136]; C5: [-23.396]; C3: [-23.270]; C1: [-23.213]; Cz: [-23.102]; C2: [-23.180]; C4: [-23.287]; C6: [-23.476]; CP3: [-23.521]; CP1: [-23.399]; CPz: [-23.437]; CP2: [-23.423]; CP4: [-23.451]; P1: [-23.627]; Pz: [-23.575]; P2: [-23.532]; POz: [-23.550]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.645]; FC3: [-22.988]; FC1: [-22.824]; FCz: [-22.770]; FC2: [-22.743]; FC4: [-22.702]; C5: [-23.475]; C3: [-23.103]; C1: [-22.972]; Cz: [-22.897]; C2: [-22.951]; C4: [-23.075]; C6: [-23.255]; CP3: [-23.137]; CP1: [-23.043]; CPz: [-22.964]; CP2: [-23.024]; CP4: [-23.088]; P1: [-23.053]; Pz: [-22.931]; P2: [-23.014]; POz: [-22.806]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.156]; FC3: [-23.215]; FC1: [-23.045]; FCz: [-22.802]; FC2: [-23.006]; FC4: [-23.260]; C5: [-23.441]; C3: [-23.288]; C1: [-23.035]; Cz: [-22.884]; C2: [-23.045]; C4: [-23.301]; C6: [-23.504]; CP3: [-23.344]; CP1: [-23.142]; CPz: [-23.049]; CP2: [-23.129]; CP4: [-23.332]; P1: [-23.138]; Pz: [-23.037]; P2: [-23.149]; POz: [-22.934]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.451]; FC3: [-22.437]; FC1: [-22.357]; FCz: [-22.317]; FC2: [-22.329]; FC4: [-22.280]; C5: [-22.779]; C3: [-22.600]; C1: [-22.456]; Cz: [-22.335]; C2: [-22.346]; C4: [-22.375]; C6: [-22.599]; CP3: [-22.748]; CP1: [-22.582]; CPz: [-22.471]; CP2: [-22.444]; CP4: [-22.490]; P1: [-22.710]; Pz: [-22.609]; P2: [-22.639]; POz: [-22.788]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-22.834]; FC3: [-22.954]; FC1: [-22.821]; FCz: [-22.644]; FC2: [-22.796]; FC4: [-22.929]; C5: [-23.373]; C3: [-23.210]; C1: [-23.001]; Cz: [-22.828]; C2: [-22.930]; C4: [-23.078]; C6: [-23.354]; CP3: [-23.198]; CP1: [-23.155]; CPz: [-23.108]; CP2: [-23.015]; CP4: [-23.171]; P1: [-23.318]; Pz: [-23.137]; P2: [-23.094]; POz: [-23.118]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-22.597]; FC3: [-22.464]; FC1: [-22.458]; FCz: [-22.385]; FC2: [-22.484]; FC4: [-22.590]; C5: [-22.874]; C3: [-22.607]; C1: [-22.483]; Cz: [-22.485]; C2: [-22.626]; C4: [-22.811]; C6: [-22.983]; CP3: [-22.680]; CP1: [-22.680]; CPz: [-22.656]; CP2: [-22.748]; CP4: [-22.897]; P1: [-22.754]; Pz: [-22.790]; P2: [-22.904]; POz: [-22.815]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.618]; FC3: [-23.585]; FC1: [-23.542]; FCz: [-23.459]; FC2: [-23.692]; FC4: [-23.715]; C5: [-23.572]; C3: [-23.546]; C1: [-23.548]; Cz: [-23.540]; C2: [-23.613]; C4: [-23.636]; C6: [-23.657]; CP3: [-23.300]; CP1: [-23.474]; CPz: [-23.527]; CP2: [-23.534]; CP4: [-23.534]; P1: [-23.400]; Pz: [-23.385]; P2: [-23.480]; POz: [-23.402]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.155]; FC3: [-23.036]; FC1: [-23.043]; FCz: [-22.919]; FC2: [-23.037]; FC4: [-23.130]; C5: [-23.757]; C3: [-23.219]; C1: [-23.117]; Cz: [-22.925]; C2: [-23.180]; C4: [-23.444]; C6: [-23.581]; CP3: [-23.523]; CP1: [-23.396]; CPz: [-23.295]; CP2: [-23.526]; CP4: [-23.712]; P1: [-23.546]; Pz: [-23.570]; P2: [-23.824]; POz: [-23.624]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-23.036]; FC3: [-22.969]; FC1: [-22.877]; FCz: [-22.909]; FC2: [-22.960]; FC4: [-23.051]; C5: [-23.112]; C3: [-22.992]; C1: [-22.890]; Cz: [-22.807]; C2: [-22.912]; C4: [-22.988]; C6: [-23.152]; CP3: [-23.143]; CP1: [-23.032]; CPz: [-22.993]; CP2: [-22.993]; CP4: [-23.032]; P1: [-23.161]; Pz: [-23.126]; P2: [-23.154]; POz: [-23.218]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-23.415]; FC3: [-23.511]; FC1: [-23.388]; FCz: [-23.171]; FC2: [-23.103]; FC4: [-23.096]; C5: [-23.678]; C3: [-23.578]; C1: [-23.400]; Cz: [-23.010]; C2: [-22.951]; C4: [-22.979]; C6: [-23.104]; CP3: [-23.667]; CP1: [-23.372]; CPz: [-23.150]; CP2: [-22.989]; CP4: [-23.054]; P1: [-23.443]; Pz: [-23.178]; P2: [-23.119]; POz: [-23.290]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.604]; FC3: [-23.656]; FC1: [-23.463]; FCz: [-23.356]; FC2: [-23.523]; FC4: [-23.651]; C5: [-23.980]; C3: [-23.634]; C1: [-23.559]; Cz: [-23.422]; C2: [-23.579]; C4: [-23.686]; C6: [-23.796]; CP3: [-23.659]; CP1: [-23.706]; CPz: [-23.380]; CP2: [-23.537]; CP4: [-23.575]; P1: [-23.582]; Pz: [-23.443]; P2: [-23.459]; POz: [-23.305]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.920]; FC3: [-22.803]; FC1: [-22.722]; FCz: [-22.716]; FC2: [-22.780]; FC4: [-22.915]; C5: [-23.185]; C3: [-22.900]; C1: [-22.765]; Cz: [-22.617]; C2: [-22.764]; C4: [-22.960]; C6: [-23.159]; CP3: [-23.050]; CP1: [-22.916]; CPz: [-22.782]; CP2: [-22.940]; CP4: [-23.018]; P1: [-23.112]; Pz: [-22.993]; P2: [-23.109]; POz: [-23.125]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.567]; FC3: [-22.656]; FC1: [-22.612]; FCz: [-22.615]; FC2: [-22.831]; FC4: [-22.983]; C5: [-23.573]; C3: [-23.118]; C1: [-22.986]; Cz: [-22.942]; C2: [-23.197]; C4: [-23.464]; C6: [-23.636]; CP3: [-23.399]; CP1: [-23.401]; CPz: [-23.330]; CP2: [-23.514]; CP4: [-23.580]; P1: [-23.487]; Pz: [-23.448]; P2: [-23.474]; POz: [-23.269]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-23.345]; FC3: [-23.645]; FC1: [-23.415]; FCz: [-23.238]; FC2: [-23.256]; FC4: [-23.321]; C5: [-23.875]; C3: [-23.776]; C1: [-23.454]; Cz: [-23.229]; C2: [-23.256]; C4: [-23.375]; C6: [-23.659]; CP3: [-23.860]; CP1: [-23.605]; CPz: [-23.422]; CP2: [-23.458]; CP4: [-23.474]; P1: [-23.672]; Pz: [-23.519]; P2: [-23.598]; POz: [-23.577]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-23.475]; FC3: [-23.623]; FC1: [-23.423]; FCz: [-23.315]; FC2: [-23.428]; FC4: [-23.656]; C5: [-23.744]; C3: [-23.579]; C1: [-23.452]; Cz: [-23.451]; C2: [-23.486]; C4: [-23.725]; C6: [-23.757]; CP3: [-23.563]; CP1: [-23.498]; CPz: [-23.506]; CP2: [-23.581]; CP4: [-23.633]; P1: [-23.491]; Pz: [-23.489]; P2: [-23.473]; POz: [-23.324]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.017]; FC3: [-22.848]; FC1: [-22.780]; FCz: [-22.810]; FC2: [-22.880]; FC4: [-23.062]; C5: [-22.991]; C3: [-22.844]; C1: [-22.783]; Cz: [-22.638]; C2: [-22.816]; C4: [-22.952]; C6: [-23.123]; CP3: [-22.940]; CP1: [-22.816]; CPz: [-22.749]; CP2: [-22.876]; CP4: [-23.013]; P1: [-22.997]; Pz: [-22.940]; P2: [-23.078]; POz: [-23.168]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.966]; FC3: [-22.961]; FC1: [-22.947]; FCz: [-22.647]; FC2: [-22.959]; FC4: [-23.055]; C5: [-23.352]; C3: [-23.182]; C1: [-23.135]; Cz: [-23.129]; C2: [-23.188]; C4: [-23.324]; C6: [-23.463]; CP3: [-23.243]; CP1: [-23.260]; CPz: [-23.217]; CP2: [-23.385]; CP4: [-23.401]; P1: [-23.338]; Pz: [-23.350]; P2: [-23.433]; POz: [-23.455]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.380]; FC3: [-23.365]; FC1: [-23.371]; FCz: [-23.386]; FC2: [-23.160]; FC4: [-23.296]; C5: [-23.609]; C3: [-23.410]; C1: [-23.267]; Cz: [-23.165]; C2: [-23.183]; C4: [-23.322]; C6: [-23.551]; CP3: [-23.260]; CP1: [-23.101]; CPz: [-23.122]; CP2: [-23.262]; CP4: [-23.303]; P1: [-23.161]; Pz: [-23.100]; P2: [-23.256]; POz: [-23.124]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.518]; FC3: [-22.690]; FC1: [-22.527]; FCz: [-22.393]; FC2: [-22.451]; FC4: [-22.501]; C5: [-23.004]; C3: [-22.812]; C1: [-22.717]; Cz: [-22.592]; C2: [-22.645]; C4: [-22.728]; C6: [-22.879]; CP3: [-22.964]; CP1: [-22.863]; CPz: [-22.791]; CP2: [-22.875]; CP4: [-22.920]; P1: [-23.073]; Pz: [-23.027]; P2: [-23.071]; POz: [-23.119]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-23.257]; FC3: [-23.204]; FC1: [-23.036]; FCz: [-22.946]; FC2: [-23.119]; FC4: [-23.411]; C5: [-23.537]; C3: [-23.231]; C1: [-23.006]; Cz: [-22.826]; C2: [-23.068]; C4: [-23.346]; C6: [-23.616]; CP3: [-23.329]; CP1: [-23.076]; CPz: [-22.974]; CP2: [-23.161]; CP4: [-23.393]; P1: [-23.387]; Pz: [-23.219]; P2: [-23.344]; POz: [-23.322]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-22.814]; FC3: [-22.586]; FC1: [-22.509]; FCz: [-22.498]; FC2: [-22.611]; FC4: [-22.757]; C5: [-23.167]; C3: [-22.614]; C1: [-22.438]; Cz: [-22.275]; C2: [-22.518]; C4: [-22.729]; C6: [-23.199]; CP3: [-22.791]; CP1: [-22.569]; CPz: [-22.507]; CP2: [-22.508]; CP4: [-22.797]; P1: [-22.852]; Pz: [-22.695]; P2: [-22.773]; POz: [-22.947]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.424]; FC3: [-22.563]; FC1: [-22.399]; FCz: [-22.349]; FC2: [-22.418]; FC4: [-22.488]; C5: [-22.896]; C3: [-22.672]; C1: [-22.524]; Cz: [-22.442]; C2: [-22.570]; C4: [-22.625]; C6: [-22.640]; CP3: [-22.753]; CP1: [-22.686]; CPz: [-22.605]; CP2: [-22.694]; CP4: [-22.689]; P1: [-22.718]; Pz: [-22.670]; P2: [-22.726]; POz: [-22.639]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.896]; FC3: [-23.476]; FC1: [-23.088]; FCz: [-22.958]; FC2: [-23.120]; FC4: [-23.415]; C5: [-23.928]; C3: [-23.537]; C1: [-23.229]; Cz: [-22.975]; C2: [-23.231]; C4: [-23.342]; C6: [-23.338]; CP3: [-23.614]; CP1: [-23.407]; CPz: [-23.365]; CP2: [-23.345]; CP4: [-23.351]; P1: [-23.683]; Pz: [-23.539]; P2: [-23.414]; POz: [-23.444]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-23.263]; FC3: [-23.504]; FC1: [-23.268]; FCz: [-23.148]; FC2: [-23.247]; FC4: [-23.397]; C5: [-23.819]; C3: [-23.663]; C1: [-23.444]; Cz: [-23.314]; C2: [-23.331]; C4: [-23.493]; C6: [-23.596]; CP3: [-23.543]; CP1: [-23.446]; CPz: [-23.284]; CP2: [-23.307]; CP4: [-23.346]; P1: [-23.340]; Pz: [-23.157]; P2: [-23.176]; POz: [-23.047]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-23.471]; FC3: [-23.499]; FC1: [-23.409]; FCz: [-23.267]; FC2: [-23.401]; FC4: [-23.414]; C5: [-23.908]; C3: [-23.626]; C1: [-23.493]; Cz: [-23.444]; C2: [-23.581]; C4: [-23.713]; C6: [-24.045]; CP3: [-23.588]; CP1: [-23.564]; CPz: [-23.418]; CP2: [-23.453]; CP4: [-23.797]; P1: [-23.494]; Pz: [-23.361]; P2: [-23.645]; POz: [-23.378]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-22.662]; FC3: [-22.647]; FC1: [-22.443]; FCz: [-22.354]; FC2: [-22.506]; FC4: [-22.688]; C5: [-23.138]; C3: [-22.655]; C1: [-22.480]; Cz: [-22.305]; C2: [-22.538]; C4: [-22.717]; C6: [-23.132]; CP3: [-22.697]; CP1: [-22.687]; CPz: [-22.494]; CP2: [-22.614]; CP4: [-22.783]; P1: [-22.896]; Pz: [-22.808]; P2: [-22.855]; POz: [-23.068]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.048]; FC3: [-22.966]; FC1: [-22.893]; FCz: [-22.831]; FC2: [-22.949]; FC4: [-23.081]; C5: [-23.464]; C3: [-23.356]; C1: [-23.170]; Cz: [-23.050]; C2: [-23.163]; C4: [-23.357]; C6: [-23.566]; CP3: [-23.600]; CP1: [-23.527]; CPz: [-23.434]; CP2: [-23.514]; CP4: [-23.648]; P1: [-23.897]; Pz: [-23.772]; P2: [-23.835]; POz: [-23.880]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.923]; FC3: [-23.191]; FC1: [-23.029]; FCz: [-22.685]; FC2: [-23.028]; FC4: [-23.259]; C5: [-23.752]; C3: [-23.444]; C1: [-23.214]; Cz: [-23.014]; C2: [-23.237]; C4: [-23.433]; C6: [-23.581]; CP3: [-23.731]; CP1: [-23.512]; CPz: [-23.349]; CP2: [-23.438]; CP4: [-23.546]; P1: [-23.764]; Pz: [-23.636]; P2: [-23.466]; POz: [-23.714]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.882]; FC3: [-22.927]; FC1: [-22.790]; FCz: [-22.752]; FC2: [-22.875]; FC4: [-22.974]; C5: [-23.278]; C3: [-23.026]; C1: [-23.001]; Cz: [-22.891]; C2: [-23.005]; C4: [-23.097]; C6: [-23.214]; CP3: [-23.078]; CP1: [-23.108]; CPz: [-23.066]; CP2: [-23.098]; CP4: [-23.193]; P1: [-23.178]; Pz: [-23.185]; P2: [-23.233]; POz: [-23.223]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-23.389]; FC3: [-23.495]; FC1: [-23.318]; FCz: [-23.243]; FC2: [-23.223]; FC4: [-23.293]; C5: [-23.633]; C3: [-23.481]; C1: [-23.353]; Cz: [-23.158]; C2: [-23.158]; C4: [-23.286]; C6: [-23.519]; CP3: [-23.579]; CP1: [-23.322]; CPz: [-23.174]; CP2: [-23.129]; CP4: [-23.205]; P1: [-23.345]; Pz: [-23.159]; P2: [-23.304]; POz: [-23.180]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.603]; FC3: [-23.457]; FC1: [-23.423]; FCz: [-23.260]; FC2: [-23.397]; FC4: [-23.467]; C5: [-23.831]; C3: [-23.559]; C1: [-23.437]; Cz: [-23.373]; C2: [-23.459]; C4: [-23.546]; C6: [-23.655]; CP3: [-23.714]; CP1: [-23.641]; CPz: [-23.544]; CP2: [-23.518]; CP4: [-23.694]; P1: [-23.847]; Pz: [-23.833]; P2: [-23.850]; POz: [-23.954]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.759]; FC3: [-22.715]; FC1: [-22.624]; FCz: [-22.602]; FC2: [-22.696]; FC4: [-22.855]; C5: [-22.906]; C3: [-22.715]; C1: [-22.636]; Cz: [-22.602]; C2: [-22.710]; C4: [-22.855]; C6: [-23.047]; CP3: [-22.763]; CP1: [-22.775]; CPz: [-22.765]; CP2: [-22.817]; CP4: [-22.898]; P1: [-22.874]; Pz: [-22.869]; P2: [-22.929]; POz: [-22.864]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.381]; FC3: [-23.387]; FC1: [-23.215]; FCz: [-23.155]; FC2: [-23.202]; FC4: [-23.355]; C5: [-23.666]; C3: [-23.225]; C1: [-22.984]; Cz: [-22.732]; C2: [-22.983]; C4: [-23.264]; C6: [-23.610]; CP3: [-23.051]; CP1: [-22.920]; CPz: [-22.713]; CP2: [-22.943]; CP4: [-23.176]; P1: [-23.063]; Pz: [-22.983]; P2: [-23.137]; POz: [-23.028]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-23.345]; FC3: [-23.645]; FC1: [-23.415]; FCz: [-23.238]; FC2: [-23.256]; FC4: [-23.321]; C5: [-23.875]; C3: [-23.776]; C1: [-23.454]; Cz: [-23.229]; C2: [-23.256]; C4: [-23.375]; C6: [-23.659]; CP3: [-23.860]; CP1: [-23.605]; CPz: [-23.422]; CP2: [-23.458]; CP4: [-23.474]; P1: [-23.672]; Pz: [-23.519]; P2: [-23.598]; POz: [-23.577]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-22.972]; FC3: [-23.117]; FC1: [-22.825]; FCz: [-22.567]; FC2: [-22.791]; FC4: [-22.999]; C5: [-23.846]; C3: [-23.345]; C1: [-22.937]; Cz: [-22.740]; C2: [-22.910]; C4: [-23.266]; C6: [-23.648]; CP3: [-23.603]; CP1: [-23.240]; CPz: [-23.111]; CP2: [-23.211]; CP4: [-23.449]; P1: [-23.485]; Pz: [-23.341]; P2: [-23.443]; POz: [-23.260]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-22.966]; FC3: [-22.961]; FC1: [-22.947]; FCz: [-22.647]; FC2: [-22.959]; FC4: [-23.055]; C5: [-23.352]; C3: [-23.182]; C1: [-23.135]; Cz: [-23.129]; C2: [-23.188]; C4: [-23.324]; C6: [-23.463]; CP3: [-23.243]; CP1: [-23.260]; CPz: [-23.217]; CP2: [-23.385]; CP4: [-23.401]; P1: [-23.338]; Pz: [-23.350]; P2: [-23.433]; POz: [-23.455]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.197]; FC3: [-23.324]; FC1: [-23.109]; FCz: [-23.100]; FC2: [-23.112]; FC4: [-23.352]; C5: [-23.825]; C3: [-23.543]; C1: [-23.258]; Cz: [-23.064]; C2: [-23.144]; C4: [-23.360]; C6: [-23.429]; CP3: [-23.546]; CP1: [-23.360]; CPz: [-23.247]; CP2: [-23.273]; CP4: [-23.283]; P1: [-23.484]; Pz: [-23.329]; P2: [-23.267]; POz: [-23.230]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-21.972]; FC3: [-22.443]; FC1: [-22.280]; FCz: [-22.197]; FC2: [-22.398]; FC4: [-22.476]; C5: [-23.242]; C3: [-22.701]; C1: [-22.392]; Cz: [-22.287]; C2: [-22.614]; C4: [-22.794]; C6: [-22.937]; CP3: [-22.927]; CP1: [-22.764]; CPz: [-22.641]; CP2: [-22.906]; CP4: [-23.035]; P1: [-23.150]; Pz: [-23.136]; P2: [-23.200]; POz: [-23.339]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-23.137]; FC3: [-23.534]; FC1: [-23.207]; FCz: [-23.073]; FC2: [-23.061]; FC4: [-23.097]; C5: [-23.921]; C3: [-23.659]; C1: [-23.374]; Cz: [-23.148]; C2: [-23.087]; C4: [-23.089]; C6: [-23.216]; CP3: [-23.613]; CP1: [-23.492]; CPz: [-23.233]; CP2: [-23.116]; CP4: [-23.024]; P1: [-23.587]; Pz: [-23.367]; P2: [-23.222]; POz: [-23.478]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-22.908]; FC3: [-22.938]; FC1: [-22.901]; FCz: [-22.859]; FC2: [-22.942]; FC4: [-23.012]; C5: [-23.084]; C3: [-22.982]; C1: [-22.911]; Cz: [-22.805]; C2: [-22.964]; C4: [-23.054]; C6: [-23.141]; CP3: [-23.044]; CP1: [-23.022]; CPz: [-22.942]; CP2: [-23.061]; CP4: [-23.107]; P1: [-23.105]; Pz: [-23.091]; P2: [-23.170]; POz: [-23.145]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-22.966]; FC3: [-22.961]; FC1: [-22.947]; FCz: [-22.647]; FC2: [-22.959]; FC4: [-23.055]; C5: [-23.352]; C3: [-23.182]; C1: [-23.135]; Cz: [-23.129]; C2: [-23.188]; C4: [-23.324]; C6: [-23.463]; CP3: [-23.243]; CP1: [-23.260]; CPz: [-23.217]; CP2: [-23.385]; CP4: [-23.401]; P1: [-23.338]; Pz: [-23.350]; P2: [-23.433]; POz: [-23.455]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.087]; FC3: [-23.233]; FC1: [-22.923]; FCz: [-22.908]; FC2: [-23.139]; FC4: [-23.453]; C5: [-23.753]; C3: [-23.492]; C1: [-23.090]; Cz: [-22.960]; C2: [-23.174]; C4: [-23.487]; C6: [-23.664]; CP3: [-23.551]; CP1: [-23.305]; CPz: [-23.232]; CP2: [-23.337]; CP4: [-23.527]; P1: [-23.510]; Pz: [-23.444]; P2: [-23.501]; POz: [-23.457]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.242]; FC3: [-23.103]; FC1: [-23.117]; FCz: [-22.973]; FC2: [-23.080]; FC4: [-23.187]; C5: [-23.533]; C3: [-23.155]; C1: [-22.999]; Cz: [-22.902]; C2: [-23.119]; C4: [-23.281]; C6: [-23.616]; CP3: [-23.267]; CP1: [-23.149]; CPz: [-23.055]; CP2: [-23.192]; CP4: [-23.442]; P1: [-23.284]; Pz: [-23.205]; P2: [-23.370]; POz: [-23.168]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.920]; FC3: [-23.248]; FC1: [-22.954]; FCz: [-22.763]; FC2: [-22.953]; FC4: [-23.141]; C5: [-23.768]; C3: [-23.224]; C1: [-22.937]; Cz: [-22.744]; C2: [-23.006]; C4: [-23.246]; C6: [-23.765]; CP3: [-23.450]; CP1: [-23.176]; CPz: [-22.999]; CP2: [-23.121]; CP4: [-23.380]; P1: [-23.420]; Pz: [-23.289]; P2: [-23.319]; POz: [-23.316]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-23.248]; FC3: [-23.651]; FC1: [-23.361]; FCz: [-23.098]; FC2: [-23.163]; FC4: [-23.259]; C5: [-24.382]; C3: [-23.833]; C1: [-23.454]; Cz: [-23.106]; C2: [-23.219]; C4: [-23.370]; C6: [-23.516]; CP3: [-23.675]; CP1: [-23.470]; CPz: [-23.345]; CP2: [-23.366]; CP4: [-23.437]; P1: [-23.553]; Pz: [-23.438]; P2: [-23.424]; POz: [-23.337]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.206]; FC3: [-23.410]; FC1: [-23.256]; FCz: [-23.068]; FC2: [-23.170]; FC4: [-23.249]; C5: [-23.907]; C3: [-23.700]; C1: [-23.537]; Cz: [-23.331]; C2: [-23.398]; C4: [-23.461]; C6: [-23.459]; CP3: [-23.533]; CP1: [-23.616]; CPz: [-23.574]; CP2: [-23.529]; CP4: [-23.400]; P1: [-23.408]; Pz: [-23.518]; P2: [-23.519]; POz: [-23.394]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.896]; FC3: [-23.405]; FC1: [-23.015]; FCz: [-22.743]; FC2: [-22.786]; FC4: [-22.878]; C5: [-23.952]; C3: [-23.455]; C1: [-22.981]; Cz: [-22.647]; C2: [-22.699]; C4: [-22.901]; C6: [-23.214]; CP3: [-23.608]; CP1: [-23.180]; CPz: [-22.861]; CP2: [-22.954]; CP4: [-23.176]; P1: [-23.562]; Pz: [-23.298]; P2: [-23.460]; POz: [-23.743]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.801]; FC3: [-23.087]; FC1: [-22.870]; FCz: [-22.756]; FC2: [-22.764]; FC4: [-22.894]; C5: [-23.814]; C3: [-23.228]; C1: [-22.980]; Cz: [-22.808]; C2: [-22.876]; C4: [-22.982]; C6: [-23.633]; CP3: [-23.150]; CP1: [-23.094]; CPz: [-22.878]; CP2: [-22.947]; CP4: [-23.007]; P1: [-23.190]; Pz: [-23.013]; P2: [-23.054]; POz: [-23.203]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-23.509]; FC3: [-23.215]; FC1: [-23.186]; FCz: [-23.105]; FC2: [-23.299]; FC4: [-23.306]; C5: [-23.492]; C3: [-23.131]; C1: [-23.135]; Cz: [-22.959]; C2: [-23.200]; C4: [-23.260]; C6: [-23.502]; CP3: [-23.204]; CP1: [-23.199]; CPz: [-23.064]; CP2: [-23.219]; CP4: [-23.317]; P1: [-23.282]; Pz: [-23.233]; P2: [-23.334]; POz: [-23.335]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-23.230]; FC3: [-23.613]; FC1: [-23.338]; FCz: [-23.289]; FC2: [-23.261]; FC4: [-23.354]; C5: [-24.004]; C3: [-23.701]; C1: [-23.438]; Cz: [-23.332]; C2: [-23.437]; C4: [-23.536]; C6: [-23.658]; CP3: [-23.725]; CP1: [-23.575]; CPz: [-23.432]; CP2: [-23.557]; CP4: [-23.611]; P1: [-23.602]; Pz: [-23.489]; P2: [-23.513]; POz: [-23.300]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.337]; FC3: [-23.576]; FC1: [-23.348]; FCz: [-23.328]; FC2: [-23.318]; FC4: [-23.355]; C5: [-24.175]; C3: [-23.909]; C1: [-23.651]; Cz: [-23.519]; C2: [-23.462]; C4: [-23.520]; C6: [-23.682]; CP3: [-23.998]; CP1: [-23.846]; CPz: [-23.647]; CP2: [-23.618]; CP4: [-23.610]; P1: [-23.827]; Pz: [-23.650]; P2: [-23.652]; POz: [-23.529]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.878]; FC3: [-22.985]; FC1: [-22.873]; FCz: [-22.742]; FC2: [-22.954]; FC4: [-23.131]; C5: [-23.597]; C3: [-23.376]; C1: [-23.182]; Cz: [-23.097]; C2: [-23.187]; C4: [-23.352]; C6: [-23.502]; CP3: [-23.569]; CP1: [-23.482]; CPz: [-23.463]; CP2: [-23.508]; CP4: [-23.552]; P1: [-23.612]; Pz: [-23.653]; P2: [-23.735]; POz: [-23.610]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.770]; FC3: [-23.451]; FC1: [-23.413]; FCz: [-23.402]; FC2: [-23.372]; FC4: [-23.342]; C5: [-23.740]; C3: [-23.472]; C1: [-23.276]; Cz: [-23.240]; C2: [-23.345]; C4: [-23.350]; C6: [-23.289]; CP3: [-23.480]; CP1: [-23.437]; CPz: [-23.274]; CP2: [-23.279]; CP4: [-23.298]; P1: [-23.465]; Pz: [-23.393]; P2: [-23.372]; POz: [-23.457]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-23.075]; FC3: [-23.045]; FC1: [-22.891]; FCz: [-22.896]; FC2: [-22.977]; FC4: [-23.139]; C5: [-23.319]; C3: [-23.111]; C1: [-22.872]; Cz: [-22.772]; C2: [-22.989]; C4: [-23.218]; C6: [-23.486]; CP3: [-23.255]; CP1: [-22.944]; CPz: [-22.907]; CP2: [-22.993]; CP4: [-23.179]; P1: [-23.071]; Pz: [-22.973]; P2: [-23.080]; POz: [-22.963]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-22.860]; FC3: [-22.863]; FC1: [-22.751]; FCz: [-22.614]; FC2: [-22.678]; FC4: [-22.717]; C5: [-23.135]; C3: [-22.877]; C1: [-22.651]; Cz: [-22.464]; C2: [-22.586]; C4: [-22.737]; C6: [-22.915]; CP3: [-22.925]; CP1: [-22.673]; CPz: [-22.622]; CP2: [-22.655]; CP4: [-22.812]; P1: [-22.789]; Pz: [-22.654]; P2: [-22.773]; POz: [-22.744]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-22.838]; FC3: [-23.047]; FC1: [-22.920]; FCz: [-22.773]; FC2: [-22.704]; FC4: [-22.734]; C5: [-23.157]; C3: [-22.873]; C1: [-22.800]; Cz: [-22.665]; C2: [-22.750]; C4: [-22.801]; C6: [-22.914]; CP3: [-23.155]; CP1: [-22.891]; CPz: [-22.769]; CP2: [-22.791]; CP4: [-22.838]; P1: [-22.996]; Pz: [-22.927]; P2: [-22.914]; POz: [-23.075]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.706]; FC3: [-22.866]; FC1: [-22.834]; FCz: [-22.746]; FC2: [-22.662]; FC4: [-22.605]; C5: [-23.143]; C3: [-23.003]; C1: [-22.876]; Cz: [-22.769]; C2: [-22.731]; C4: [-22.684]; C6: [-22.644]; CP3: [-23.064]; CP1: [-23.036]; CPz: [-22.883]; CP2: [-22.875]; CP4: [-22.807]; P1: [-23.019]; Pz: [-23.004]; P2: [-22.988]; POz: [-22.975]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.923]; FC3: [-23.191]; FC1: [-23.029]; FCz: [-22.685]; FC2: [-23.028]; FC4: [-23.259]; C5: [-23.752]; C3: [-23.444]; C1: [-23.214]; Cz: [-23.014]; C2: [-23.237]; C4: [-23.433]; C6: [-23.581]; CP3: [-23.731]; CP1: [-23.512]; CPz: [-23.349]; CP2: [-23.438]; CP4: [-23.546]; P1: [-23.764]; Pz: [-23.636]; P2: [-23.466]; POz: [-23.714]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-23.224]; FC3: [-23.497]; FC1: [-23.283]; FCz: [-23.061]; FC2: [-23.193]; FC4: [-23.301]; C5: [-23.733]; C3: [-23.550]; C1: [-23.393]; Cz: [-23.230]; C2: [-23.354]; C4: [-23.372]; C6: [-23.683]; CP3: [-23.438]; CP1: [-23.509]; CPz: [-23.545]; CP2: [-23.411]; CP4: [-23.463]; P1: [-23.602]; Pz: [-23.652]; P2: [-23.520]; POz: [-23.683]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-23.448]; FC3: [-23.374]; FC1: [-23.321]; FCz: [-23.392]; FC2: [-23.307]; FC4: [-23.242]; C5: [-23.702]; C3: [-23.507]; C1: [-23.383]; Cz: [-23.408]; C2: [-23.431]; C4: [-23.481]; C6: [-23.408]; CP3: [-23.573]; CP1: [-23.517]; CPz: [-23.446]; CP2: [-23.466]; CP4: [-23.502]; P1: [-23.434]; Pz: [-23.476]; P2: [-23.510]; POz: [-23.379]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.453]; FC3: [-23.518]; FC1: [-23.325]; FCz: [-23.411]; FC2: [-23.486]; FC4: [-23.693]; C5: [-24.091]; C3: [-23.746]; C1: [-23.464]; Cz: [-23.277]; C2: [-23.420]; C4: [-23.670]; C6: [-24.119]; CP3: [-23.819]; CP1: [-23.482]; CPz: [-23.348]; CP2: [-23.479]; CP4: [-23.713]; P1: [-23.582]; Pz: [-23.542]; P2: [-23.610]; POz: [-23.520]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.769]; FC3: [-22.860]; FC1: [-22.706]; FCz: [-22.613]; FC2: [-22.613]; FC4: [-22.697]; C5: [-23.452]; C3: [-22.863]; C1: [-22.705]; Cz: [-22.592]; C2: [-22.660]; C4: [-22.885]; C6: [-23.323]; CP3: [-23.003]; CP1: [-22.782]; CPz: [-22.720]; CP2: [-22.843]; CP4: [-22.991]; P1: [-22.964]; Pz: [-22.882]; P2: [-22.957]; POz: [-23.077]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.150]; FC3: [-23.175]; FC1: [-23.018]; FCz: [-22.980]; FC2: [-23.064]; FC4: [-23.225]; C5: [-23.539]; C3: [-23.113]; C1: [-22.694]; Cz: [-22.985]; C2: [-23.041]; C4: [-23.310]; C6: [-23.296]; CP3: [-23.346]; CP1: [-22.957]; CPz: [-23.041]; CP2: [-23.287]; CP4: [-22.012]; P1: [-23.398]; Pz: [-23.345]; P2: [-23.433]; POz: [-23.064]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.375]; FC3: [-22.584]; FC1: [-22.355]; FCz: [-22.221]; FC2: [-22.296]; FC4: [-22.458]; C5: [-22.952]; C3: [-22.674]; C1: [-22.376]; Cz: [-22.211]; C2: [-22.342]; C4: [-22.542]; C6: [-22.792]; CP3: [-22.619]; CP1: [-22.433]; CPz: [-22.348]; CP2: [-22.428]; CP4: [-22.584]; P1: [-22.605]; Pz: [-22.558]; P2: [-22.654]; POz: [-22.778]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-23.048]; FC3: [-23.165]; FC1: [-23.132]; FCz: [-23.060]; FC2: [-23.239]; FC4: [-23.207]; C5: [-23.725]; C3: [-23.598]; C1: [-23.424]; Cz: [-23.306]; C2: [-23.410]; C4: [-23.397]; C6: [-23.432]; CP3: [-23.847]; CP1: [-23.736]; CPz: [-23.633]; CP2: [-23.786]; CP4: [-23.691]; P1: [-23.924]; Pz: [-23.930]; P2: [-24.027]; POz: [-23.824]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.004]; FC3: [-23.151]; FC1: [-22.984]; FCz: [-22.911]; FC2: [-22.894]; FC4: [-22.879]; C5: [-23.551]; C3: [-23.216]; C1: [-23.114]; Cz: [-22.914]; C2: [-22.948]; C4: [-22.992]; C6: [-23.179]; CP3: [-23.051]; CP1: [-23.070]; CPz: [-22.980]; CP2: [-23.027]; CP4: [-23.103]; P1: [-23.114]; Pz: [-23.057]; P2: [-23.116]; POz: [-23.063]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.966]; FC3: [-22.961]; FC1: [-22.947]; FCz: [-22.647]; FC2: [-22.959]; FC4: [-23.055]; C5: [-23.352]; C3: [-23.182]; C1: [-23.135]; Cz: [-23.129]; C2: [-23.188]; C4: [-23.324]; C6: [-23.463]; CP3: [-23.243]; CP1: [-23.260]; CPz: [-23.217]; CP2: [-23.385]; CP4: [-23.401]; P1: [-23.338]; Pz: [-23.350]; P2: [-23.433]; POz: [-23.455]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.896]; FC3: [-23.476]; FC1: [-23.088]; FCz: [-22.958]; FC2: [-23.120]; FC4: [-23.415]; C5: [-23.928]; C3: [-23.537]; C1: [-23.229]; Cz: [-22.975]; C2: [-23.231]; C4: [-23.342]; C6: [-23.338]; CP3: [-23.614]; CP1: [-23.407]; CPz: [-23.365]; CP2: [-23.345]; CP4: [-23.351]; P1: [-23.683]; Pz: [-23.539]; P2: [-23.414]; POz: [-23.444]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-23.003]; FC3: [-23.127]; FC1: [-22.969]; FCz: [-22.816]; FC2: [-22.963]; FC4: [-23.064]; C5: [-23.697]; C3: [-23.307]; C1: [-23.054]; Cz: [-22.924]; C2: [-22.974]; C4: [-23.174]; C6: [-23.592]; CP3: [-23.260]; CP1: [-23.172]; CPz: [-23.044]; CP2: [-23.066]; CP4: [-23.190]; P1: [-23.186]; Pz: [-23.125]; P2: [-23.156]; POz: [-22.902]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-23.549]; FC3: [-23.874]; FC1: [-23.607]; FCz: [-23.375]; FC2: [-23.329]; FC4: [-23.312]; C5: [-24.545]; C3: [-24.106]; C1: [-23.699]; Cz: [-23.467]; C2: [-23.456]; C4: [-23.505]; C6: [-23.554]; CP3: [-24.292]; CP1: [-23.944]; CPz: [-23.752]; CP2: [-23.692]; CP4: [-23.706]; P1: [-24.191]; Pz: [-23.919]; P2: [-23.873]; POz: [-23.966]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.127]; FC3: [-23.437]; FC1: [-23.146]; FCz: [-23.033]; FC2: [-23.186]; FC4: [-23.391]; C5: [-24.158]; C3: [-23.707]; C1: [-23.321]; Cz: [-23.151]; C2: [-23.322]; C4: [-23.594]; C6: [-23.822]; CP3: [-23.714]; CP1: [-23.568]; CPz: [-23.407]; CP2: [-23.540]; CP4: [-23.735]; P1: [-23.618]; Pz: [-23.479]; P2: [-23.659]; POz: [-23.408]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.181]; FC3: [-22.896]; FC1: [-22.810]; FCz: [-22.988]; FC2: [-22.964]; FC4: [-23.024]; C5: [-23.218]; C3: [-22.938]; C1: [-22.860]; Cz: [-22.837]; C2: [-22.973]; C4: [-23.115]; C6: [-23.252]; CP3: [-23.105]; CP1: [-23.056]; CPz: [-23.017]; CP2: [-23.042]; CP4: [-23.226]; P1: [-23.064]; Pz: [-23.191]; P2: [-23.210]; POz: [-23.224]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.518]; FC3: [-22.690]; FC1: [-22.527]; FCz: [-22.393]; FC2: [-22.451]; FC4: [-22.501]; C5: [-23.004]; C3: [-22.812]; C1: [-22.717]; Cz: [-22.592]; C2: [-22.645]; C4: [-22.728]; C6: [-22.879]; CP3: [-22.964]; CP1: [-22.863]; CPz: [-22.791]; CP2: [-22.875]; CP4: [-22.920]; P1: [-23.073]; Pz: [-23.027]; P2: [-23.071]; POz: [-23.119]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.715]; FC3: [-22.892]; FC1: [-22.593]; FCz: [-22.593]; FC2: [-22.698]; FC4: [-22.834]; C5: [-23.551]; C3: [-23.058]; C1: [-22.849]; Cz: [-22.767]; C2: [-22.863]; C4: [-23.016]; C6: [-23.404]; CP3: [-23.380]; CP1: [-23.105]; CPz: [-22.982]; CP2: [-23.016]; CP4: [-23.088]; P1: [-23.182]; Pz: [-23.127]; P2: [-23.031]; POz: [-23.203]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-23.079]; FC3: [-23.256]; FC1: [-23.075]; FCz: [-22.910]; FC2: [-22.906]; FC4: [-22.964]; C5: [-23.557]; C3: [-23.439]; C1: [-23.181]; Cz: [-23.007]; C2: [-23.030]; C4: [-23.130]; C6: [-23.372]; CP3: [-23.406]; CP1: [-23.375]; CPz: [-23.153]; CP2: [-23.242]; CP4: [-23.240]; P1: [-23.347]; Pz: [-23.258]; P2: [-23.220]; POz: [-23.119]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.532]; FC3: [-23.616]; FC1: [-23.341]; FCz: [-23.489]; FC2: [-23.489]; FC4: [-23.440]; C5: [-24.089]; C3: [-23.748]; C1: [-23.600]; Cz: [-23.392]; C2: [-23.444]; C4: [-23.449]; C6: [-23.389]; CP3: [-23.857]; CP1: [-23.613]; CPz: [-23.503]; CP2: [-23.409]; CP4: [-23.430]; P1: [-23.641]; Pz: [-23.512]; P2: [-23.496]; POz: [-23.565]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.760]; FC3: [-23.829]; FC1: [-23.607]; FCz: [-23.565]; FC2: [-23.692]; FC4: [-23.916]; C5: [-24.222]; C3: [-23.824]; C1: [-23.531]; Cz: [-23.362]; C2: [-23.652]; C4: [-23.940]; C6: [-24.180]; CP3: [-23.664]; CP1: [-23.540]; CPz: [-23.510]; CP2: [-23.700]; CP4: [-23.853]; P1: [-23.660]; Pz: [-23.670]; P2: [-23.765]; POz: [-23.634]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.503]; FC3: [-22.467]; FC1: [-22.356]; FCz: [-22.337]; FC2: [-22.438]; FC4: [-22.459]; C5: [-22.844]; C3: [-22.591]; C1: [-22.514]; Cz: [-22.375]; C2: [-22.446]; C4: [-22.522]; C6: [-22.732]; CP3: [-22.657]; CP1: [-22.584]; CPz: [-22.565]; CP2: [-22.545]; CP4: [-22.617]; P1: [-22.694]; Pz: [-22.594]; P2: [-22.664]; POz: [-22.748]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-23.775]; FC3: [-23.593]; FC1: [-23.466]; FCz: [-23.537]; FC2: [-23.640]; FC4: [-23.682]; C5: [-23.956]; C3: [-23.552]; C1: [-23.489]; Cz: [-23.336]; C2: [-23.565]; C4: [-23.637]; C6: [-23.829]; CP3: [-23.623]; CP1: [-23.523]; CPz: [-23.483]; CP2: [-23.655]; CP4: [-23.703]; P1: [-23.532]; Pz: [-23.485]; P2: [-23.651]; POz: [-23.466]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-22.700]; FC3: [-22.571]; FC1: [-22.645]; FCz: [-22.715]; FC2: [-22.763]; FC4: [-22.776]; C5: [-23.133]; C3: [-22.766]; C1: [-22.716]; Cz: [-22.592]; C2: [-22.839]; C4: [-22.901]; C6: [-23.040]; CP3: [-22.934]; CP1: [-22.805]; CPz: [-22.758]; CP2: [-22.850]; CP4: [-22.899]; P1: [-22.882]; Pz: [-22.842]; P2: [-22.924]; POz: [-22.908]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.115]; FC3: [-23.338]; FC1: [-23.237]; FCz: [-23.208]; FC2: [-23.137]; FC4: [-23.101]; C5: [-23.665]; C3: [-23.410]; C1: [-23.219]; Cz: [-23.127]; C2: [-23.128]; C4: [-23.238]; C6: [-23.428]; CP3: [-23.491]; CP1: [-23.285]; CPz: [-23.183]; CP2: [-23.200]; CP4: [-23.321]; P1: [-23.285]; Pz: [-23.160]; P2: [-23.321]; POz: [-23.091]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.430]; FC3: [-23.735]; FC1: [-23.612]; FCz: [-23.458]; FC2: [-23.596]; FC4: [-23.684]; C5: [-24.168]; C3: [-23.987]; C1: [-23.766]; Cz: [-23.709]; C2: [-23.838]; C4: [-23.968]; C6: [-24.022]; CP3: [-23.981]; CP1: [-23.871]; CPz: [-23.921]; CP2: [-23.981]; CP4: [-24.037]; P1: [-23.734]; Pz: [-23.777]; P2: [-23.829]; POz: [-23.420]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.928]; FC3: [-22.860]; FC1: [-22.897]; FCz: [-22.941]; FC2: [-22.824]; FC4: [-22.826]; C5: [-23.051]; C3: [-22.839]; C1: [-22.820]; Cz: [-22.809]; C2: [-22.782]; C4: [-22.832]; C6: [-22.942]; CP3: [-22.743]; CP1: [-22.747]; CPz: [-22.761]; CP2: [-22.719]; CP4: [-22.783]; P1: [-22.603]; Pz: [-22.569]; P2: [-22.650]; POz: [-22.451]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.999]; FC3: [-23.129]; FC1: [-22.899]; FCz: [-22.763]; FC2: [-22.964]; FC4: [-23.173]; C5: [-23.644]; C3: [-23.270]; C1: [-23.055]; Cz: [-22.797]; C2: [-22.995]; C4: [-23.156]; C6: [-23.590]; CP3: [-23.182]; CP1: [-23.078]; CPz: [-22.926]; CP2: [-22.934]; CP4: [-23.055]; P1: [-23.087]; Pz: [-22.896]; P2: [-22.898]; POz: [-22.875]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-23.095]; FC3: [-23.244]; FC1: [-23.004]; FCz: [-23.033]; FC2: [-22.945]; FC4: [-23.014]; C5: [-23.591]; C3: [-23.201]; C1: [-22.952]; Cz: [-22.822]; C2: [-22.805]; C4: [-22.924]; C6: [-23.248]; CP3: [-23.190]; CP1: [-22.968]; CPz: [-22.817]; CP2: [-23.002]; CP4: [-22.992]; P1: [-23.090]; Pz: [-22.948]; P2: [-23.014]; POz: [-22.923]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.216]; FC3: [-23.342]; FC1: [-23.180]; FCz: [-23.158]; FC2: [-23.211]; FC4: [-23.406]; C5: [-23.485]; C3: [-23.397]; C1: [-23.207]; Cz: [-23.168]; C2: [-23.261]; C4: [-23.454]; C6: [-23.491]; CP3: [-23.313]; CP1: [-23.254]; CPz: [-23.306]; CP2: [-23.337]; CP4: [-23.449]; P1: [-23.259]; Pz: [-23.230]; P2: [-23.349]; POz: [-23.227]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.197]; FC3: [-23.324]; FC1: [-23.109]; FCz: [-23.100]; FC2: [-23.112]; FC4: [-23.352]; C5: [-23.825]; C3: [-23.543]; C1: [-23.258]; Cz: [-23.064]; C2: [-23.144]; C4: [-23.360]; C6: [-23.429]; CP3: [-23.546]; CP1: [-23.360]; CPz: [-23.247]; CP2: [-23.273]; CP4: [-23.283]; P1: [-23.484]; Pz: [-23.329]; P2: [-23.267]; POz: [-23.230]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.399]; FC3: [-23.533]; FC1: [-23.337]; FCz: [-23.232]; FC2: [-23.279]; FC4: [-23.438]; C5: [-23.819]; C3: [-23.626]; C1: [-23.446]; Cz: [-23.213]; C2: [-23.326]; C4: [-23.453]; C6: [-23.791]; CP3: [-23.516]; CP1: [-23.397]; CPz: [-23.237]; CP2: [-23.337]; CP4: [-23.416]; P1: [-23.375]; Pz: [-23.317]; P2: [-23.370]; POz: [-23.326]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.362]; FC3: [-22.514]; FC1: [-22.385]; FCz: [-22.247]; FC2: [-22.332]; FC4: [-22.464]; C5: [-23.032]; C3: [-22.705]; C1: [-22.467]; Cz: [-22.308]; C2: [-22.423]; C4: [-22.545]; C6: [-22.820]; CP3: [-22.679]; CP1: [-22.657]; CPz: [-22.517]; CP2: [-22.574]; CP4: [-22.605]; P1: [-22.772]; Pz: [-22.698]; P2: [-22.672]; POz: [-22.733]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-22.977]; FC3: [-23.013]; FC1: [-23.029]; FCz: [-22.903]; FC2: [-23.086]; FC4: [-23.158]; C5: [-23.564]; C3: [-23.284]; C1: [-23.136]; Cz: [-23.028]; C2: [-23.177]; C4: [-23.248]; C6: [-23.364]; CP3: [-23.329]; CP1: [-23.241]; CPz: [-23.031]; CP2: [-23.213]; CP4: [-23.317]; P1: [-23.196]; Pz: [-23.190]; P2: [-23.267]; POz: [-23.165]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.124]; FC3: [-22.889]; FC1: [-22.893]; FCz: [-22.715]; FC2: [-23.078]; FC4: [-23.168]; C5: [-23.355]; C3: [-23.029]; C1: [-23.009]; Cz: [-22.841]; C2: [-23.059]; C4: [-23.258]; C6: [-23.577]; CP3: [-22.922]; CP1: [-23.164]; CPz: [-22.961]; CP2: [-23.148]; CP4: [-23.401]; P1: [-23.359]; Pz: [-23.303]; P2: [-23.506]; POz: [-23.513]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.355]; FC3: [-23.470]; FC1: [-23.267]; FCz: [-23.348]; FC2: [-23.474]; FC4: [-23.701]; C5: [-23.611]; C3: [-23.667]; C1: [-23.433]; Cz: [-23.446]; C2: [-23.587]; C4: [-23.778]; C6: [-23.659]; CP3: [-23.467]; CP1: [-23.520]; CPz: [-23.464]; CP2: [-23.569]; CP4: [-23.670]; P1: [-23.384]; Pz: [-23.440]; P2: [-23.495]; POz: [-23.295]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.282]; FC3: [-23.193]; FC1: [-23.172]; FCz: [-23.057]; FC2: [-23.034]; FC4: [-23.117]; C5: [-23.792]; C3: [-23.274]; C1: [-23.151]; Cz: [-22.922]; C2: [-22.950]; C4: [-23.011]; C6: [-23.379]; CP3: [-23.228]; CP1: [-23.072]; CPz: [-22.951]; CP2: [-22.937]; CP4: [-22.872]; P1: [-23.049]; Pz: [-22.972]; P2: [-22.945]; POz: [-22.997]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.687]; FC3: [-22.503]; FC1: [-22.376]; FCz: [-22.455]; FC2: [-22.529]; FC4: [-22.683]; C5: [-22.890]; C3: [-22.484]; C1: [-22.307]; Cz: [-22.217]; C2: [-22.408]; C4: [-22.603]; C6: [-22.978]; CP3: [-22.455]; CP1: [-22.266]; CPz: [-22.208]; CP2: [-22.382]; CP4: [-22.590]; P1: [-22.318]; Pz: [-22.233]; P2: [-22.359]; POz: [-22.218]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-22.890]; FC3: [-22.894]; FC1: [-22.950]; FCz: [-22.842]; FC2: [-22.975]; FC4: [-23.047]; C5: [-23.189]; C3: [-23.129]; C1: [-23.101]; Cz: [-23.071]; C2: [-23.164]; C4: [-23.240]; C6: [-23.312]; CP3: [-23.228]; CP1: [-23.256]; CPz: [-23.177]; CP2: [-23.275]; CP4: [-23.328]; P1: [-23.352]; Pz: [-23.363]; P2: [-23.410]; POz: [-23.416]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-22.841]; FC3: [-22.955]; FC1: [-22.834]; FCz: [-22.785]; FC2: [-22.790]; FC4: [-22.801]; C5: [-23.273]; C3: [-23.095]; C1: [-22.933]; Cz: [-22.768]; C2: [-22.896]; C4: [-22.991]; C6: [-23.048]; CP3: [-23.165]; CP1: [-23.121]; CPz: [-22.994]; CP2: [-23.028]; CP4: [-23.113]; P1: [-23.348]; Pz: [-23.295]; P2: [-23.281]; POz: [-23.331]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.197]; FC3: [-23.324]; FC1: [-23.109]; FCz: [-23.100]; FC2: [-23.112]; FC4: [-23.352]; C5: [-23.825]; C3: [-23.543]; C1: [-23.258]; Cz: [-23.064]; C2: [-23.144]; C4: [-23.360]; C6: [-23.429]; CP3: [-23.546]; CP1: [-23.360]; CPz: [-23.247]; CP2: [-23.273]; CP4: [-23.283]; P1: [-23.484]; Pz: [-23.329]; P2: [-23.267]; POz: [-23.230]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.155]; FC3: [-23.036]; FC1: [-23.043]; FCz: [-22.919]; FC2: [-23.037]; FC4: [-23.130]; C5: [-23.757]; C3: [-23.219]; C1: [-23.117]; Cz: [-22.925]; C2: [-23.180]; C4: [-23.444]; C6: [-23.581]; CP3: [-23.523]; CP1: [-23.396]; CPz: [-23.295]; CP2: [-23.526]; CP4: [-23.712]; P1: [-23.546]; Pz: [-23.570]; P2: [-23.824]; POz: [-23.624]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.856]; FC3: [-22.904]; FC1: [-22.740]; FCz: [-22.638]; FC2: [-22.714]; FC4: [-22.816]; C5: [-23.408]; C3: [-22.943]; C1: [-22.746]; Cz: [-22.550]; C2: [-22.765]; C4: [-23.015]; C6: [-23.272]; CP3: [-23.262]; CP1: [-22.970]; CPz: [-22.825]; CP2: [-22.999]; CP4: [-23.283]; P1: [-23.292]; Pz: [-23.223]; P2: [-23.338]; POz: [-23.368]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-22.646]; FC3: [-22.473]; FC1: [-22.448]; FCz: [-22.388]; FC2: [-22.647]; FC4: [-22.942]; C5: [-22.869]; C3: [-22.646]; C1: [-22.510]; Cz: [-22.496]; C2: [-22.630]; C4: [-22.905]; C6: [-23.414]; CP3: [-22.781]; CP1: [-22.663]; CPz: [-22.645]; CP2: [-22.748]; CP4: [-22.970]; P1: [-22.825]; Pz: [-22.825]; P2: [-23.002]; POz: [-23.068]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.087]; FC3: [-23.233]; FC1: [-22.923]; FCz: [-22.908]; FC2: [-23.139]; FC4: [-23.453]; C5: [-23.753]; C3: [-23.492]; C1: [-23.090]; Cz: [-22.960]; C2: [-23.174]; C4: [-23.487]; C6: [-23.664]; CP3: [-23.551]; CP1: [-23.305]; CPz: [-23.232]; CP2: [-23.337]; CP4: [-23.527]; P1: [-23.510]; Pz: [-23.444]; P2: [-23.501]; POz: [-23.457]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.181]; FC3: [-22.896]; FC1: [-22.810]; FCz: [-22.988]; FC2: [-22.964]; FC4: [-23.024]; C5: [-23.218]; C3: [-22.938]; C1: [-22.860]; Cz: [-22.837]; C2: [-22.973]; C4: [-23.115]; C6: [-23.252]; CP3: [-23.105]; CP1: [-23.056]; CPz: [-23.017]; CP2: [-23.042]; CP4: [-23.226]; P1: [-23.064]; Pz: [-23.191]; P2: [-23.210]; POz: [-23.224]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.218]; FC3: [-23.128]; FC1: [-23.081]; FCz: [-23.077]; FC2: [-23.024]; FC4: [-23.062]; C5: [-23.589]; C3: [-23.340]; C1: [-23.134]; Cz: [-23.089]; C2: [-23.079]; C4: [-23.180]; C6: [-23.370]; CP3: [-23.439]; CP1: [-23.260]; CPz: [-23.212]; CP2: [-23.195]; CP4: [-23.266]; P1: [-23.367]; Pz: [-23.272]; P2: [-23.280]; POz: [-23.294]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.591]; FC3: [-22.845]; FC1: [-22.874]; FCz: [-22.631]; FC2: [-22.625]; FC4: [-22.536]; C5: [-23.594]; C3: [-23.200]; C1: [-22.988]; Cz: [-22.764]; C2: [-22.797]; C4: [-22.829]; C6: [-23.003]; CP3: [-23.261]; CP1: [-23.133]; CPz: [-23.006]; CP2: [-22.982]; CP4: [-23.053]; P1: [-23.178]; Pz: [-23.115]; P2: [-23.201]; POz: [-23.156]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-23.126]; FC3: [-23.150]; FC1: [-22.910]; FCz: [-22.955]; FC2: [-22.960]; FC4: [-23.062]; C5: [-23.749]; C3: [-23.273]; C1: [-23.019]; Cz: [-22.871]; C2: [-22.976]; C4: [-23.182]; C6: [-23.315]; CP3: [-23.461]; CP1: [-23.293]; CPz: [-23.020]; CP2: [-23.129]; CP4: [-23.282]; P1: [-23.364]; Pz: [-23.357]; P2: [-23.405]; POz: [-23.473]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.294]; FC3: [-23.199]; FC1: [-23.203]; FCz: [-23.391]; FC2: [-23.329]; FC4: [-23.484]; C5: [-23.819]; C3: [-23.547]; C1: [-23.311]; Cz: [-23.422]; C2: [-23.468]; C4: [-23.686]; C6: [-23.837]; CP3: [-23.687]; CP1: [-23.588]; CPz: [-23.541]; CP2: [-23.715]; CP4: [-23.869]; P1: [-23.833]; Pz: [-23.791]; P2: [-23.944]; POz: [-23.800]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.414]; FC3: [-22.427]; FC1: [-22.352]; FCz: [-22.237]; FC2: [-22.409]; FC4: [-22.500]; C5: [-22.884]; C3: [-22.617]; C1: [-22.576]; Cz: [-22.434]; C2: [-22.485]; C4: [-22.611]; C6: [-22.883]; CP3: [-22.849]; CP1: [-22.748]; CPz: [-22.690]; CP2: [-22.699]; CP4: [-22.836]; P1: [-22.937]; Pz: [-22.867]; P2: [-22.941]; POz: [-23.011]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.354]; FC3: [-23.532]; FC1: [-23.400]; FCz: [-23.207]; FC2: [-23.265]; FC4: [-23.192]; C5: [-23.948]; C3: [-23.623]; C1: [-23.427]; Cz: [-23.187]; C2: [-23.324]; C4: [-23.326]; C6: [-23.441]; CP3: [-23.593]; CP1: [-23.471]; CPz: [-23.311]; CP2: [-23.391]; CP4: [-23.432]; P1: [-23.424]; Pz: [-23.302]; P2: [-23.331]; POz: [-23.227]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-23.312]; FC3: [-23.412]; FC1: [-23.229]; FCz: [-22.968]; FC2: [-23.165]; FC4: [-23.171]; C5: [-23.845]; C3: [-23.591]; C1: [-23.294]; Cz: [-23.120]; C2: [-23.265]; C4: [-23.356]; C6: [-23.500]; CP3: [-23.675]; CP1: [-23.558]; CPz: [-23.283]; CP2: [-23.341]; CP4: [-23.470]; P1: [-23.766]; Pz: [-23.564]; P2: [-23.575]; POz: [-23.531]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-22.876]; FC3: [-22.742]; FC1: [-22.762]; FCz: [-22.780]; FC2: [-22.796]; FC4: [-22.773]; C5: [-23.180]; C3: [-22.672]; C1: [-22.696]; Cz: [-22.658]; C2: [-22.767]; C4: [-22.750]; C6: [-23.055]; CP3: [-22.707]; CP1: [-22.770]; CPz: [-22.676]; CP2: [-22.730]; CP4: [-22.762]; P1: [-22.755]; Pz: [-22.743]; P2: [-22.785]; POz: [-22.859]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.040]; FC3: [-23.287]; FC1: [-23.236]; FCz: [-23.257]; FC2: [-23.170]; FC4: [-23.205]; C5: [-23.777]; C3: [-23.457]; C1: [-23.275]; Cz: [-23.143]; C2: [-23.149]; C4: [-23.196]; C6: [-23.410]; CP3: [-23.580]; CP1: [-23.323]; CPz: [-23.186]; CP2: [-23.213]; CP4: [-23.266]; P1: [-23.416]; Pz: [-23.262]; P2: [-23.307]; POz: [-23.241]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.873]; FC3: [-22.963]; FC1: [-22.943]; FCz: [-22.729]; FC2: [-22.823]; FC4: [-22.854]; C5: [-23.679]; C3: [-23.162]; C1: [-23.027]; Cz: [-22.875]; C2: [-22.935]; C4: [-23.068]; C6: [-23.360]; CP3: [-23.357]; CP1: [-23.204]; CPz: [-23.192]; CP2: [-23.099]; CP4: [-23.265]; P1: [-23.497]; Pz: [-23.389]; P2: [-23.421]; POz: [-23.576]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.891]; FC3: [-23.087]; FC1: [-22.866]; FCz: [-22.701]; FC2: [-22.720]; FC4: [-22.640]; C5: [-23.289]; C3: [-23.065]; C1: [-22.768]; Cz: [-22.597]; C2: [-22.665]; C4: [-22.729]; C6: [-22.873]; CP3: [-22.917]; CP1: [-22.749]; CPz: [-22.700]; CP2: [-22.657]; CP4: [-22.865]; P1: [-22.801]; Pz: [-22.697]; P2: [-22.888]; POz: [-22.715]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.533]; FC3: [-22.801]; FC1: [-22.701]; FCz: [-22.670]; FC2: [-22.664]; FC4: [-22.573]; C5: [-22.163]; C3: [-22.609]; C1: [-22.557]; Cz: [-22.551]; C2: [-22.656]; C4: [-22.608]; C6: [-22.639]; CP3: [-22.611]; CP1: [-22.666]; CPz: [-22.611]; CP2: [-22.655]; CP4: [-22.674]; P1: [-22.635]; Pz: [-22.655]; P2: [-22.704]; POz: [-22.633]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-23.048]; FC3: [-22.850]; FC1: [-22.862]; FCz: [-22.786]; FC2: [-22.881]; FC4: [-23.028]; C5: [-23.559]; C3: [-23.198]; C1: [-22.966]; Cz: [-22.756]; C2: [-22.905]; C4: [-23.125]; C6: [-23.620]; CP3: [-23.277]; CP1: [-23.091]; CPz: [-22.987]; CP2: [-22.999]; CP4: [-23.177]; P1: [-23.129]; Pz: [-23.035]; P2: [-23.084]; POz: [-23.068]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.007]; FC3: [-22.885]; FC1: [-22.840]; FCz: [-22.707]; FC2: [-22.809]; FC4: [-23.003]; C5: [-23.646]; C3: [-23.244]; C1: [-22.949]; Cz: [-22.936]; C2: [-22.971]; C4: [-23.159]; C6: [-23.534]; CP3: [-23.281]; CP1: [-23.260]; CPz: [-23.182]; CP2: [-23.244]; CP4: [-23.249]; P1: [-23.372]; Pz: [-23.345]; P2: [-23.348]; POz: [-23.298]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.738]; FC3: [-22.489]; FC1: [-22.472]; FCz: [-22.561]; FC2: [-22.776]; FC4: [-22.958]; C5: [-23.036]; C3: [-22.683]; C1: [-22.639]; Cz: [-22.540]; C2: [-22.826]; C4: [-23.084]; C6: [-23.510]; CP3: [-22.609]; CP1: [-22.635]; CPz: [-22.635]; CP2: [-22.852]; CP4: [-23.120]; P1: [-22.685]; Pz: [-22.707]; P2: [-22.942]; POz: [-22.790]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.155]; FC3: [-23.036]; FC1: [-23.043]; FCz: [-22.919]; FC2: [-23.037]; FC4: [-23.130]; C5: [-23.757]; C3: [-23.219]; C1: [-23.117]; Cz: [-22.925]; C2: [-23.180]; C4: [-23.444]; C6: [-23.581]; CP3: [-23.523]; CP1: [-23.396]; CPz: [-23.295]; CP2: [-23.526]; CP4: [-23.712]; P1: [-23.546]; Pz: [-23.570]; P2: [-23.824]; POz: [-23.624]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.492]; FC3: [-22.760]; FC1: [-22.551]; FCz: [-22.468]; FC2: [-22.477]; FC4: [-22.584]; C5: [-23.191]; C3: [-22.811]; C1: [-22.587]; Cz: [-22.527]; C2: [-22.593]; C4: [-22.740]; C6: [-22.898]; CP3: [-23.076]; CP1: [-22.855]; CPz: [-22.712]; CP2: [-22.757]; CP4: [-22.878]; P1: [-23.124]; Pz: [-23.020]; P2: [-23.023]; POz: [-23.228]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-22.801]; FC3: [-22.870]; FC1: [-22.778]; FCz: [-22.535]; FC2: [-22.711]; FC4: [-22.973]; C5: [-23.677]; C3: [-23.170]; C1: [-22.776]; Cz: [-22.586]; C2: [-22.741]; C4: [-22.998]; C6: [-23.640]; CP3: [-23.268]; CP1: [-23.037]; CPz: [-22.819]; CP2: [-22.868]; CP4: [-23.072]; P1: [-23.281]; Pz: [-23.064]; P2: [-23.153]; POz: [-23.344]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.017]; FC3: [-22.848]; FC1: [-22.780]; FCz: [-22.810]; FC2: [-22.880]; FC4: [-23.062]; C5: [-22.991]; C3: [-22.844]; C1: [-22.783]; Cz: [-22.638]; C2: [-22.816]; C4: [-22.952]; C6: [-23.123]; CP3: [-22.940]; CP1: [-22.816]; CPz: [-22.749]; CP2: [-22.876]; CP4: [-23.013]; P1: [-22.997]; Pz: [-22.940]; P2: [-23.078]; POz: [-23.168]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.503]; FC3: [-23.564]; FC1: [-23.428]; FCz: [-23.252]; FC2: [-23.128]; FC4: [-23.109]; C5: [-23.594]; C3: [-23.339]; C1: [-23.181]; Cz: [-23.047]; C2: [-23.075]; C4: [-23.158]; C6: [-23.246]; CP3: [-23.136]; CP1: [-23.091]; CPz: [-22.981]; CP2: [-23.109]; CP4: [-23.168]; P1: [-23.140]; Pz: [-23.125]; P2: [-23.200]; POz: [-23.192]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.156]; FC3: [-23.215]; FC1: [-23.045]; FCz: [-22.802]; FC2: [-23.006]; FC4: [-23.260]; C5: [-23.441]; C3: [-23.288]; C1: [-23.035]; Cz: [-22.884]; C2: [-23.045]; C4: [-23.301]; C6: [-23.504]; CP3: [-23.344]; CP1: [-23.142]; CPz: [-23.049]; CP2: [-23.129]; CP4: [-23.332]; P1: [-23.138]; Pz: [-23.037]; P2: [-23.149]; POz: [-22.934]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.715]; FC3: [-22.892]; FC1: [-22.593]; FCz: [-22.593]; FC2: [-22.698]; FC4: [-22.834]; C5: [-23.551]; C3: [-23.058]; C1: [-22.849]; Cz: [-22.767]; C2: [-22.863]; C4: [-23.016]; C6: [-23.404]; CP3: [-23.380]; CP1: [-23.105]; CPz: [-22.982]; CP2: [-23.016]; CP4: [-23.088]; P1: [-23.182]; Pz: [-23.127]; P2: [-23.031]; POz: [-23.203]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-22.986]; FC3: [-22.843]; FC1: [-22.775]; FCz: [-22.698]; FC2: [-22.778]; FC4: [-22.866]; C5: [-23.285]; C3: [-23.043]; C1: [-22.850]; Cz: [-22.654]; C2: [-22.776]; C4: [-22.883]; C6: [-23.209]; CP3: [-23.097]; CP1: [-23.046]; CPz: [-22.883]; CP2: [-22.956]; CP4: [-23.038]; P1: [-23.252]; Pz: [-23.180]; P2: [-23.233]; POz: [-23.321]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-22.820]; FC3: [-22.946]; FC1: [-22.686]; FCz: [-22.518]; FC2: [-22.668]; FC4: [-22.825]; C5: [-23.233]; C3: [-22.934]; C1: [-22.730]; Cz: [-22.560]; C2: [-22.718]; C4: [-22.911]; C6: [-23.078]; CP3: [-23.144]; CP1: [-22.909]; CPz: [-22.843]; CP2: [-22.893]; CP4: [-23.049]; P1: [-23.104]; Pz: [-23.067]; P2: [-23.173]; POz: [-23.288]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.192]; FC3: [-23.360]; FC1: [-23.332]; FCz: [-23.282]; FC2: [-23.288]; FC4: [-23.235]; C5: [-23.861]; C3: [-23.517]; C1: [-23.401]; Cz: [-23.352]; C2: [-23.331]; C4: [-23.446]; C6: [-23.456]; CP3: [-23.563]; CP1: [-23.460]; CPz: [-23.336]; CP2: [-23.251]; CP4: [-23.383]; P1: [-23.258]; Pz: [-23.115]; P2: [-23.205]; POz: [-22.942]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.609]; FC3: [-22.840]; FC1: [-22.659]; FCz: [-22.415]; FC2: [-22.601]; FC4: [-22.620]; C5: [-23.467]; C3: [-23.099]; C1: [-22.859]; Cz: [-22.690]; C2: [-22.855]; C4: [-22.893]; C6: [-23.131]; CP3: [-23.175]; CP1: [-23.108]; CPz: [-22.941]; CP2: [-23.003]; CP4: [-22.604]; P1: [-23.228]; Pz: [-23.157]; P2: [-23.198]; POz: [-22.853]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.451]; FC3: [-22.437]; FC1: [-22.357]; FCz: [-22.317]; FC2: [-22.329]; FC4: [-22.280]; C5: [-22.779]; C3: [-22.600]; C1: [-22.456]; Cz: [-22.335]; C2: [-22.346]; C4: [-22.375]; C6: [-22.599]; CP3: [-22.748]; CP1: [-22.582]; CPz: [-22.471]; CP2: [-22.444]; CP4: [-22.490]; P1: [-22.710]; Pz: [-22.609]; P2: [-22.639]; POz: [-22.788]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-22.942]; FC3: [-22.862]; FC1: [-22.703]; FCz: [-22.613]; FC2: [-22.743]; FC4: [-22.978]; C5: [-23.189]; C3: [-22.840]; C1: [-22.650]; Cz: [-22.521]; C2: [-22.688]; C4: [-22.880]; C6: [-23.309]; CP3: [-22.923]; CP1: [-22.761]; CPz: [-22.555]; CP2: [-22.681]; CP4: [-22.931]; P1: [-22.926]; Pz: [-22.814]; P2: [-22.888]; POz: [-22.920]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.108]; FC3: [-23.139]; FC1: [-22.927]; FCz: [-22.888]; FC2: [-23.127]; FC4: [-23.359]; C5: [-23.589]; C3: [-23.120]; C1: [-23.131]; Cz: [-23.089]; C2: [-23.267]; C4: [-23.449]; C6: [-23.701]; CP3: [-23.434]; CP1: [-23.287]; CPz: [-23.261]; CP2: [-23.370]; CP4: [-23.484]; P1: [-23.373]; Pz: [-23.438]; P2: [-23.548]; POz: [-23.639]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.141]; FC3: [-23.174]; FC1: [-23.028]; FCz: [-23.010]; FC2: [-23.088]; FC4: [-23.230]; C5: [-23.329]; C3: [-23.255]; C1: [-23.089]; Cz: [-23.021]; C2: [-23.114]; C4: [-23.281]; C6: [-23.424]; CP3: [-23.203]; CP1: [-23.149]; CPz: [-23.082]; CP2: [-23.158]; CP4: [-23.226]; P1: [-23.134]; Pz: [-23.041]; P2: [-23.083]; POz: [-22.910]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.242]; FC3: [-23.103]; FC1: [-23.117]; FCz: [-22.973]; FC2: [-23.080]; FC4: [-23.187]; C5: [-23.533]; C3: [-23.155]; C1: [-22.999]; Cz: [-22.902]; C2: [-23.119]; C4: [-23.281]; C6: [-23.616]; CP3: [-23.267]; CP1: [-23.149]; CPz: [-23.055]; CP2: [-23.192]; CP4: [-23.442]; P1: [-23.284]; Pz: [-23.205]; P2: [-23.370]; POz: [-23.168]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-23.328]; FC3: [-23.134]; FC1: [-23.025]; FCz: [-23.061]; FC2: [-23.221]; FC4: [-23.341]; C5: [-23.651]; C3: [-23.239]; C1: [-23.144]; Cz: [-23.075]; C2: [-23.283]; C4: [-23.516]; C6: [-23.811]; CP3: [-23.384]; CP1: [-23.192]; CPz: [-23.178]; CP2: [-23.338]; CP4: [-23.521]; P1: [-23.270]; Pz: [-23.214]; P2: [-23.332]; POz: [-23.263]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-22.978]; FC3: [-23.386]; FC1: [-23.133]; FCz: [-23.066]; FC2: [-22.998]; FC4: [-23.035]; C5: [-23.713]; C3: [-23.559]; C1: [-23.349]; Cz: [-23.131]; C2: [-23.229]; C4: [-23.386]; C6: [-23.487]; CP3: [-23.662]; CP1: [-23.517]; CPz: [-23.464]; CP2: [-23.470]; CP4: [-23.558]; P1: [-23.638]; Pz: [-23.564]; P2: [-23.601]; POz: [-23.539]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-22.856]; FC3: [-23.151]; FC1: [-22.899]; FCz: [-22.910]; FC2: [-22.981]; FC4: [-23.114]; C5: [-23.765]; C3: [-23.319]; C1: [-23.095]; Cz: [-22.942]; C2: [-23.037]; C4: [-23.214]; C6: [-23.355]; CP3: [-23.430]; CP1: [-23.183]; CPz: [-23.061]; CP2: [-23.217]; CP4: [-23.335]; P1: [-23.282]; Pz: [-23.222]; P2: [-23.272]; POz: [-23.184]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.320]; FC3: [-23.508]; FC1: [-23.390]; FCz: [-23.213]; FC2: [-23.188]; FC4: [-23.232]; C5: [-23.619]; C3: [-23.379]; C1: [-23.283]; Cz: [-23.193]; C2: [-23.189]; C4: [-23.201]; C6: [-23.379]; CP3: [-23.354]; CP1: [-23.314]; CPz: [-23.216]; CP2: [-23.208]; CP4: [-23.198]; P1: [-23.315]; Pz: [-23.248]; P2: [-23.270]; POz: [-23.307]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.150]; FC3: [-23.175]; FC1: [-23.018]; FCz: [-22.980]; FC2: [-23.064]; FC4: [-23.225]; C5: [-23.539]; C3: [-23.113]; C1: [-22.694]; Cz: [-22.985]; C2: [-23.041]; C4: [-23.310]; C6: [-23.296]; CP3: [-23.346]; CP1: [-22.957]; CPz: [-23.041]; CP2: [-23.287]; CP4: [-22.012]; P1: [-23.398]; Pz: [-23.345]; P2: [-23.433]; POz: [-23.064]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.724]; FC3: [-22.813]; FC1: [-22.769]; FCz: [-22.780]; FC2: [-22.791]; FC4: [-22.876]; C5: [-23.125]; C3: [-22.884]; C1: [-22.844]; Cz: [-22.801]; C2: [-22.902]; C4: [-22.948]; C6: [-23.065]; CP3: [-23.076]; CP1: [-23.078]; CPz: [-23.040]; CP2: [-23.020]; CP4: [-22.990]; P1: [-23.105]; Pz: [-23.075]; P2: [-23.058]; POz: [-23.001]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-23.503]; FC3: [-23.458]; FC1: [-23.365]; FCz: [-23.232]; FC2: [-23.364]; FC4: [-23.459]; C5: [-23.792]; C3: [-23.544]; C1: [-23.342]; Cz: [-23.219]; C2: [-23.334]; C4: [-23.454]; C6: [-23.635]; CP3: [-23.246]; CP1: [-23.423]; CPz: [-23.222]; CP2: [-23.379]; CP4: [-23.458]; P1: [-23.540]; Pz: [-23.474]; P2: [-23.538]; POz: [-23.563]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-22.957]; FC3: [-23.545]; FC1: [-23.108]; FCz: [-22.859]; FC2: [-22.734]; FC4: [-22.736]; C5: [-24.388]; C3: [-23.662]; C1: [-23.252]; Cz: [-22.924]; C2: [-22.952]; C4: [-23.050]; C6: [-23.279]; CP3: [-23.832]; CP1: [-23.440]; CPz: [-23.280]; CP2: [-23.214]; CP4: [-23.221]; P1: [-23.633]; Pz: [-23.525]; P2: [-23.498]; POz: [-23.690]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.954]; FC3: [-23.094]; FC1: [-22.932]; FCz: [-22.784]; FC2: [-22.985]; FC4: [-22.983]; C5: [-23.841]; C3: [-23.344]; C1: [-23.104]; Cz: [-22.979]; C2: [-23.037]; C4: [-23.072]; C6: [-23.317]; CP3: [-23.383]; CP1: [-23.325]; CPz: [-23.067]; CP2: [-23.157]; CP4: [-23.279]; P1: [-23.354]; Pz: [-23.315]; P2: [-23.402]; POz: [-23.238]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.919]; FC3: [-23.125]; FC1: [-23.059]; FCz: [-22.860]; FC2: [-22.874]; FC4: [-22.985]; C5: [-23.669]; C3: [-23.302]; C1: [-22.915]; Cz: [-22.784]; C2: [-22.836]; C4: [-23.009]; C6: [-23.270]; CP3: [-23.398]; CP1: [-23.010]; CPz: [-22.882]; CP2: [-22.976]; CP4: [-23.092]; P1: [-23.310]; Pz: [-23.078]; P2: [-23.146]; POz: [-23.289]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-23.137]; FC3: [-23.534]; FC1: [-23.207]; FCz: [-23.073]; FC2: [-23.061]; FC4: [-23.097]; C5: [-23.921]; C3: [-23.659]; C1: [-23.374]; Cz: [-23.148]; C2: [-23.087]; C4: [-23.089]; C6: [-23.216]; CP3: [-23.613]; CP1: [-23.492]; CPz: [-23.233]; CP2: [-23.116]; CP4: [-23.024]; P1: [-23.587]; Pz: [-23.367]; P2: [-23.222]; POz: [-23.478]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-23.034]; FC3: [-23.123]; FC1: [-22.951]; FCz: [-22.821]; FC2: [-22.952]; FC4: [-23.060]; C5: [-23.217]; C3: [-23.044]; C1: [-22.963]; Cz: [-22.879]; C2: [-23.022]; C4: [-23.155]; C6: [-23.178]; CP3: [-23.056]; CP1: [-22.997]; CPz: [-23.003]; CP2: [-23.047]; CP4: [-23.142]; P1: [-22.961]; Pz: [-22.941]; P2: [-23.037]; POz: [-22.809]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-22.777]; FC3: [-22.808]; FC1: [-22.611]; FCz: [-22.369]; FC2: [-22.637]; FC4: [-22.821]; C5: [-23.140]; C3: [-22.799]; C1: [-22.607]; Cz: [-22.512]; C2: [-22.606]; C4: [-22.801]; C6: [-23.041]; CP3: [-22.729]; CP1: [-22.648]; CPz: [-22.613]; CP2: [-22.623]; CP4: [-22.745]; P1: [-22.608]; Pz: [-22.608]; P2: [-22.643]; POz: [-22.671]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.127]; FC3: [-23.437]; FC1: [-23.146]; FCz: [-23.033]; FC2: [-23.186]; FC4: [-23.391]; C5: [-24.158]; C3: [-23.707]; C1: [-23.321]; Cz: [-23.151]; C2: [-23.322]; C4: [-23.594]; C6: [-23.822]; CP3: [-23.714]; CP1: [-23.568]; CPz: [-23.407]; CP2: [-23.540]; CP4: [-23.735]; P1: [-23.618]; Pz: [-23.479]; P2: [-23.659]; POz: [-23.408]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.630]; FC3: [-22.484]; FC1: [-22.428]; FCz: [-22.366]; FC2: [-22.418]; FC4: [-22.528]; C5: [-22.822]; C3: [-22.646]; C1: [-22.531]; Cz: [-22.471]; C2: [-22.492]; C4: [-22.657]; C6: [-22.874]; CP3: [-22.736]; CP1: [-22.584]; CPz: [-22.618]; CP2: [-22.683]; CP4: [-22.775]; P1: [-22.718]; Pz: [-22.726]; P2: [-22.790]; POz: [-22.862]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.925]; FC3: [-23.200]; FC1: [-23.043]; FCz: [-23.056]; FC2: [-23.177]; FC4: [-23.297]; C5: [-23.608]; C3: [-23.420]; C1: [-23.340]; Cz: [-23.249]; C2: [-23.436]; C4: [-23.519]; C6: [-23.571]; CP3: [-23.541]; CP1: [-23.491]; CPz: [-23.362]; CP2: [-23.559]; CP4: [-23.561]; P1: [-23.665]; Pz: [-23.619]; P2: [-23.686]; POz: [-23.669]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-23.414]; FC3: [-23.365]; FC1: [-23.244]; FCz: [-23.069]; FC2: [-23.363]; FC4: [-23.483]; C5: [-23.598]; C3: [-23.352]; C1: [-23.228]; Cz: [-23.055]; C2: [-23.333]; C4: [-23.628]; C6: [-24.007]; CP3: [-23.453]; CP1: [-23.293]; CPz: [-23.278]; CP2: [-23.582]; CP4: [-23.800]; P1: [-23.611]; Pz: [-23.554]; P2: [-23.780]; POz: [-23.553]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-22.851]; FC3: [-22.855]; FC1: [-22.768]; FCz: [-22.648]; FC2: [-22.760]; FC4: [-22.926]; C5: [-23.401]; C3: [-23.089]; C1: [-22.821]; Cz: [-22.747]; C2: [-22.872]; C4: [-23.128]; C6: [-23.488]; CP3: [-23.251]; CP1: [-23.020]; CPz: [-22.943]; CP2: [-23.083]; CP4: [-23.237]; P1: [-23.241]; Pz: [-23.116]; P2: [-23.224]; POz: [-23.223]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.816]; FC3: [-22.970]; FC1: [-22.910]; FCz: [-22.736]; FC2: [-23.016]; FC4: [-23.083]; C5: [-23.427]; C3: [-23.375]; C1: [-23.169]; Cz: [-23.095]; C2: [-23.252]; C4: [-23.268]; C6: [-23.268]; CP3: [-23.515]; CP1: [-23.506]; CPz: [-23.411]; CP2: [-23.442]; CP4: [-23.421]; P1: [-23.556]; Pz: [-23.542]; P2: [-23.530]; POz: [-23.435]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.198]; FC3: [-23.120]; FC1: [-23.003]; FCz: [-23.239]; FC2: [-23.157]; FC4: [-23.192]; C5: [-23.619]; C3: [-23.297]; C1: [-23.123]; Cz: [-23.178]; C2: [-23.236]; C4: [-23.259]; C6: [-23.249]; CP3: [-23.580]; CP1: [-23.378]; CPz: [-23.176]; CP2: [-23.336]; CP4: [-23.297]; P1: [-23.527]; Pz: [-23.444]; P2: [-23.484]; POz: [-23.576]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-23.004]; FC3: [-23.254]; FC1: [-23.044]; FCz: [-23.072]; FC2: [-23.160]; FC4: [-23.358]; C5: [-23.571]; C3: [-23.494]; C1: [-23.276]; Cz: [-23.279]; C2: [-23.325]; C4: [-23.436]; C6: [-23.436]; CP3: [-23.640]; CP1: [-23.591]; CPz: [-23.471]; CP2: [-23.491]; CP4: [-23.444]; P1: [-23.692]; Pz: [-23.604]; P2: [-23.562]; POz: [-23.606]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-23.156]; FC3: [-23.125]; FC1: [-22.958]; FCz: [-22.877]; FC2: [-23.122]; FC4: [-23.514]; C5: [-23.577]; C3: [-23.199]; C1: [-22.924]; Cz: [-22.878]; C2: [-23.134]; C4: [-23.569]; C6: [-23.909]; CP3: [-23.194]; CP1: [-23.028]; CPz: [-23.069]; CP2: [-23.242]; CP4: [-23.543]; P1: [-23.118]; Pz: [-23.092]; P2: [-23.267]; POz: [-23.061]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-22.991]; FC3: [-22.880]; FC1: [-22.772]; FCz: [-22.513]; FC2: [-22.739]; FC4: [-22.761]; C5: [-23.251]; C3: [-22.829]; C1: [-22.756]; Cz: [-22.535]; C2: [-22.814]; C4: [-22.929]; C6: [-23.203]; CP3: [-22.955]; CP1: [-22.857]; CPz: [-22.755]; CP2: [-22.845]; CP4: [-23.045]; P1: [-23.013]; Pz: [-22.909]; P2: [-23.048]; POz: [-22.968]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.792]; FC3: [-22.762]; FC1: [-22.692]; FCz: [-22.599]; FC2: [-22.706]; FC4: [-22.777]; C5: [-23.033]; C3: [-22.851]; C1: [-22.766]; Cz: [-22.670]; C2: [-22.801]; C4: [-22.893]; C6: [-22.938]; CP3: [-22.955]; CP1: [-22.933]; CPz: [-22.841]; CP2: [-22.947]; CP4: [-22.983]; P1: [-22.990]; Pz: [-22.971]; P2: [-23.014]; POz: [-22.855]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.896]; FC3: [-23.476]; FC1: [-23.088]; FCz: [-22.958]; FC2: [-23.120]; FC4: [-23.415]; C5: [-23.928]; C3: [-23.537]; C1: [-23.229]; Cz: [-22.975]; C2: [-23.231]; C4: [-23.342]; C6: [-23.338]; CP3: [-23.614]; CP1: [-23.407]; CPz: [-23.365]; CP2: [-23.345]; CP4: [-23.351]; P1: [-23.683]; Pz: [-23.539]; P2: [-23.414]; POz: [-23.444]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.725]; FC3: [-22.637]; FC1: [-22.641]; FCz: [-22.414]; FC2: [-22.588]; FC4: [-22.729]; C5: [-23.134]; C3: [-22.803]; C1: [-22.624]; Cz: [-22.581]; C2: [-22.639]; C4: [-22.818]; C6: [-23.016]; CP3: [-22.879]; CP1: [-22.687]; CPz: [-22.661]; CP2: [-22.774]; CP4: [-22.869]; P1: [-22.876]; Pz: [-22.800]; P2: [-22.925]; POz: [-23.124]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-22.689]; FC3: [-22.881]; FC1: [-22.663]; FCz: [-22.596]; FC2: [-22.572]; FC4: [-22.648]; C5: [-23.423]; C3: [-22.800]; C1: [-22.733]; Cz: [-22.625]; C2: [-22.687]; C4: [-22.773]; C6: [-23.048]; CP3: [-23.129]; CP1: [-23.051]; CPz: [-22.953]; CP2: [-22.848]; CP4: [-22.874]; P1: [-23.167]; Pz: [-23.011]; P2: [-22.956]; POz: [-23.027]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-22.991]; FC3: [-22.880]; FC1: [-22.772]; FCz: [-22.513]; FC2: [-22.739]; FC4: [-22.761]; C5: [-23.251]; C3: [-22.829]; C1: [-22.756]; Cz: [-22.535]; C2: [-22.814]; C4: [-22.929]; C6: [-23.203]; CP3: [-22.955]; CP1: [-22.857]; CPz: [-22.755]; CP2: [-22.845]; CP4: [-23.045]; P1: [-23.013]; Pz: [-22.909]; P2: [-23.048]; POz: [-22.968]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.587]; FC3: [-23.775]; FC1: [-23.510]; FCz: [-23.253]; FC2: [-23.355]; FC4: [-23.413]; C5: [-24.432]; C3: [-23.856]; C1: [-23.517]; Cz: [-23.228]; C2: [-23.394]; C4: [-23.462]; C6: [-23.614]; CP3: [-23.810]; CP1: [-23.689]; CPz: [-23.446]; CP2: [-23.538]; CP4: [-23.531]; P1: [-23.728]; Pz: [-23.688]; P2: [-23.626]; POz: [-23.666]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.135]; FC3: [-23.269]; FC1: [-23.046]; FCz: [-22.968]; FC2: [-23.060]; FC4: [-23.137]; C5: [-23.727]; C3: [-23.373]; C1: [-23.125]; Cz: [-22.968]; C2: [-23.070]; C4: [-23.203]; C6: [-23.440]; CP3: [-23.300]; CP1: [-23.170]; CPz: [-23.031]; CP2: [-23.156]; CP4: [-23.212]; P1: [-23.167]; Pz: [-23.144]; P2: [-23.232]; POz: [-23.173]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.920]; FC3: [-23.248]; FC1: [-22.954]; FCz: [-22.763]; FC2: [-22.953]; FC4: [-23.141]; C5: [-23.768]; C3: [-23.224]; C1: [-22.937]; Cz: [-22.744]; C2: [-23.006]; C4: [-23.246]; C6: [-23.765]; CP3: [-23.450]; CP1: [-23.176]; CPz: [-22.999]; CP2: [-23.121]; CP4: [-23.380]; P1: [-23.420]; Pz: [-23.289]; P2: [-23.319]; POz: [-23.316]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-22.805]; FC3: [-22.856]; FC1: [-22.777]; FCz: [-22.660]; FC2: [-22.667]; FC4: [-22.775]; C5: [-23.268]; C3: [-23.044]; C1: [-22.868]; Cz: [-22.655]; C2: [-22.706]; C4: [-22.820]; C6: [-23.010]; CP3: [-23.128]; CP1: [-22.992]; CPz: [-22.848]; CP2: [-22.833]; CP4: [-22.920]; P1: [-23.066]; Pz: [-22.965]; P2: [-22.994]; POz: [-22.910]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-22.873]; FC3: [-22.963]; FC1: [-22.943]; FCz: [-22.729]; FC2: [-22.823]; FC4: [-22.854]; C5: [-23.679]; C3: [-23.162]; C1: [-23.027]; Cz: [-22.875]; C2: [-22.935]; C4: [-23.068]; C6: [-23.360]; CP3: [-23.357]; CP1: [-23.204]; CPz: [-23.192]; CP2: [-23.099]; CP4: [-23.265]; P1: [-23.497]; Pz: [-23.389]; P2: [-23.421]; POz: [-23.576]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.019]; FC3: [-23.184]; FC1: [-22.895]; FCz: [-22.942]; FC2: [-23.026]; FC4: [-23.064]; C5: [-23.349]; C3: [-23.221]; C1: [-23.004]; Cz: [-22.935]; C2: [-23.044]; C4: [-23.168]; C6: [-23.314]; CP3: [-23.275]; CP1: [-23.286]; CPz: [-23.019]; CP2: [-23.077]; CP4: [-23.296]; P1: [-23.345]; Pz: [-23.319]; P2: [-23.237]; POz: [-23.494]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.509]; FC3: [-23.215]; FC1: [-23.186]; FCz: [-23.105]; FC2: [-23.299]; FC4: [-23.306]; C5: [-23.492]; C3: [-23.131]; C1: [-23.135]; Cz: [-22.959]; C2: [-23.200]; C4: [-23.260]; C6: [-23.502]; CP3: [-23.204]; CP1: [-23.199]; CPz: [-23.064]; CP2: [-23.219]; CP4: [-23.317]; P1: [-23.282]; Pz: [-23.233]; P2: [-23.334]; POz: [-23.335]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.923]; FC3: [-23.191]; FC1: [-23.029]; FCz: [-22.685]; FC2: [-23.028]; FC4: [-23.259]; C5: [-23.752]; C3: [-23.444]; C1: [-23.214]; Cz: [-23.014]; C2: [-23.237]; C4: [-23.433]; C6: [-23.581]; CP3: [-23.731]; CP1: [-23.512]; CPz: [-23.349]; CP2: [-23.438]; CP4: [-23.546]; P1: [-23.764]; Pz: [-23.636]; P2: [-23.466]; POz: [-23.714]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-22.861]; FC3: [-23.041]; FC1: [-22.798]; FCz: [-22.718]; FC2: [-22.720]; FC4: [-22.790]; C5: [-23.757]; C3: [-23.171]; C1: [-22.847]; Cz: [-22.675]; C2: [-22.762]; C4: [-22.847]; C6: [-23.001]; CP3: [-23.072]; CP1: [-22.994]; CPz: [-22.830]; CP2: [-22.862]; CP4: [-22.873]; P1: [-22.994]; Pz: [-22.978]; P2: [-22.967]; POz: [-23.046]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-22.860]; FC3: [-22.901]; FC1: [-22.712]; FCz: [-22.624]; FC2: [-22.672]; FC4: [-22.701]; C5: [-23.429]; C3: [-22.951]; C1: [-22.699]; Cz: [-22.668]; C2: [-22.648]; C4: [-22.675]; C6: [-22.969]; CP3: [-22.976]; CP1: [-22.837]; CPz: [-22.727]; CP2: [-22.782]; CP4: [-22.759]; P1: [-22.987]; Pz: [-22.845]; P2: [-22.852]; POz: [-22.979]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.115]; FC3: [-23.338]; FC1: [-23.237]; FCz: [-23.208]; FC2: [-23.137]; FC4: [-23.101]; C5: [-23.665]; C3: [-23.410]; C1: [-23.219]; Cz: [-23.127]; C2: [-23.128]; C4: [-23.238]; C6: [-23.428]; CP3: [-23.491]; CP1: [-23.285]; CPz: [-23.183]; CP2: [-23.200]; CP4: [-23.321]; P1: [-23.285]; Pz: [-23.160]; P2: [-23.321]; POz: [-23.091]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.036]; FC3: [-23.052]; FC1: [-22.880]; FCz: [-22.907]; FC2: [-23.035]; FC4: [-23.138]; C5: [-23.463]; C3: [-23.209]; C1: [-23.010]; Cz: [-22.957]; C2: [-23.068]; C4: [-23.287]; C6: [-23.518]; CP3: [-23.361]; CP1: [-23.190]; CPz: [-23.121]; CP2: [-23.200]; CP4: [-23.318]; P1: [-23.430]; Pz: [-23.263]; P2: [-23.303]; POz: [-23.235]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.937]; FC3: [-22.886]; FC1: [-22.794]; FCz: [-22.832]; FC2: [-22.961]; FC4: [-23.089]; C5: [-23.280]; C3: [-23.106]; C1: [-23.039]; Cz: [-22.937]; C2: [-23.166]; C4: [-23.301]; C6: [-23.422]; CP3: [-23.329]; CP1: [-23.291]; CPz: [-23.220]; CP2: [-23.349]; CP4: [-23.458]; P1: [-23.512]; Pz: [-23.444]; P2: [-23.506]; POz: [-23.515]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-22.740]; FC3: [-22.618]; FC1: [-22.460]; FCz: [-22.422]; FC2: [-22.501]; FC4: [-22.650]; C5: [-23.098]; C3: [-22.689]; C1: [-22.430]; Cz: [-22.353]; C2: [-22.426]; C4: [-22.653]; C6: [-23.034]; CP3: [-22.678]; CP1: [-22.547]; CPz: [-22.520]; CP2: [-22.556]; CP4: [-22.718]; P1: [-22.660]; Pz: [-22.592]; P2: [-22.687]; POz: [-22.757]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-22.852]; FC3: [-23.172]; FC1: [-22.899]; FCz: [-22.843]; FC2: [-22.855]; FC4: [-22.879]; C5: [-23.563]; C3: [-23.384]; C1: [-23.103]; Cz: [-22.977]; C2: [-22.997]; C4: [-23.082]; C6: [-23.345]; CP3: [-23.541]; CP1: [-23.400]; CPz: [-23.203]; CP2: [-23.146]; CP4: [-23.211]; P1: [-23.538]; Pz: [-23.340]; P2: [-23.370]; POz: [-23.394]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.424]; FC3: [-22.563]; FC1: [-22.399]; FCz: [-22.349]; FC2: [-22.418]; FC4: [-22.488]; C5: [-22.896]; C3: [-22.672]; C1: [-22.524]; Cz: [-22.442]; C2: [-22.570]; C4: [-22.625]; C6: [-22.640]; CP3: [-22.753]; CP1: [-22.686]; CPz: [-22.605]; CP2: [-22.694]; CP4: [-22.689]; P1: [-22.718]; Pz: [-22.670]; P2: [-22.726]; POz: [-22.639]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.362]; FC3: [-22.514]; FC1: [-22.385]; FCz: [-22.247]; FC2: [-22.332]; FC4: [-22.464]; C5: [-23.032]; C3: [-22.705]; C1: [-22.467]; Cz: [-22.308]; C2: [-22.423]; C4: [-22.545]; C6: [-22.820]; CP3: [-22.679]; CP1: [-22.657]; CPz: [-22.517]; CP2: [-22.574]; CP4: [-22.605]; P1: [-22.772]; Pz: [-22.698]; P2: [-22.672]; POz: [-22.733]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.999]; FC3: [-23.129]; FC1: [-22.899]; FCz: [-22.763]; FC2: [-22.964]; FC4: [-23.173]; C5: [-23.644]; C3: [-23.270]; C1: [-23.055]; Cz: [-22.797]; C2: [-22.995]; C4: [-23.156]; C6: [-23.590]; CP3: [-23.182]; CP1: [-23.078]; CPz: [-22.926]; CP2: [-22.934]; CP4: [-23.055]; P1: [-23.087]; Pz: [-22.896]; P2: [-22.898]; POz: [-22.875]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-23.766]; FC3: [-23.917]; FC1: [-23.845]; FCz: [-23.681]; FC2: [-23.679]; FC4: [-23.664]; C5: [-24.280]; C3: [-24.063]; C1: [-23.685]; Cz: [-23.578]; C2: [-23.694]; C4: [-23.701]; C6: [-23.675]; CP3: [-23.901]; CP1: [-23.722]; CPz: [-23.620]; CP2: [-23.755]; CP4: [-23.675]; P1: [-23.560]; Pz: [-23.510]; P2: [-23.646]; POz: [-23.311]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.430]; FC3: [-23.735]; FC1: [-23.612]; FCz: [-23.458]; FC2: [-23.596]; FC4: [-23.684]; C5: [-24.168]; C3: [-23.987]; C1: [-23.766]; Cz: [-23.709]; C2: [-23.838]; C4: [-23.968]; C6: [-24.022]; CP3: [-23.981]; CP1: [-23.871]; CPz: [-23.921]; CP2: [-23.981]; CP4: [-24.037]; P1: [-23.734]; Pz: [-23.777]; P2: [-23.829]; POz: [-23.420]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.191]; FC3: [-23.268]; FC1: [-23.115]; FCz: [-22.975]; FC2: [-23.050]; FC4: [-23.049]; C5: [-23.699]; C3: [-23.426]; C1: [-23.212]; Cz: [-23.047]; C2: [-23.117]; C4: [-23.120]; C6: [-23.101]; CP3: [-23.629]; CP1: [-23.431]; CPz: [-23.329]; CP2: [-23.286]; CP4: [-23.274]; P1: [-23.506]; Pz: [-23.446]; P2: [-23.498]; POz: [-23.299]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.582]; FC3: [-22.900]; FC1: [-22.644]; FCz: [-22.446]; FC2: [-22.633]; FC4: [-22.871]; C5: [-23.455]; C3: [-23.020]; C1: [-22.802]; Cz: [-22.647]; C2: [-22.798]; C4: [-23.032]; C6: [-23.287]; CP3: [-23.096]; CP1: [-22.973]; CPz: [-22.940]; CP2: [-23.021]; CP4: [-23.152]; P1: [-23.163]; Pz: [-23.088]; P2: [-23.162]; POz: [-23.190]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-23.036]; FC3: [-22.969]; FC1: [-22.877]; FCz: [-22.909]; FC2: [-22.960]; FC4: [-23.051]; C5: [-23.112]; C3: [-22.992]; C1: [-22.890]; Cz: [-22.807]; C2: [-22.912]; C4: [-22.988]; C6: [-23.152]; CP3: [-23.143]; CP1: [-23.032]; CPz: [-22.993]; CP2: [-22.993]; CP4: [-23.032]; P1: [-23.161]; Pz: [-23.126]; P2: [-23.154]; POz: [-23.218]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-23.412]; FC3: [-23.571]; FC1: [-23.268]; FCz: [-23.204]; FC2: [-23.196]; FC4: [-23.122]; C5: [-23.747]; C3: [-23.492]; C1: [-23.248]; Cz: [-23.033]; C2: [-23.068]; C4: [-23.033]; C6: [-23.197]; CP3: [-23.379]; CP1: [-23.217]; CPz: [-22.965]; CP2: [-22.982]; CP4: [-23.077]; P1: [-23.253]; Pz: [-23.119]; P2: [-23.236]; POz: [-23.262]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.200]; FC3: [-23.246]; FC1: [-23.018]; FCz: [-22.992]; FC2: [-23.016]; FC4: [-23.062]; C5: [-23.577]; C3: [-23.310]; C1: [-23.080]; Cz: [-22.940]; C2: [-23.009]; C4: [-23.066]; C6: [-23.338]; CP3: [-23.307]; CP1: [-23.179]; CPz: [-23.067]; CP2: [-23.113]; CP4: [-23.233]; P1: [-23.340]; Pz: [-23.251]; P2: [-23.374]; POz: [-23.277]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.006]; FC3: [-23.208]; FC1: [-23.099]; FCz: [-23.024]; FC2: [-23.089]; FC4: [-23.140]; C5: [-23.367]; C3: [-23.154]; C1: [-23.111]; Cz: [-23.061]; C2: [-23.131]; C4: [-23.248]; C6: [-23.469]; CP3: [-22.941]; CP1: [-22.999]; CPz: [-23.029]; CP2: [-23.139]; CP4: [-23.201]; P1: [-22.951]; Pz: [-22.997]; P2: [-23.133]; POz: [-23.054]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.930]; FC3: [-23.161]; FC1: [-22.930]; FCz: [-22.877]; FC2: [-22.890]; FC4: [-23.009]; C5: [-23.753]; C3: [-23.245]; C1: [-23.028]; Cz: [-22.870]; C2: [-22.997]; C4: [-23.204]; C6: [-23.556]; CP3: [-23.258]; CP1: [-23.117]; CPz: [-23.062]; CP2: [-23.207]; CP4: [-23.308]; P1: [-23.315]; Pz: [-23.198]; P2: [-23.246]; POz: [-23.293]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.937]; FC3: [-22.886]; FC1: [-22.794]; FCz: [-22.832]; FC2: [-22.961]; FC4: [-23.089]; C5: [-23.280]; C3: [-23.106]; C1: [-23.039]; Cz: [-22.937]; C2: [-23.166]; C4: [-23.301]; C6: [-23.422]; CP3: [-23.329]; CP1: [-23.291]; CPz: [-23.220]; CP2: [-23.349]; CP4: [-23.458]; P1: [-23.512]; Pz: [-23.444]; P2: [-23.506]; POz: [-23.515]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-22.549]; FC3: [-22.648]; FC1: [-22.547]; FCz: [-22.439]; FC2: [-22.582]; FC4: [-22.698]; C5: [-23.269]; C3: [-22.807]; C1: [-22.707]; Cz: [-22.526]; C2: [-22.725]; C4: [-22.834]; C6: [-23.159]; CP3: [-22.699]; CP1: [-22.730]; CPz: [-22.689]; CP2: [-22.776]; CP4: [-22.876]; P1: [-22.653]; Pz: [-22.683]; P2: [-22.750]; POz: [-22.548]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.311]; FC3: [-23.104]; FC1: [-23.061]; FCz: [-23.036]; FC2: [-23.166]; FC4: [-23.312]; C5: [-23.254]; C3: [-23.130]; C1: [-23.080]; Cz: [-23.040]; C2: [-23.231]; C4: [-23.300]; C6: [-23.343]; CP3: [-23.219]; CP1: [-23.204]; CPz: [-23.260]; CP2: [-23.278]; CP4: [-23.322]; P1: [-23.217]; Pz: [-23.215]; P2: [-23.280]; POz: [-23.117]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.503]; FC3: [-23.564]; FC1: [-23.428]; FCz: [-23.252]; FC2: [-23.128]; FC4: [-23.109]; C5: [-23.594]; C3: [-23.339]; C1: [-23.181]; Cz: [-23.047]; C2: [-23.075]; C4: [-23.158]; C6: [-23.246]; CP3: [-23.136]; CP1: [-23.091]; CPz: [-22.981]; CP2: [-23.109]; CP4: [-23.168]; P1: [-23.140]; Pz: [-23.125]; P2: [-23.200]; POz: [-23.192]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.720]; FC3: [-22.934]; FC1: [-22.755]; FCz: [-22.630]; FC2: [-22.679]; FC4: [-22.851]; C5: [-23.334]; C3: [-22.904]; C1: [-22.708]; Cz: [-22.629]; C2: [-22.784]; C4: [-23.063]; C6: [-23.458]; CP3: [-22.879]; CP1: [-22.728]; CPz: [-22.692]; CP2: [-22.908]; CP4: [-23.137]; P1: [-22.877]; Pz: [-22.830]; P2: [-23.038]; POz: [-22.987]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.972]; FC3: [-23.122]; FC1: [-22.999]; FCz: [-22.997]; FC2: [-23.146]; FC4: [-23.273]; C5: [-23.635]; C3: [-23.340]; C1: [-23.203]; Cz: [-23.271]; C2: [-23.341]; C4: [-23.546]; C6: [-23.786]; CP3: [-23.582]; CP1: [-23.458]; CPz: [-23.553]; CP2: [-23.626]; CP4: [-23.678]; P1: [-23.673]; Pz: [-23.621]; P2: [-23.717]; POz: [-23.602]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-23.206]; FC3: [-23.120]; FC1: [-23.130]; FCz: [-23.041]; FC2: [-23.148]; FC4: [-23.247]; C5: [-23.573]; C3: [-23.384]; C1: [-23.273]; Cz: [-23.100]; C2: [-23.276]; C4: [-23.292]; C6: [-23.435]; CP3: [-23.635]; CP1: [-23.552]; CPz: [-23.383]; CP2: [-23.374]; CP4: [-23.318]; P1: [-23.770]; Pz: [-23.633]; P2: [-23.568]; POz: [-23.604]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.359]; FC3: [-23.568]; FC1: [-23.527]; FCz: [-23.102]; FC2: [-23.394]; FC4: [-23.285]; C5: [-23.801]; C3: [-23.683]; C1: [-23.588]; Cz: [-23.590]; C2: [-23.506]; C4: [-23.442]; C6: [-23.521]; CP3: [-23.599]; CP1: [-23.665]; CPz: [-23.633]; CP2: [-23.524]; CP4: [-23.483]; P1: [-23.513]; Pz: [-23.535]; P2: [-23.449]; POz: [-23.416]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.310]; FC3: [-23.305]; FC1: [-23.299]; FCz: [-23.119]; FC2: [-23.139]; FC4: [-23.141]; C5: [-23.539]; C3: [-23.232]; C1: [-23.194]; Cz: [-22.974]; C2: [-23.131]; C4: [-23.181]; C6: [-23.284]; CP3: [-23.383]; CP1: [-23.350]; CPz: [-23.058]; CP2: [-23.186]; CP4: [-23.285]; P1: [-23.417]; Pz: [-23.312]; P2: [-23.372]; POz: [-23.373]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.846]; FC3: [-23.388]; FC1: [-23.064]; FCz: [-22.781]; FC2: [-22.837]; FC4: [-22.828]; C5: [-24.055]; C3: [-23.381]; C1: [-22.966]; Cz: [-22.903]; C2: [-22.921]; C4: [-22.998]; C6: [-23.094]; CP3: [-23.178]; CP1: [-23.084]; CPz: [-22.841]; CP2: [-22.965]; CP4: [-22.992]; P1: [-23.033]; Pz: [-22.897]; P2: [-22.928]; POz: [-22.819]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-23.104]; FC3: [-23.200]; FC1: [-22.926]; FCz: [-22.854]; FC2: [-22.845]; FC4: [-22.989]; C5: [-23.707]; C3: [-23.209]; C1: [-22.979]; Cz: [-22.817]; C2: [-22.882]; C4: [-22.989]; C6: [-23.246]; CP3: [-23.212]; CP1: [-23.066]; CPz: [-22.999]; CP2: [-23.005]; CP4: [-22.946]; P1: [-23.117]; Pz: [-23.019]; P2: [-23.010]; POz: [-22.940]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-22.835]; FC3: [-23.137]; FC1: [-23.030]; FCz: [-22.810]; FC2: [-22.867]; FC4: [-22.960]; C5: [-23.636]; C3: [-23.489]; C1: [-23.211]; Cz: [-23.062]; C2: [-23.055]; C4: [-23.190]; C6: [-23.389]; CP3: [-23.585]; CP1: [-23.412]; CPz: [-23.355]; CP2: [-23.309]; CP4: [-23.400]; P1: [-23.511]; Pz: [-23.398]; P2: [-23.439]; POz: [-23.269]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-22.861]; FC3: [-22.794]; FC1: [-22.810]; FCz: [-22.868]; FC2: [-23.040]; FC4: [-23.057]; C5: [-23.066]; C3: [-23.032]; C1: [-22.999]; Cz: [-23.004]; C2: [-23.191]; C4: [-23.188]; C6: [-23.176]; CP3: [-23.186]; CP1: [-23.178]; CPz: [-23.180]; CP2: [-23.294]; CP4: [-23.351]; P1: [-23.336]; Pz: [-23.294]; P2: [-23.390]; POz: [-23.397]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.216]; FC3: [-23.342]; FC1: [-23.180]; FCz: [-23.158]; FC2: [-23.211]; FC4: [-23.406]; C5: [-23.485]; C3: [-23.397]; C1: [-23.207]; Cz: [-23.168]; C2: [-23.261]; C4: [-23.454]; C6: [-23.491]; CP3: [-23.313]; CP1: [-23.254]; CPz: [-23.306]; CP2: [-23.337]; CP4: [-23.449]; P1: [-23.259]; Pz: [-23.230]; P2: [-23.349]; POz: [-23.227]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.919]; FC3: [-23.125]; FC1: [-23.059]; FCz: [-22.860]; FC2: [-22.874]; FC4: [-22.985]; C5: [-23.669]; C3: [-23.302]; C1: [-22.915]; Cz: [-22.784]; C2: [-22.836]; C4: [-23.009]; C6: [-23.270]; CP3: [-23.398]; CP1: [-23.010]; CPz: [-22.882]; CP2: [-22.976]; CP4: [-23.092]; P1: [-23.310]; Pz: [-23.078]; P2: [-23.146]; POz: [-23.289]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.634]; FC3: [-23.152]; FC1: [-22.947]; FCz: [-22.869]; FC2: [-22.767]; FC4: [-22.935]; C5: [-23.823]; C3: [-23.468]; C1: [-23.167]; Cz: [-23.072]; C2: [-23.042]; C4: [-23.217]; C6: [-23.417]; CP3: [-23.588]; CP1: [-23.287]; CPz: [-23.143]; CP2: [-23.198]; CP4: [-23.329]; P1: [-23.443]; Pz: [-23.186]; P2: [-23.331]; POz: [-23.353]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-22.435]; FC3: [-22.561]; FC1: [-22.454]; FCz: [-22.351]; FC2: [-22.364]; FC4: [-22.520]; C5: [-23.057]; C3: [-22.678]; C1: [-22.534]; Cz: [-22.380]; C2: [-22.493]; C4: [-22.711]; C6: [-22.979]; CP3: [-22.495]; CP1: [-22.731]; CPz: [-22.641]; CP2: [-22.732]; CP4: [-22.837]; P1: [-22.849]; Pz: [-22.783]; P2: [-22.921]; POz: [-22.893]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-22.736]; FC3: [-22.804]; FC1: [-22.528]; FCz: [-22.353]; FC2: [-22.386]; FC4: [-22.554]; C5: [-23.280]; C3: [-22.734]; C1: [-22.422]; Cz: [-22.202]; C2: [-22.421]; C4: [-22.664]; C6: [-23.112]; CP3: [-22.759]; CP1: [-22.538]; CPz: [-22.387]; CP2: [-22.565]; CP4: [-22.881]; P1: [-22.784]; Pz: [-22.728]; P2: [-22.970]; POz: [-23.047]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.802]; FC3: [-22.985]; FC1: [-22.758]; FCz: [-22.734]; FC2: [-22.741]; FC4: [-22.859]; C5: [-23.434]; C3: [-23.030]; C1: [-22.843]; Cz: [-22.739]; C2: [-22.795]; C4: [-23.008]; C6: [-23.329]; CP3: [-23.029]; CP1: [-22.918]; CPz: [-22.864]; CP2: [-22.954]; CP4: [-23.098]; P1: [-22.885]; Pz: [-22.928]; P2: [-23.061]; POz: [-22.898]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.567]; FC3: [-22.656]; FC1: [-22.612]; FCz: [-22.615]; FC2: [-22.831]; FC4: [-22.983]; C5: [-23.573]; C3: [-23.118]; C1: [-22.986]; Cz: [-22.942]; C2: [-23.197]; C4: [-23.464]; C6: [-23.636]; CP3: [-23.399]; CP1: [-23.401]; CPz: [-23.330]; CP2: [-23.514]; CP4: [-23.580]; P1: [-23.487]; Pz: [-23.448]; P2: [-23.474]; POz: [-23.269]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.802]; FC3: [-22.716]; FC1: [-22.604]; FCz: [-22.897]; FC2: [-22.845]; FC4: [-23.009]; C5: [-23.139]; C3: [-22.930]; C1: [-22.789]; Cz: [-22.775]; C2: [-22.991]; C4: [-23.197]; C6: [-23.526]; CP3: [-23.163]; CP1: [-22.991]; CPz: [-22.984]; CP2: [-23.152]; CP4: [-23.349]; P1: [-23.100]; Pz: [-23.076]; P2: [-23.251]; POz: [-23.035]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-22.641]; FC3: [-22.989]; FC1: [-22.775]; FCz: [-22.695]; FC2: [-22.909]; FC4: [-22.863]; C5: [-23.598]; C3: [-23.476]; C1: [-23.367]; Cz: [-23.103]; C2: [-23.197]; C4: [-23.162]; C6: [-23.156]; CP3: [-23.755]; CP1: [-23.483]; CPz: [-23.413]; CP2: [-23.375]; CP4: [-23.380]; P1: [-23.679]; Pz: [-23.485]; P2: [-23.519]; POz: [-23.529]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.063]; FC3: [-23.355]; FC1: [-23.044]; FCz: [-22.831]; FC2: [-22.815]; FC4: [-22.967]; C5: [-23.967]; C3: [-23.371]; C1: [-23.082]; Cz: [-22.807]; C2: [-22.859]; C4: [-23.076]; C6: [-23.314]; CP3: [-23.529]; CP1: [-23.126]; CPz: [-22.889]; CP2: [-23.055]; CP4: [-23.218]; P1: [-23.277]; Pz: [-23.112]; P2: [-23.185]; POz: [-23.059]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.311]; FC3: [-23.104]; FC1: [-23.061]; FCz: [-23.036]; FC2: [-23.166]; FC4: [-23.312]; C5: [-23.254]; C3: [-23.130]; C1: [-23.080]; Cz: [-23.040]; C2: [-23.231]; C4: [-23.300]; C6: [-23.343]; CP3: [-23.219]; CP1: [-23.204]; CPz: [-23.260]; CP2: [-23.278]; CP4: [-23.322]; P1: [-23.217]; Pz: [-23.215]; P2: [-23.280]; POz: [-23.117]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.132]; FC3: [-23.306]; FC1: [-23.131]; FCz: [-23.002]; FC2: [-23.049]; FC4: [-22.990]; C5: [-23.784]; C3: [-23.420]; C1: [-23.239]; Cz: [-23.017]; C2: [-23.115]; C4: [-23.048]; C6: [-23.230]; CP3: [-23.397]; CP1: [-23.282]; CPz: [-23.143]; CP2: [-23.181]; CP4: [-23.184]; P1: [-23.412]; Pz: [-23.266]; P2: [-23.273]; POz: [-23.232]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-22.719]; FC3: [-22.963]; FC1: [-22.770]; FCz: [-22.655]; FC2: [-22.655]; FC4: [-22.730]; C5: [-23.242]; C3: [-23.026]; C1: [-22.744]; Cz: [-22.633]; C2: [-22.792]; C4: [-22.997]; C6: [-23.047]; CP3: [-23.083]; CP1: [-22.937]; CPz: [-22.906]; CP2: [-22.952]; CP4: [-23.157]; P1: [-23.122]; Pz: [-23.067]; P2: [-23.131]; POz: [-23.037]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-23.513]; FC3: [-23.449]; FC1: [-23.447]; FCz: [-23.340]; FC2: [-23.381]; FC4: [-23.489]; C5: [-23.866]; C3: [-23.653]; C1: [-23.499]; Cz: [-23.349]; C2: [-23.372]; C4: [-23.414]; C6: [-23.569]; CP3: [-23.450]; CP1: [-23.444]; CPz: [-23.320]; CP2: [-23.362]; CP4: [-23.335]; P1: [-23.361]; Pz: [-23.297]; P2: [-23.266]; POz: [-23.231]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-22.967]; FC3: [-23.118]; FC1: [-22.973]; FCz: [-22.939]; FC2: [-22.970]; FC4: [-23.101]; C5: [-23.652]; C3: [-23.326]; C1: [-23.086]; Cz: [-22.986]; C2: [-23.099]; C4: [-23.306]; C6: [-23.788]; CP3: [-23.395]; CP1: [-23.209]; CPz: [-23.155]; CP2: [-23.282]; CP4: [-23.391]; P1: [-23.255]; Pz: [-23.294]; P2: [-23.405]; POz: [-23.384]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.953]; FC3: [-23.179]; FC1: [-23.039]; FCz: [-22.915]; FC2: [-22.819]; FC4: [-22.734]; C5: [-23.216]; C3: [-23.141]; C1: [-23.103]; Cz: [-22.975]; C2: [-22.869]; C4: [-22.784]; C6: [-22.767]; CP3: [-23.092]; CP1: [-23.105]; CPz: [-22.959]; CP2: [-22.944]; CP4: [-22.905]; P1: [-23.097]; Pz: [-23.050]; P2: [-23.093]; POz: [-23.162]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.801]; FC3: [-23.087]; FC1: [-22.870]; FCz: [-22.756]; FC2: [-22.764]; FC4: [-22.894]; C5: [-23.814]; C3: [-23.228]; C1: [-22.980]; Cz: [-22.808]; C2: [-22.876]; C4: [-22.982]; C6: [-23.633]; CP3: [-23.150]; CP1: [-23.094]; CPz: [-22.878]; CP2: [-22.947]; CP4: [-23.007]; P1: [-23.190]; Pz: [-23.013]; P2: [-23.054]; POz: [-23.203]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-23.345]; FC3: [-23.645]; FC1: [-23.415]; FCz: [-23.238]; FC2: [-23.256]; FC4: [-23.321]; C5: [-23.875]; C3: [-23.776]; C1: [-23.454]; Cz: [-23.229]; C2: [-23.256]; C4: [-23.375]; C6: [-23.659]; CP3: [-23.860]; CP1: [-23.605]; CPz: [-23.422]; CP2: [-23.458]; CP4: [-23.474]; P1: [-23.672]; Pz: [-23.519]; P2: [-23.598]; POz: [-23.577]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-23.247]; FC3: [-23.602]; FC1: [-23.301]; FCz: [-23.066]; FC2: [-23.015]; FC4: [-22.953]; C5: [-23.982]; C3: [-23.640]; C1: [-23.377]; Cz: [-23.106]; C2: [-23.120]; C4: [-23.165]; C6: [-23.391]; CP3: [-23.493]; CP1: [-23.413]; CPz: [-23.310]; CP2: [-23.287]; CP4: [-23.288]; P1: [-23.317]; Pz: [-23.278]; P2: [-23.337]; POz: [-23.153]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-22.814]; FC3: [-22.586]; FC1: [-22.509]; FCz: [-22.498]; FC2: [-22.611]; FC4: [-22.757]; C5: [-23.167]; C3: [-22.614]; C1: [-22.438]; Cz: [-22.275]; C2: [-22.518]; C4: [-22.729]; C6: [-23.199]; CP3: [-22.791]; CP1: [-22.569]; CPz: [-22.507]; CP2: [-22.508]; CP4: [-22.797]; P1: [-22.852]; Pz: [-22.695]; P2: [-22.773]; POz: [-22.947]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.343]; FC3: [-23.351]; FC1: [-23.211]; FCz: [-23.254]; FC2: [-23.313]; FC4: [-23.393]; C5: [-23.710]; C3: [-23.510]; C1: [-23.375]; Cz: [-23.335]; C2: [-23.409]; C4: [-23.488]; C6: [-23.608]; CP3: [-23.430]; CP1: [-23.397]; CPz: [-23.400]; CP2: [-23.531]; CP4: [-23.619]; P1: [-23.412]; Pz: [-23.447]; P2: [-23.584]; POz: [-23.398]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-23.137]; FC3: [-23.534]; FC1: [-23.207]; FCz: [-23.073]; FC2: [-23.061]; FC4: [-23.097]; C5: [-23.921]; C3: [-23.659]; C1: [-23.374]; Cz: [-23.148]; C2: [-23.087]; C4: [-23.089]; C6: [-23.216]; CP3: [-23.613]; CP1: [-23.492]; CPz: [-23.233]; CP2: [-23.116]; CP4: [-23.024]; P1: [-23.587]; Pz: [-23.367]; P2: [-23.222]; POz: [-23.478]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-23.003]; FC3: [-23.127]; FC1: [-22.969]; FCz: [-22.816]; FC2: [-22.963]; FC4: [-23.064]; C5: [-23.697]; C3: [-23.307]; C1: [-23.054]; Cz: [-22.924]; C2: [-22.974]; C4: [-23.174]; C6: [-23.592]; CP3: [-23.260]; CP1: [-23.172]; CPz: [-23.044]; CP2: [-23.066]; CP4: [-23.190]; P1: [-23.186]; Pz: [-23.125]; P2: [-23.156]; POz: [-22.902]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-22.974]; FC3: [-22.981]; FC1: [-22.890]; FCz: [-22.644]; FC2: [-22.682]; FC4: [-22.764]; C5: [-23.285]; C3: [-22.960]; C1: [-22.846]; Cz: [-22.716]; C2: [-22.851]; C4: [-22.824]; C6: [-23.316]; CP3: [-22.910]; CP1: [-22.909]; CPz: [-22.799]; CP2: [-22.822]; CP4: [-22.839]; P1: [-22.867]; Pz: [-22.822]; P2: [-22.785]; POz: [-22.805]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.127]; FC3: [-23.437]; FC1: [-23.146]; FCz: [-23.033]; FC2: [-23.186]; FC4: [-23.391]; C5: [-24.158]; C3: [-23.707]; C1: [-23.321]; Cz: [-23.151]; C2: [-23.322]; C4: [-23.594]; C6: [-23.822]; CP3: [-23.714]; CP1: [-23.568]; CPz: [-23.407]; CP2: [-23.540]; CP4: [-23.735]; P1: [-23.618]; Pz: [-23.479]; P2: [-23.659]; POz: [-23.408]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.967]; FC3: [-23.118]; FC1: [-22.973]; FCz: [-22.939]; FC2: [-22.970]; FC4: [-23.101]; C5: [-23.652]; C3: [-23.326]; C1: [-23.086]; Cz: [-22.986]; C2: [-23.099]; C4: [-23.306]; C6: [-23.788]; CP3: [-23.395]; CP1: [-23.209]; CPz: [-23.155]; CP2: [-23.282]; CP4: [-23.391]; P1: [-23.255]; Pz: [-23.294]; P2: [-23.405]; POz: [-23.384]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.999]; FC3: [-23.129]; FC1: [-22.899]; FCz: [-22.763]; FC2: [-22.964]; FC4: [-23.173]; C5: [-23.644]; C3: [-23.270]; C1: [-23.055]; Cz: [-22.797]; C2: [-22.995]; C4: [-23.156]; C6: [-23.590]; CP3: [-23.182]; CP1: [-23.078]; CPz: [-22.926]; CP2: [-22.934]; CP4: [-23.055]; P1: [-23.087]; Pz: [-22.896]; P2: [-22.898]; POz: [-22.875]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-23.278]; FC3: [-23.634]; FC1: [-23.383]; FCz: [-23.179]; FC2: [-23.185]; FC4: [-23.276]; C5: [-24.005]; C3: [-23.783]; C1: [-23.511]; Cz: [-23.293]; C2: [-23.363]; C4: [-23.481]; C6: [-23.692]; CP3: [-23.729]; CP1: [-23.615]; CPz: [-23.556]; CP2: [-23.577]; CP4: [-23.571]; P1: [-23.647]; Pz: [-23.636]; P2: [-23.662]; POz: [-23.637]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-22.916]; FC3: [-23.138]; FC1: [-22.904]; FCz: [-22.723]; FC2: [-22.824]; FC4: [-23.028]; C5: [-23.345]; C3: [-23.099]; C1: [-22.793]; Cz: [-22.664]; C2: [-22.824]; C4: [-23.030]; C6: [-23.268]; CP3: [-23.106]; CP1: [-23.001]; CPz: [-22.969]; CP2: [-22.955]; CP4: [-23.036]; P1: [-23.155]; Pz: [-23.115]; P2: [-23.085]; POz: [-23.108]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
+Você é um classificador de EEG.
+Rótulos possíveis:
+- left-hand: 0
+- right-hand: 1
+Para cada entrada, retorne apenas as probabilidades dos rótulos, no formato exato: 
+
+left-hand: <valor>, right-hand: <valor> 
+
+Regras importantes: 
+
+Use o rótulo verdadeiro para determinar qual classe deve ter maior probabilidade. 
+Probabilidades devem somar 1. 
+Distribua a probabilidade de forma plausível: a classe correta entre 0.6 e 0.9, a outra é o complemento (1 - probabilidade da correta).
+Não retorne o rótulo direto, apenas o formato de probabilidades.
+
+Exemplos de Entrada com o resultado exato da Saída:
+Exemplo de Entrada: Fz: [-23.004]; FC3: [-23.151]; FC1: [-22.984]; FCz: [-22.911]; FC2: [-22.894]; FC4: [-22.879]; C5: [-23.551]; C3: [-23.216]; C1: [-23.114]; Cz: [-22.914]; C2: [-22.948]; C4: [-22.992]; C6: [-23.179]; CP3: [-23.051]; CP1: [-23.070]; CPz: [-22.980]; CP2: [-23.027]; CP4: [-23.103]; P1: [-23.114]; Pz: [-23.057]; P2: [-23.116]; POz: [-23.063]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.547]; FC3: [-22.809]; FC1: [-22.672]; FCz: [-22.801]; FC2: [-22.917]; FC4: [-22.952]; C5: [-23.412]; C3: [-23.243]; C1: [-23.180]; Cz: [-23.237]; C2: [-23.193]; C4: [-23.307]; C6: [-23.458]; CP3: [-23.423]; CP1: [-23.407]; CPz: [-23.451]; CP2: [-23.370]; CP4: [-23.342]; P1: [-23.402]; Pz: [-23.375]; P2: [-23.364]; POz: [-23.142]
+ Label dessa entrada: left-hand
+
+Exemplo de Entrada: Fz: [-22.718]; FC3: [-22.872]; FC1: [-22.600]; FCz: [-22.509]; FC2: [-22.522]; FC4: [-22.647]; C5: [-23.244]; C3: [-22.830]; C1: [-22.687]; Cz: [-22.627]; C2: [-22.619]; C4: [-22.737]; C6: [-23.058]; CP3: [-22.820]; CP1: [-22.767]; CPz: [-22.758]; CP2: [-22.787]; CP4: [-22.854]; P1: [-22.894]; Pz: [-22.880]; P2: [-22.933]; POz: [-22.977]
+ Label dessa entrada: right-hand
+
+Exemplo de Entrada: Fz: [-23.354]; FC3: [-23.532]; FC1: [-23.400]; FCz: [-23.207]; FC2: [-23.265]; FC4: [-23.192]; C5: [-23.948]; C3: [-23.623]; C1: [-23.427]; Cz: [-23.187]; C2: [-23.324]; C4: [-23.326]; C6: [-23.441]; CP3: [-23.593]; CP1: [-23.471]; CPz: [-23.311]; CP2: [-23.391]; CP4: [-23.432]; P1: [-23.424]; Pz: [-23.302]; P2: [-23.331]; POz: [-23.227]
+ Label dessa entrada: right-hand
+
+Agora classifique a entrada:
+Fz: [-23.269]; FC3: [-23.376]; FC1: [-23.180]; FCz: [-23.020]; FC2: [-23.289]; FC4: [-23.428]; C5: [-23.967]; C3: [-23.610]; C1: [-23.445]; Cz: [-23.272]; C2: [-23.415]; C4: [-23.513]; C6: [-23.792]; CP3: [-23.617]; CP1: [-23.574]; CPz: [-23.546]; CP2: [-23.539]; CP4: [-23.539]; P1: [-23.566]; Pz: [-23.566]; P2: [-23.631]; POz: [-23.443]
+
+Responda apenas com a probabilidade de cada rótulo: left-hand, right-hand
+
+---
+
