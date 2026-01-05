@@ -2,7 +2,7 @@ import pandas as pd
 from pathlib import Path
 from codes.metrics import classification_metrics
 import numpy as np
-
+import matplotlib.pyplot as plt
 def collect_metrics(
     dataset_name,
     keys,
@@ -29,6 +29,7 @@ def collect_metrics(
                 "recall": [],
                 "f1": [],
                 "auc": [],
+                "confusion_matrix": []
             }
             for clf in classifiers
         }
@@ -54,7 +55,7 @@ def collect_metrics(
                         df = pd.read_csv(filepath)
                        
                         metrics = classification_metrics(df)
-
+                        
                         for m in subject_metrics.keys():
                             subject_metrics[m].append(metrics[m])
                     # print(f"Subject{subject}: {subject_metrics}")
@@ -63,7 +64,12 @@ def collect_metrics(
                     if len(subject_metrics[m]) == 0:
                         result_dict[key][clf_name][m].append(np.nan)
                     else:
-                        result_dict[key][clf_name][m].append(np.mean(subject_metrics[m]))
+                        if m == "confusion_matrix":
+                            resul = np.array(subject_metrics[m][0]).tolist()
+                            result_dict[key][clf_name][m].append(resul)
+                        else:
+                            result_dict[key][clf_name][m].append(subject_metrics[m][0])
+
 
     return result_dict
 
@@ -99,7 +105,7 @@ def committee_metrics(
                     continue
 
                 df = pd.read_csv(filepath)
-                print(df.head())
+               
                
                 # assumindo que df tem colunas: y_true, y_pred
                 if y_true is None:
@@ -118,11 +124,10 @@ def committee_metrics(
 
 
     if not all_preds or y_true is None:
-        return {m: np.nan for m in ["accuracy", "precision", "recall", "f1", "auc"]}
+        return {m: np.nan for m in ["accuracy", "precision", "recall", "f1", "auc", "confusion_matrix"]}
 
     # concatena todas as predições
     df_committee = columns12.copy()
-
     committee_pred = np.concatenate(all_preds)
         # cria dataframe para passar na função de métricas adicionando as duas primeiras colunas do df original
     df_committee["true_label"] = y_true
@@ -131,9 +136,13 @@ def committee_metrics(
     metrics = classification_metrics(df_committee)
 
     finalmetrics = {}
-    for key in metrics.keys():
-        if key != "confusion_matrix" and key != "balanced_accuracy" and key != "mcc":
-            finalmetrics[key] = metrics[key]
+    for keyV in metrics.keys():
+        if  keyV != "balanced_accuracy" and keyV != "mcc":
+            if keyV == "confusion_matrix":
+                finalmetrics[keyV] = metrics[keyV].tolist()
+            else:
+                finalmetrics[keyV] = metrics[keyV]
+        
     return finalmetrics
 
 
@@ -167,7 +176,7 @@ def save_metric_csv(result_dict, dataset_name, metric, output_dir="finalResults/
 
 datasets_cfg = {
     "bciciv2a": {"maxSubjects": 9},
-    "bciciv2b": {"maxSubjects": 9},
+    # "bciciv2b": {"maxSubjects": 9},
     "cbcic": {"maxSubjects": 10},
 }
 
@@ -186,7 +195,7 @@ for dataset_name, cfg in datasets_cfg.items():
         cue_starts=cue_starts,
     )
 
-    for metric in ["accuracy", "precision", "recall", "f1", "auc"]:
+    for metric in ["accuracy", "precision", "recall", "f1", "auc", "confusion_matrix"]:
         df = save_metric_csv(result_dict, dataset_name, metric)
         # print(df.head())
 
