@@ -2,7 +2,8 @@ import pandas as pd
 from pathlib import Path
 from codes.metrics import classification_metrics
 import numpy as np
-
+import matplotlib.pyplot as plt
+import seaborn as sns
 import pandas as pd
 import numpy as np
 from pathlib import Path
@@ -33,6 +34,7 @@ def collect_metrics(
                 "recall": [],
                 "f1": [],
                 "auc": [],
+                "confusion_matrix": []
             }
             for clf in classic_clfs
         }
@@ -46,6 +48,7 @@ def collect_metrics(
             "recall": [],
             "f1": [],
             "auc": [],
+            "confusion_matrix": []
         }
         for mode in gpt_modes
     }
@@ -76,7 +79,7 @@ def collect_metrics(
                         df = pd.read_csv(filepath)
                         print("Checking file:", filepath)
                         metrics = classification_metrics(df)
-
+                        
                         for m in subject_metrics.keys():
                             subject_metrics[m].append(metrics[m])
 
@@ -85,7 +88,11 @@ def collect_metrics(
                     if len(subject_metrics[m]) == 0:
                         result_dict[key][clf_name][m].append(np.nan)
                     else:
-                        result_dict[key][clf_name][m].append(np.mean(subject_metrics[m]))
+                        if m == "confusion_matrix":
+                            resul = np.array(subject_metrics[m][0]).tolist()
+                            result_dict[key][clf_name][m].append(resul)
+                        else:
+                            result_dict[key][clf_name][m].append(subject_metrics[m][0])
 
     return result_dict
 
@@ -140,7 +147,7 @@ def committee_metrics(
 
 
     if not all_preds or y_true is None:
-        return {m: np.nan for m in ["accuracy", "precision", "recall", "f1", "auc"]}
+        return {m: np.nan for m in ["accuracy", "precision", "recall", "f1", "auc","confusion_matrix"]}
 
     # concatena todas as predições
     df_committee = columns12.copy()
@@ -153,9 +160,12 @@ def committee_metrics(
     metrics = classification_metrics(df_committee)
 
     finalmetrics = {}
-    for key in metrics.keys():
-        if key != "confusion_matrix" and key != "balanced_accuracy" and key != "mcc":
-            finalmetrics[key] = metrics[key]
+    for keyV in metrics.keys():
+        if keyV != "balanced_accuracy" and keyV != "mcc":
+            if keyV == "confusion_matrix":
+                finalmetrics[keyV] = metrics[keyV].tolist()
+            else:
+                finalmetrics[keyV] = metrics[keyV]
     return finalmetrics
 
 
@@ -209,7 +219,7 @@ for dataset_name, cfg in datasets_cfg.items():
         cue_starts=cue_starts,
     )
 
-    for metric in ["accuracy", "precision", "recall", "f1", "auc"]:
+    for metric in ["accuracy", "precision", "recall", "f1", "auc","confusion_matrix"]:
         df = save_metric_csv(result_dict, dataset_name, metric)
         if metric not in AllDAtaframes[dataset_name]:
             AllDAtaframes[dataset_name][metric] = None
@@ -281,16 +291,41 @@ def unify_dicts(dict1, dict2):
 
     return pd.DataFrame(rows)
 
-
 def make_tables_by_dataset(df):
     tables = {}
     for dataset, group in df.groupby("Dataset"):
-        # junta método + classificador para virar índice único
-        group["Modelo"] = group["Método"] + "_" + group["Classificador"]
+        # cria coluna Modelo
+        group = group.assign(Modelo=group["Método"] + "_" + group["Classificador"])
+        
+        # gera tabela pivot e salva
         pivot = group.pivot(index="Modelo", columns="Métrica", values="Valor")
         pivot.to_csv(f"Simplified_final_Table_{dataset}.csv")
         tables[dataset] = pivot
+
+        # cria pasta de saída se não existir
+
+        # para cada linha, plota apenas se for confusion_matrix
+        for _, row in group.iterrows():
+            if row["Métrica"] == "confusion_matrix":
+                modelo = row["Modelo"]
+                matriz = row["Valor"]   # assumindo que já é np.array 2x2
+
+                plt.figure(figsize=(6, 5))
+                sns.heatmap(matriz,
+                            annot=True, fmt=".0f", cmap="Blues",
+                            xticklabels=["Mão Esquerda", "Mão Direita"],
+                            yticklabels=["Mão Esquerda", "Mão Direita"])
+                
+                plt.title(f"Matriz de Confusão - {modelo}")
+                plt.xlabel("Predição")
+                plt.ylabel("Real")
+                plt.tight_layout()
+                
+                plt.savefig(f'finalResults/{dataset}/simplified_confusion_matrix_{modelo}.png')
+                plt.close()
+    
     return tables
+
 
 
 df_unificado = unify_dicts(AllDAtaframes, comiteData)

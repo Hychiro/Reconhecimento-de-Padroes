@@ -21,10 +21,6 @@ for dataset_name in ['cbcic', 'bciciv2a']:
         dataset = bciciv2a
         path = 'C:/Users/Hychiro/Documents/Ufjf/bci/testes no codigo do bciflow/Data/2a'
         maxSubjects = 10
-    elif dataset_name == 'bciciv2b':
-        dataset = bciciv2b
-        path = 'C:/Users/Hychiro/Documents/Ufjf/bci/testes no codigo do bciflow/Data/2b'
-        maxSubjects = 10
 
     resultDict = {'FBCSP': {}, 'CSP': {}}
 

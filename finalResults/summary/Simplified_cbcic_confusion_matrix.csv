@@ -1,0 +1,2 @@
+subject,CSP_LinearDiscriminantAnalysis,CSP_nbpw,CSP_XGBClassifier,FBCSP_LinearDiscriminantAnalysis,FBCSP_nbpw,FBCSP_XGBClassifier,GPT5_few,GPT5_zero
+0,"[[6, 6], [5, 7]]","[[8, 4], [5, 7]]","[[7, 5], [5, 7]]","[[6, 6], [5, 7]]","[[8, 4], [5, 7]]","[[7, 5], [5, 7]]","[[8, 4], [6, 6]]","[[0, 12], [0, 12]]"
