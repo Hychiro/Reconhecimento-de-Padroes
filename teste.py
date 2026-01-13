@@ -16,13 +16,13 @@ for dataset_name in ['cbcic', 'bciciv2a']:
     if dataset_name == 'cbcic':
         dataset = cbcic
         path = 'C:/Users/Hychiro/Documents/Ufjf/bci/testes no codigo do bciflow/Data/CBCIC'
-        maxSubjects = 11
+        
     elif dataset_name == 'bciciv2a':
         dataset = bciciv2a
         path = 'C:/Users/Hychiro/Documents/Ufjf/bci/testes no codigo do bciflow/Data/2a'
-        maxSubjects = 10
+        
 
-    resultDict = {'FBCSP': {}, 'CSP': {}}
+    resultDict = {'CSP': {}}
 
     for key in resultDict.keys():
         for subject in range(1, 2):  # sujeito
@@ -51,7 +51,9 @@ for dataset_name in ['cbcic', 'bciciv2a']:
                 if clf_name not in resultDict[key]:
                     resultDict[key][clf_name] = {}
                 results = []
+                print(key)
                 if key == 'FBCSP':
+                   
                     eegdata = filterbank(eegdata, kind_bp='chebyshevII')
 
                     shape1,shape2,shape3,shape4 =  eegdata["X"].shape
@@ -136,18 +138,18 @@ for dataset_name in ['cbcic', 'bciciv2a']:
                     sf = csp()
                     sfResult_train = sf.fit_transform(eegdata_train)
                     sfResult_test = sf.transform(eegdata_test)
-
+                    print(sfResult_train["X"].shape)
                     # LogPower
                     feResult_train = logpower(sfResult_train, flating=True)
                     feResult_test = logpower(sfResult_test, flating=True)
-
+                    print(feResult_train["X"].shape)
                     # Treinar e avaliar classificador
-                    clf.fit(fsResult_train["X"],fsResult_train["y"])
-                    y_pred = clf.predict_proba(fsResult_test["X"])
+                    clf.fit(feResult_train["X"],feResult_train["y"])
+                    y_pred = clf.predict_proba(feResult_test["X"])
 
                     for i in range(len(y_test)):
                         for classV, val in eegdata["y_dict"].items():
-                            if val == fsResult_test["y"][i]:
+                            if val == feResult_test["y"][i]:
                                 true_labels = classV
                         results.append([1, (eegdata['events']['cue'][0] + 0.5), true_labels, *y_pred[i]])
                     results = np.array(results)

@@ -309,14 +309,13 @@ def make_tables_by_dataset(df):
             if row["Métrica"] == "confusion_matrix":
                 modelo = row["Modelo"]
                 matriz = row["Valor"]   # assumindo que já é np.array 2x2
-
+                n_trials = np.array(matriz).sum()/2
                 plt.figure(figsize=(6, 5))
                 sns.heatmap(matriz,
                             annot=True, fmt=".0f", cmap="Blues",
                             xticklabels=["Mão Esquerda", "Mão Direita"],
-                            yticklabels=["Mão Esquerda", "Mão Direita"])
+                            yticklabels=["Mão Esquerda", "Mão Direita"],vmin=0, vmax=n_trials)
                 
-                plt.title(f"Matriz de Confusão - {modelo}")
                 plt.xlabel("Predição")
                 plt.ylabel("Real")
                 plt.tight_layout()

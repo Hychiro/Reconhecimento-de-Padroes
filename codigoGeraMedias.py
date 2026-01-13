@@ -28,12 +28,12 @@ def save_metric_csv(dataset_name, method, metric, output_dir="finalResults/summa
             df1[metric] = df1[metric].apply(str_to_array)
         plt.figure(figsize=(6, 5))
         mean_matrix = df1[metric].mean()
+        n_trials = df1["confusion_matrix"][0].sum()/2
         sns.heatmap(mean_matrix,
                     annot=True, fmt=".0f", cmap="Blues",
                     xticklabels=["Mão Esquerda", "Mão Direita"],
-                    yticklabels=["Mão Esquerda", "Mão Direita"])
+                    yticklabels=["Mão Esquerda", "Mão Direita"],vmin=0, vmax=n_trials)
 
-        plt.title("Média das Matrizes (valores brutos)")
         plt.xlabel("Predição")
         plt.ylabel("Real")
         plt.tight_layout()
@@ -59,12 +59,13 @@ def save_metric_csv(dataset_name, method, metric, output_dir="finalResults/summa
                     df2[key] = df2[key].apply(str_to_array)
                 plt.figure(figsize=(6, 5))
                 mean_matrix = df2[key].mean()
+                n_trials = df1["confusion_matrix"][0].sum()/2
+
                 sns.heatmap(mean_matrix,
                             annot=True, fmt=".0f", cmap="Blues",
                             xticklabels=["Mão Esquerda", "Mão Direita"],
-                            yticklabels=["Mão Esquerda", "Mão Direita"])
+                            yticklabels=["Mão Esquerda", "Mão Direita"],vmin=0, vmax=n_trials)
 
-                plt.title("Média das Matrizes (valores brutos)")
                 plt.xlabel("Predição")
                 plt.ylabel("Real")
                 plt.tight_layout()
